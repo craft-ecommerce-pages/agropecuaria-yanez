@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Agropecuaria Yánez – Insumos agrícolas y pecuarios, Valencia Ecuador</title>
+  <meta name="description" content="Comercializamos insumos orgánicos e inorgánicos para el sector agrícola y pecuario del Ecuador. 20 años de experiencia en Valencia, Los Ríos."/>
+  <link rel="icon" href="./media/img/favicon.webp" type="image/webp"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./assets/style.css?v=2"/>
+  <!-- GTM: reemplazar GTM-XXXX con el ID real -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXX');</script> -->
+</head>
+<body>
+
+<!-- WhatsApp flotante -->
+<a class="wa-float" href="https://wa.me/593981648703?text=Hola%20vi%20su%20web%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- Navegación -->
+<nav id="mainNav" class="transparent">
+  <div class="nav-inner">
+    <a class="nav-logo" href="./index.html">
+      <img src="./media/img/logo-nav.webp" alt="Agropecuaria Yánez"/>
+      <span class="nav-logo-text">Agropecuaria<strong>Yánez</strong></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./index.html" class="active">Inicio</a></li>
+      <li><a href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
+      <li><a href="./pages/servicios.html">Servicios</a></li>
+      <li><a href="./pages/productos.html">Productos</a></li>
+      <li><a href="./pages/contacto.html">Contacto</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <a class="nav-cta" href="./pages/contacto.html">Contáctanos</a>
+      <button class="nav-cart-btn" id="navCartBtn" aria-label="Ver carrito">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="nav-cart-badge" id="navCartBadge">0</span>
+      </button>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio" style="background-image:url('./media/img/background-hero.webp')">
+  <div class="hero-overlay"></div>
+  <div class="hero-grid-bg"></div>
+  <div class="hero-content">
+    <div>
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        20 años sirviendo al campo ecuatoriano
+      </div>
+      <h1>
+        Todo lo que tu cultivo<br/>
+        necesita, <span>en un solo lugar.</span>
+      </h1>
+      <p class="hero-sub">
+        Insumos orgánicos e inorgánicos de calidad certificada para el sector agrícola y pecuario de Ecuador. Asesoría técnica incluida.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-accent" href="./pages/productos.html">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          Ver catálogo
+        </a>
+        <a class="btn btn-outline" href="https://wa.me/593981648703?text=Hola%20vi%20su%20web%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">20<span>+</span></div>
+          <div class="hero-stat-label">Años de experiencia</div>
+        </div>
+        <div class="hero-stat-div"></div>
+        <div>
+          <div class="hero-stat-num">500<span>+</span></div>
+          <div class="hero-stat-label">Productos disponibles</div>
+        </div>
+        <div class="hero-stat-div"></div>
+        <div>
+          <div class="hero-stat-num">8</div>
+          <div class="hero-stat-label">Servicios especializados</div>
+        </div>
+      </div>
+    </div>
+    <!-- Info card -->
+    <div class="hero-visual">
+      <div class="hero-info-card">
+        <div class="hero-info-row">
+          <div class="hero-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="hero-info-label">Horario de atención</div>
+            <div class="hero-info-value">Lun–Sáb · 7am – 6pm</div>
+          </div>
+        </div>
+        <div class="hero-info-row">
+          <div class="hero-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="hero-info-label">Ubicación</div>
+            <div class="hero-info-value">Valencia, Los Ríos, Ecuador</div>
+          </div>
+        </div>
+        <div class="hero-info-row">
+          <div class="hero-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.86 13 19.79 19.79 0 0 1 1.75 4.37 2 2 0 0 1 3.73 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div>
+            <div class="hero-info-label">Teléfono / WhatsApp</div>
+            <div class="hero-info-value">+593 98 164 8703</div>
+          </div>
+        </div>
+        <div class="hero-info-row">
+          <div class="hero-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <div class="hero-info-label">Garantía</div>
+            <div class="hero-info-value">Productos certificados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="16" height="16" viewBox="0 0 12 12" fill="none" stroke="var(--color-accent)" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      Insumos certificados
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="16" height="16" viewBox="0 0 12 12" fill="none" stroke="var(--color-accent)" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      Asesoría técnica gratuita
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="16" height="16" viewBox="0 0 12 12" fill="none" stroke="var(--color-accent)" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      20 años de trayectoria
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-icon">
+        <svg width="16" height="16" viewBox="0 0 12 12" fill="none" stroke="var(--color-accent)" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      Entrega en zona
+    </div>
+  </div>
+</div>
+
+<!-- SERVICIOS PREVIEW -->
+<section class="section" id="servicios" style="background:var(--bg-light)">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Lo que ofrecemos</div>
+      <h2>Servicios para el campo</h2>
+      <p>Más que insumos — acompañamiento técnico integral para que tus cultivos alcancen su máximo potencial.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 22 12 2l10 20H2z"/><path d="M12 8v8M8 16h8"/></svg>
+        </div>
+        <div class="service-title">Análisis de Suelos</div>
+        <p class="service-desc">pH, nutrientes y microbiología del suelo. Diagnóstico preciso para una fertilización eficiente.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <div class="service-title">Diagnóstico de Plagas</div>
+        <p class="service-desc">Identificación y manejo integrado de plagas y enfermedades con enfoque sostenible.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22V12M12 12C12 7 7 4 2 6M12 12C12 7 17 4 22 6"/></svg>
+        </div>
+        <div class="service-title">Monitoreo con Drones</div>
+        <p class="service-desc">Fumigaciones y monitoreo de cultivos con tecnología de drones agrícolas.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>
+        </div>
+        <div class="service-title">Asesoría Técnica</div>
+        <p class="service-desc">Recomendaciones personalizadas en fertilización, manejo y adopción de tecnología agrícola.</p>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:48px">
+      <a class="btn btn-primary" href="./pages/servicios.html">Ver todos los servicios</a>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ YANEZ (dark section) -->
+<section class="section-dark">
+  <div class="container">
+    <div class="dark-grid">
+      <div class="dark-text">
+        <div class="section-label light">¿Por qué elegirnos?</div>
+        <h2>El aliado que tu campo <span>siempre necesitó</span></h2>
+        <p>Dos décadas respaldando al agricultor ecuatoriano con insumos de calidad y conocimiento técnico. No vendemos productos — ofrecemos resultados.</p>
+        <ul class="features-list">
+          <li class="feature-item">
+            <div class="feature-check"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <div class="feature-text"><strong>Productos certificados:</strong> Trabajamos con marcas líderes del mercado agrícola ecuatoriano.</div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-check"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <div class="feature-text"><strong>Equipo técnico capacitado:</strong> Ingenieros agrónomos listos para orientarte sin costo adicional.</div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-check"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <div class="feature-text"><strong>Soluciones orgánicas e inorgánicas:</strong> Catálogo completo para toda necesidad agrícola y pecuaria.</div>
+          </li>
+          <li class="feature-item">
+            <div class="feature-check"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <div class="feature-text"><strong>Trato personalizado:</strong> Conocemos las particularidades del campo de Valencia y Los Ríos.</div>
+          </li>
+        </ul>
+      </div>
+      <div class="dark-stats">
+        <div class="dark-stat-card">
+          <div class="dark-num">20<span>+</span></div>
+          <div class="dark-label">Años de experiencia</div>
+          <div class="dark-sublabel">en el sector agropecuario</div>
+        </div>
+        <div class="dark-stat-card">
+          <div class="dark-num">500<span>+</span></div>
+          <div class="dark-label">Productos disponibles</div>
+          <div class="dark-sublabel">orgánicos e inorgánicos</div>
+        </div>
+        <div class="dark-stat-card accent-card" style="display:flex;align-items:center;gap:24px">
+          <div>
+            <div style="display:flex;gap:3px;margin-bottom:8px">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF8C00"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF8C00"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF8C00"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF8C00"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF8C00"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="dark-label" style="font-size:15px;color:white;font-weight:600">Agricultores satisfechos</div>
+            <div class="dark-sublabel" style="margin-top:4px">La confianza de cientos de productores de Los Ríos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section section-testimonios">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Opiniones</div>
+      <h2>Lo que dicen nuestros clientes</h2>
+    </div>
+    <div class="testimonial-slider">
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial-slide">
+          <div class="testimonial-avatar">JM</div>
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"Excelente atención y productos de calidad. Desde que comencé a usar sus insumos, mi cosecha de cacao mejoró notablemente."</blockquote>
+          <cite>— Juan Martínez, agricultor de cacao</cite>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-avatar">LG</div>
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"La asesoría técnica gratuita que ofrecen es invaluable. Me ayudaron a seleccionar los fertilizantes correctos y el ahorro fue real."</blockquote>
+          <cite>— Laura Gómez, productora de arroz</cite>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-avatar">CP</div>
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"Llevan años siendo mi proveedor de confianza. Siempre tienen lo que necesito y los precios son muy competitivos."</blockquote>
+          <cite>— Carlos Paredes, ganadero</cite>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-avatar">MR</div>
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"Gran variedad de productos orgánicos. Se nota que conocen el campo y les importa el bienestar del agricultor."</blockquote>
+          <cite>— María Ruiz, productora de maíz</cite>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-avatar">FV</div>
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"El servicio de monitoreo con drones me ahorró mucho en fumigaciones. Tecnología de verdad al servicio del campo."</blockquote>
+          <cite>— Fernando Vélez, productor de banano</cite>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-controls">
+      <button id="testPrev" aria-label="Anterior">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <span id="testCounter">1 / 5</span>
+      <button id="testNext" aria-label="Siguiente">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS DESTACADOS -->
+<section class="section" style="background:var(--bg-white)">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Más vendidos</div>
+      <h2>Productos destacados</h2>
+      <p>Los insumos más solicitados por nuestros agricultores. Calidad garantizada.</p>
+    </div>
+    <div class="grid" id="featuredGrid"></div>
+    <div class="text-center" style="margin-top:40px">
+      <a class="btn btn-primary" href="./pages/productos.html">Ver catálogo completo</a>
+    </div>
+  </div>
+</section>
+
+<!-- MAPA -->
+<section class="section-map">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Ubicación</div>
+      <h2>Cómo llegar</h2>
+      <p>Encuéntranos en el centro de Valencia, Los Ríos. Estamos aquí para atenderte.</p>
+    </div>
+    <div class="map-wrapper">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2661741585634!2d-79.3561663262944!3d-0.9532199353501619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d4b5a5912e198f%3A0xfeac6b72a6202b!2sAgropecuaria%20Y%C3%81NEZ!5e0!3m2!1ses-419!2sec!4v1778086800733!5m2!1ses-419!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="section-cta">
+  <div class="container">
+    <div class="cta-inner">
+      <div class="section-label light center">Contáctanos hoy</div>
+      <h2>¿Listo para transformar tu campo?</h2>
+      <p>Habla con nuestro equipo técnico y recibe orientación personalizada sin costo. Llevamos 20 años ayudando al agricultor ecuatoriano.</p>
+      <div class="cta-actions">
+        <a class="btn btn-white" href="https://wa.me/593981648703?text=Hola%20vi%20su%20web%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <a class="btn btn-outline" href="./pages/contacto.html">Formulario de contacto</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="./media/img/logo-nav.webp" alt="Agropecuaria Yánez" style="filter:brightness(0) invert(1);opacity:.85"/>
+        <p>Comercializamos insumos orgánicos e inorgánicos para el sector agrícola y pecuario del Ecuador. 20 años de experiencia a tu servicio.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul class="footer-links-list">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="./pages/servicios.html">Servicios</a></li>
+          <li><a href="./pages/productos.html">Productos</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="footer-links-list">
+          <li><a href="./pages/terminos-y-condiciones.html">Términos y condiciones</a></li>
+          <li><a href="./pages/politica-de-privacidad.html">Política de privacidad</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.86 13 19.79 19.79 0 0 1 1.75 4.37 2 2 0 0 1 3.73 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+593981648703">+593 98 164 8703</a>
+        </div>
+        <div class="footer-contact-item" style="margin-top:4px">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Valencia, Los Ríos</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Agropecuaria Yánez. Todos los derechos reservados.</span>
+      <span>Creado por <a href="https://craftmarketing.agency" target="_blank" rel="noopener">Craft Marketing Agency</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Cart, drawer, modal -->
+<button class="cart-fab" id="cartFab" aria-label="Ver carrito">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+  <span class="badge" id="cartBadge">0</span>
+</button>
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Carrito">
+  <div class="cart-header">
+    <h2>Mi carrito</h2>
+    <button class="cart-close" id="cartClose">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span class="cart-total-label">Total</span><span class="cart-total-value" id="cartTotal">$0</span></div>
+    <div class="cart-total-items" id="cartItemCount">0 productos</div>
+    <button class="btn-whatsapp" id="btnCheckout" disabled>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Finalizar pedido por WhatsApp
+    </button>
+  </div>
+</aside>
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-body">
+      <div class="slider-wrap" id="sliderWrap">
+        <div class="slider-track" id="sliderTrack"></div>
+        <button class="slider-btn prev" id="sliderPrev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></button>
+        <button class="slider-btn next" id="sliderNext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+      <div class="modal-detail" id="modalDetail"></div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="./assets/app.js"></script>
+<script>
+  // Nav transparent → scrolled
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+    nav.classList.toggle('transparent', window.scrollY <= 40);
+  }, { passive: true });
+  // Hamburger
+  document.getElementById('navHamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+  // Testimonials (new track-based)
+  let testIdx = 0;
+  const track = document.getElementById('testimonialTrack');
+  const slides = track ? track.children : [];
+  const total = slides.length;
+  function goTo(i) {
+    testIdx = (i + total) % total;
+    if (track) track.style.transform = `translateX(-${testIdx * 100}%)`;
+    const c = document.getElementById('testCounter');
+    if (c) c.textContent = `${testIdx + 1} / ${total}`;
+  }
+  document.getElementById('testPrev')?.addEventListener('click', () => goTo(testIdx - 1));
+  document.getElementById('testNext')?.addEventListener('click', () => goTo(testIdx + 1));
+  goTo(0);
+</script>
+</body>
+</html>

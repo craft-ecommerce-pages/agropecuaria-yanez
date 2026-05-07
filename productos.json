@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fertilizante Orgánico BioCrecimiento",
+    "categoria": "insumos",
+    "precio": 12.50,
+    "descripcion": "Abono orgánico líquido para mejorar la producción de cultivos.",
+    "imagenes": [],
+    "destacado": true
+  },
+  {
+    "id": 2,
+    "nombre": "Semillas de Maíz Híbrido R-506",
+    "categoria": "semillas",
+    "precio": 8.90,
+    "descripcion": "Semillas de alto rendimiento resistentes a plagas.",
+    "imagenes": [],
+    "destacado": true
+  },
+  {
+    "id": 3,
+    "nombre": "Vacuna Veterinaria Multigrip",
+    "categoria": "veterinarios",
+    "precio": 15.00,
+    "descripcion": "Protección completa para aves de corral.",
+    "imagenes": [],
+    "destacado": true
+  },
+  {
+    "id": 4,
+    "nombre": "Herbicida Selectivo PastoLim",
+    "categoria": "insumos",
+    "precio": 22.40,
+    "descripcion": "Control eficaz de malezas sin dañar el cultivo.",
+    "imagenes": [],
+    "destacado": true
+  },
+  {
+    "id": 5,
+    "nombre": "Sustrato Profesional CocoMix",
+    "categoria": "insumos",
+    "precio": 10.30,
+    "descripcion": "Mezcla de fibra de coco para germinación y vivero.",
+    "imagenes": [],
+    "destacado": true
+  },
+  {
+    "id": 6,
+    "nombre": "Fungicida Cobre 50 WP",
+    "categoria": "insumos",
+    "precio": 18.20,
+    "descripcion": "Protege tus cultivos de enfermedades fúngicas.",
+    "imagenes": []
+  },
+  {
+    "id": 7,
+    "nombre": "Semillas de Frijol Variedad INIAP-461",
+    "categoria": "semillas",
+    "precio": 7.50,
+    "descripcion": "Alta germinación y adaptación a la zona costa.",
+    "imagenes": []
+  }
+]

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Catálogo de Productos – Agropecuaria Yánez</title>
+  <meta name="description" content="Catálogo completo de insumos agrícolas y pecuarios. Fertilizantes, herbicidas, fungicidas, semillas y más. Agropecuaria Yánez, Valencia Ecuador."/>
+  <link rel="icon" href="../media/img/favicon.webp" type="image/webp"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../assets/style.css?v=2"/>
+</head>
+<body>
+
+<a class="wa-float" href="https://wa.me/593981648703?text=Hola%20vi%20su%20web%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- NAV -->
+<nav id="mainNav" class="solid">
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">
+      <img src="../media/img/logo-nav.webp" alt="Agropecuaria Yánez"/>
+      <span class="nav-logo-text">Agropecuaria<strong>Yánez</strong></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+      <li><a href="./servicios.html">Servicios</a></li>
+      <li><a href="./productos.html" class="active">Productos</a></li>
+      <li><a href="./contacto.html">Contacto</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:16px">
+      <button class="nav-cart-btn" id="navCartBtn" aria-label="Ver carrito">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="nav-cart-badge" id="navCartBadge">0</span>
+      </button>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- CATALOG HERO -->
+<section class="catalog-hero">
+  <div class="container">
+    <div class="section-label light" style="justify-content:center">Catálogo</div>
+    <h1>Nuestros Productos</h1>
+    <p>Insumos agrícolas y pecuarios de calidad certificada para el campo ecuatoriano.</p>
+  </div>
+</section>
+
+<!-- TOOLBAR -->
+<div class="toolbar" id="toolbarEl">
+  <div class="toolbar-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input id="searchInput" type="search" placeholder="Buscar producto..." autocomplete="off"/>
+    </div>
+    <div class="filter-pills" id="filterPills">
+      <button class="pill active" data-cat="all">Todos</button>
+    </div>
+    <span class="toolbar-count" id="filterCount"></span>
+  </div>
+</div>
+
+<!-- CATALOG -->
+<main id="catalog" style="max-width:1140px;margin:0 auto;padding:0 0 80px"></main>
+
+<!-- CART FAB -->
+<button class="cart-fab" id="cartFab" aria-label="Ver carrito">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+  </svg>
+  <span class="badge" id="cartBadge">0</span>
+</button>
+
+<!-- CART DRAWER -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Carrito">
+  <div class="cart-header">
+    <h2>Mi carrito</h2>
+    <button class="cart-close" id="cartClose">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span class="cart-total-label">Total</span><span class="cart-total-value" id="cartTotal">$0</span></div>
+    <div class="cart-total-items" id="cartItemCount">0 productos</div>
+    <button class="btn-whatsapp" id="btnCheckout" disabled>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Finalizar pedido por WhatsApp
+    </button>
+  </div>
+</aside>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-body">
+      <div class="slider-wrap" id="sliderWrap">
+        <div class="slider-track" id="sliderTrack"></div>
+        <button class="slider-btn prev" id="sliderPrev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></button>
+        <button class="slider-btn next" id="sliderNext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+      <div class="modal-detail" id="modalDetail"></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../media/img/logo-nav.webp" alt="Agropecuaria Yánez" style="filter:brightness(0) invert(1);opacity:.85"/>
+        <p>Comercializamos insumos orgánicos e inorgánicos para el sector agrícola y pecuario del Ecuador.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul class="footer-links-list">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="./servicios.html">Servicios</a></li>
+          <li><a href="./productos.html">Productos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="footer-links-list">
+          <li><a href="./terminos-y-condiciones.html">Términos y condiciones</a></li>
+          <li><a href="./politica-de-privacidad.html">Política de privacidad</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.86 13 19.79 19.79 0 0 1 1.75 4.37 2 2 0 0 1 3.73 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+593981648703">+593 98 164 8703</a>
+        </div>
+        <div class="footer-contact-item" style="margin-top:4px">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-light)" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Valencia, Los Ríos</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Agropecuaria Yánez. Todos los derechos reservados.</span>
+      <span>Creado por <a href="https://craftmarketing.agency" target="_blank" rel="noopener">Craft Marketing Agency</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+'use strict';
+
+let cartItems = [];
+let products = [];
+let config = {};
+let activeFilter = 'all';
+let searchQuery = '';
+let modalProduct = null, modalQty = 1, modalVariants = {}, sliderIdx = 0, sliderImages = [];
+let toastTimer;
+
+const $catalog     = document.getElementById('catalog');
+const $cartFab     = document.getElementById('cartFab');
+const $cartBadge   = document.getElementById('cartBadge');
+const $navCartBadge= document.getElementById('navCartBadge');
+const $cartOverlay = document.getElementById('cartOverlay');
+const $cartDrawer  = document.getElementById('cartDrawer');
+const $cartClose   = document.getElementById('cartClose');
+const $cartItems   = document.getElementById('cartItems');
+const $cartTotal   = document.getElementById('cartTotal');
+const $cartItemCount=document.getElementById('cartItemCount');
+const $btnCheckout = document.getElementById('btnCheckout');
+const $toast       = document.getElementById('toast');
+const $modalOverlay= document.getElementById('modalOverlay');
+const $modalClose  = document.getElementById('modalClose');
+const $sliderTrack = document.getElementById('sliderTrack');
+const $sliderPrev  = document.getElementById('sliderPrev');
+const $sliderNext  = document.getElementById('sliderNext');
+const $sliderDots  = document.getElementById('sliderDots');
+const $modalDetail = document.getElementById('modalDetail');
+const $filterPills = document.getElementById('filterPills');
+const $searchInput = document.getElementById('searchInput');
+const $filterCount = document.getElementById('filterCount');
+
+function normalize(s){ return (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
+function formatPrice(p){ const cur=(config.currency||'$'); return `${cur}${Number(p).toFixed(2)}`; }
+function showToast(msg){ if(!$toast) return; $toast.textContent=msg; $toast.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>$toast.classList.remove('show'),2200); }
+function cartKey(id,v){ if(!v||!Object.keys(v).length) return String(id); return id+':'+Object.entries(v).sort().map(([k,val])=>k+'='+val).join(','); }
+function variantLabel(v){ return v&&Object.keys(v).length?Object.values(v).join(' · '):''; }
+function cartTotalQty(){ return cartItems.reduce((s,i)=>s+i.qty,0); }
+function cartTotalPrice(){ return cartItems.reduce((s,i)=>s+i.precio*i.qty,0); }
+
+function cartAdd(id,variantes,qty){
+  const p=products.find(x=>String(x.id)===String(id)); if(!p) return;
+  const key=cartKey(id,variantes);
+  const ex=cartItems.find(i=>i.key===key);
+  if(ex){ ex.qty+=qty; }
+  else{ const imgs=(Array.isArray(p.imagenes)&&p.imagenes.length)?p.imagenes:[p.imagen||'']; cartItems.push({key,id,nombre:p.nombre,precio:p.precio,qty,variantes:variantes||{},imagen:imgs[0]}); }
+  saveCart(); updateCartUI(); updateCardButtons();
+  showToast(`${p.nombre} agregado`);
+}
+function cartRemoveOne(key){
+  const idx=cartItems.findIndex(i=>i.key===key); if(idx<0) return;
+  cartItems[idx].qty--; if(cartItems[idx].qty<=0) cartItems.splice(idx,1);
+  saveCart(); updateCartUI(); updateCardButtons();
+}
+function cartDelete(key){ cartItems=cartItems.filter(i=>i.key!==key); saveCart(); updateCartUI(); updateCardButtons(); }
+function saveCart(){ try{ localStorage.setItem('ay_cart',JSON.stringify(cartItems)); }catch(e){} }
+function loadCart(){ try{ const s=JSON.parse(localStorage.getItem('ay_cart')||'[]'); if(Array.isArray(s)) cartItems=s; }catch(e){} }
+
+function updateCartUI(){
+  const qty=cartTotalQty(), total=cartTotalPrice();
+  if($cartBadge){ $cartBadge.textContent=qty; $cartBadge.classList.toggle('show',qty>0); }
+  if($navCartBadge){ $navCartBadge.textContent=qty; $navCartBadge.classList.toggle('show',qty>0); }
+  if($cartTotal) $cartTotal.textContent=formatPrice(total);
+  if($cartItemCount) $cartItemCount.textContent=`${qty} producto${qty!==1?'s':''}`;
+  if($btnCheckout) $btnCheckout.disabled=qty===0;
+  if(!$cartItems) return;
+  if(!cartItems.length){ $cartItems.innerHTML='<div class="cart-empty"><p>Tu carrito está vacío</p></div>'; return; }
+  $cartItems.innerHTML='';
+  cartItems.forEach(item=>{
+    const vL=variantLabel(item.variantes);
+    const div=document.createElement('div'); div.className='cart-item';
+    div.innerHTML=`<img src="${item.imagen||''}" alt="${item.nombre}" onerror="this.style.opacity=0"/>
+      <div class="cart-item-info">
+        <div class="cart-item-name">${item.nombre}</div>
+        ${vL?`<div class="cart-item-detail">${vL}</div>`:''}
+        <div class="cart-item-detail">${item.qty} × ${formatPrice(item.precio)} = ${formatPrice(item.qty*item.precio)}</div>
+      </div>
+      <button class="cart-item-remove" data-key="${item.key}">✕</button>`;
+    $cartItems.appendChild(div);
+  });
+}
+
+function updateCardButtons(){
+  document.querySelectorAll('.card').forEach(card=>{
+    const id=card.dataset.id;
+    const p=products.find(x=>String(x.id)===String(id)); if(!p) return;
+    const hasV=Array.isArray(p.variantes)&&p.variantes.length>0;
+    const inQ=cartItems.filter(ci=>String(ci.id)===String(id)).reduce((s,ci)=>s+ci.qty,0);
+    const actEl=card.querySelector('.card-actions'); if(!actEl) return;
+    if(!hasV&&inQ>0){
+      actEl.innerHTML=`<div class="qty-control">
+        <button data-action="dec" data-id="${id}" data-key="${cartKey(id,{})}">−</button>
+        <span class="qty-val">${inQ}</span>
+        <button data-action="inc" data-id="${id}">+</button>
+      </div>`;
+    } else {
+      actEl.innerHTML=`<button class="btn-add${inQ>0?' in-cart':''}" ${hasV?`data-open="${id}"`:` data-add="${id}"`}>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+        ${hasV?'Elegir':'Agregar'}
+      </button>`;
+    }
+  });
+}
+
+function renderCatalog(){
+  const catLabels=config.categories||{};
+  const filtered=products.filter(p=>{
+    const mC=activeFilter==='all'||p.categoria===activeFilter;
+    const mS=!searchQuery||normalize(p.nombre).includes(searchQuery)||normalize(p.descripcion||'').includes(searchQuery);
+    return mC&&mS;
+  });
+  if($filterCount) $filterCount.textContent=`${filtered.length} producto${filtered.length!==1?'s':''}`;
+
+  const groups={};
+  filtered.forEach(p=>{ if(!groups[p.categoria]) groups[p.categoria]=[]; groups[p.categoria].push(p); });
+  const cats=Object.keys(groups);
+
+  $catalog.innerHTML='';
+  if(!filtered.length){ $catalog.innerHTML='<div class="empty-state"><p>No se encontraron productos</p></div>'; return; }
+
+  cats.forEach(cat=>{
+    if(!groups[cat].length) return;
+    const header=document.createElement('h2');
+    header.className='cat-header';
+    header.textContent=catLabels[cat]||cat;
+    $catalog.appendChild(header);
+
+    const grid=document.createElement('div');
+    grid.className='grid';
+    groups[cat].forEach((p,i)=>{
+      const imgs=(Array.isArray(p.imagenes)&&p.imagenes.length)?p.imagenes:[p.imagen||''];
+      const hasV=Array.isArray(p.variantes)&&p.variantes.length>0;
+      const inQ=cartItems.filter(ci=>String(ci.id)===String(p.id)).reduce((s,ci)=>s+ci.qty,0);
+      const card=document.createElement('div');
+      card.className='card'; card.dataset.id=p.id;
+      card.style.animationDelay=`${i*0.05}s`;
+      card.innerHTML=`
+        <div class="card-img" data-open="${p.id}">
+          <img src="${imgs[0]||''}" alt="${p.nombre}" loading="lazy" onerror="this.style.opacity=0"/>
+          <div class="card-img-overlay">
+            <button class="btn-add-hover" data-open="${p.id}">${hasV?'Elegir opciones':'Ver producto'}</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-cat">${catLabels[p.categoria]||p.categoria}</div>
+          <div class="card-name">${p.nombre}</div>
+          ${p.descripcion?`<div class="card-desc">${p.descripcion}</div>`:''}
+          <div class="card-footer">
+            <div class="card-price">${formatPrice(p.precio)}</div>
+            <div class="card-actions">
+              ${(!hasV&&inQ>0)?`
+                <div class="qty-control">
+                  <button data-action="dec" data-id="${p.id}" data-key="${cartKey(p.id,{})}">−</button>
+                  <span class="qty-val">${inQ}</span>
+                  <button data-action="inc" data-id="${p.id}">+</button>
+                </div>
+              `:`
+                <button class="btn-add${inQ>0?' in-cart':''}" ${hasV?`data-open="${p.id}"`:` data-add="${p.id}"`}>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+                  ${hasV?'Elegir':'Agregar'}
+                </button>
+              `}
+            </div>
+          </div>
+        </div>`;
+      grid.appendChild(card);
+    });
+    $catalog.appendChild(grid);
+  });
+}
+
+function buildFilterPills(){
+  const cats=[...new Set(products.map(p=>p.categoria).filter(Boolean))];
+  const catLabels=config.categories||{};
+  $filterPills.innerHTML='<button class="pill active" data-cat="all">Todos</button>';
+  cats.forEach(cat=>{
+    const btn=document.createElement('button');
+    btn.className='pill'; btn.dataset.cat=cat;
+    btn.textContent=catLabels[cat]||cat;
+    $filterPills.appendChild(btn);
+  });
+}
+
+function openModal(id){
+  const p=products.find(x=>String(x.id)===String(id)); if(!p) return;
+  modalProduct=p; modalQty=1; modalVariants={};
+  sliderImages=(Array.isArray(p.imagenes)&&p.imagenes.length)?p.imagenes:[p.imagen||''];
+  sliderIdx=0;
+  $sliderTrack.innerHTML=sliderImages.map(src=>`<div class="slider-slide"><img src="${src}" alt="${p.nombre}" loading="lazy"/></div>`).join('');
+  $sliderTrack.style.transform='translateX(0)';
+  $sliderDots.innerHTML=sliderImages.map((_,i)=>`<button class="slider-dot${i===0?' active':''}" data-idx="${i}"></button>`).join('');
+  $sliderPrev.hidden=sliderImages.length<=1;
+  $sliderNext.hidden=sliderImages.length<=1;
+  renderModalDetail();
+  $modalOverlay.classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function renderModalDetail(){
+  const p=modalProduct; const catLabels=config.categories||{};
+  const hasV=Array.isArray(p.variantes)&&p.variantes.length>0;
+  let vHTML='';
+  if(hasV){ vHTML=p.variantes.map(g=>`<div class="variant-group"><div class="variant-label">${g.name}</div><div class="variant-options">${g.options.map(o=>`<button class="variant-option${modalVariants[g.name]===o?' selected':''}" data-group="${g.name}" data-opt="${o}">${o}</button>`).join('')}</div></div>`).join(''); }
+  const allS=!hasV||p.variantes.every(g=>modalVariants[g.name]);
+  $modalDetail.innerHTML=`
+    <div class="modal-name">${p.nombre}</div>
+    <div class="modal-cat">${catLabels[p.categoria]||p.categoria}</div>
+    <div class="modal-price">${formatPrice(p.precio)}</div>
+    ${p.descripcion?`<div class="modal-desc">${p.descripcion}</div>`:''}
+    ${vHTML}
+    ${hasV&&!allS?'<p class="modal-variant-hint">Selecciona todas las opciones</p>':''}
+    <div class="modal-actions">
+      <div class="modal-qty">
+        <button id="mqDec">−</button>
+        <span class="qty-val" id="mqVal">${modalQty}</span>
+        <button id="mqInc">+</button>
+      </div>
+      <button class="btn-modal-add" id="btnModalAdd" ${allS?'':'disabled'}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+        Agregar al carrito
+      </button>
+    </div>`;
+  document.getElementById('mqDec')?.addEventListener('click',()=>{ if(modalQty>1){modalQty--;document.getElementById('mqVal').textContent=modalQty;} });
+  document.getElementById('mqInc')?.addEventListener('click',()=>{ modalQty++;document.getElementById('mqVal').textContent=modalQty; });
+  document.getElementById('btnModalAdd')?.addEventListener('click',()=>{ cartAdd(modalProduct.id,modalVariants,modalQty); closeModal(); });
+  $modalDetail.querySelectorAll('.variant-option').forEach(btn=>{ btn.addEventListener('click',()=>{ modalVariants[btn.dataset.group]=btn.dataset.opt; renderModalDetail(); }); });
+}
+
+function closeModal(){ $modalOverlay.classList.remove('open'); document.body.style.overflow=''; modalProduct=null; }
+function slideTo(idx){ sliderIdx=Math.max(0,Math.min(idx,sliderImages.length-1)); $sliderTrack.style.transform=`translateX(-${sliderIdx*100}%)`; $sliderDots.querySelectorAll('.slider-dot').forEach((d,i)=>d.classList.toggle('active',i===sliderIdx)); }
+
+function openCart(){ $cartOverlay.classList.add('open'); $cartDrawer.classList.add('open'); document.body.style.overflow='hidden'; }
+function closeCart(){ $cartOverlay.classList.remove('open'); $cartDrawer.classList.remove('open'); document.body.style.overflow=''; }
+
+function checkout(){
+  const num=(config.whatsapp_number||'').replace(/\D/g,'');
+  if(!num){ alert('Número de WhatsApp no configurado'); return; }
+  let msg=`${config.whatsapp_message||'Hola! Quiero hacer un pedido:'}\n\n*PEDIDO AGRO YÁNEZ*\n━━━━━━━━━━━━━━━\n`;
+  cartItems.forEach(i=>{ const vL=variantLabel(i.variantes); msg+=`▸ ${i.nombre}${vL?' ('+vL+')':''}\n  ${i.qty} × ${formatPrice(i.precio)} = ${formatPrice(i.qty*i.precio)}\n`; });
+  msg+=`━━━━━━━━━━━━━━━\n*TOTAL: ${formatPrice(cartTotalPrice())}*\n\n${location.href}`;
+  window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`,'_blank');
+}
+
+// Events
+document.addEventListener('click',e=>{
+  const rm=e.target.closest('.cart-item-remove'); if(rm){ cartDelete(rm.dataset.key); return; }
+  const addBtn=e.target.closest('[data-add]'); if(addBtn){ cartAdd(addBtn.dataset.add,{},1); return; }
+  const openBtn=e.target.closest('[data-open]'); if(openBtn&&!e.target.closest('[data-action]')){ openModal(openBtn.dataset.open); return; }
+  const qtyBtn=e.target.closest('[data-action]'); if(qtyBtn){ e.stopPropagation(); const{action,id,key}=qtyBtn.dataset; if(action==='inc') cartAdd(id,{},1); if(action==='dec'&&key) cartRemoveOne(key); return; }
+});
+$filterPills.addEventListener('click',e=>{ const pill=e.target.closest('.pill'); if(!pill) return; $filterPills.querySelectorAll('.pill').forEach(p=>p.classList.remove('active')); pill.classList.add('active'); activeFilter=pill.dataset.cat; renderCatalog(); });
+$searchInput.addEventListener('input',()=>{ searchQuery=normalize($searchInput.value); renderCatalog(); });
+$cartFab.addEventListener('click',openCart);
+$navCartBadge?.closest('button')?.addEventListener('click',openCart);
+document.getElementById('navCartBtn')?.addEventListener('click',openCart);
+$cartOverlay.addEventListener('click',closeCart);
+$cartClose.addEventListener('click',closeCart);
+$btnCheckout.addEventListener('click',checkout);
+$modalOverlay.addEventListener('click',e=>{ if(e.target===$modalOverlay) closeModal(); });
+$modalClose.addEventListener('click',closeModal);
+$sliderPrev.addEventListener('click',e=>{ e.stopPropagation(); slideTo(sliderIdx-1); });
+$sliderNext.addEventListener('click',e=>{ e.stopPropagation(); slideTo(sliderIdx+1); });
+$sliderDots.addEventListener('click',e=>{ const dot=e.target.closest('.slider-dot'); if(dot) slideTo(Number(dot.dataset.idx)); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){closeModal();closeCart();} if(e.key==='ArrowLeft'&&$modalOverlay.classList.contains('open')) slideTo(sliderIdx-1); if(e.key==='ArrowRight'&&$modalOverlay.classList.contains('open')) slideTo(sliderIdx+1); });
+let tX=0;
+document.getElementById('sliderWrap').addEventListener('touchstart',e=>{tX=e.changedTouches[0].clientX;},{passive:true});
+document.getElementById('sliderWrap').addEventListener('touchend',e=>{ const dx=e.changedTouches[0].clientX-tX; if(Math.abs(dx)>40) slideTo(dx<0?sliderIdx+1:sliderIdx-1); });
+
+// Hamburger
+document.getElementById('navHamburger').addEventListener('click',()=>{ document.getElementById('navLinks').classList.toggle('open'); });
+
+// Init
+async function init(){
+  try{ const r=await fetch('../config.json',{cache:'no-store'}); if(r.ok) config=await r.json(); }catch(e){}
+  if(config.store_name) document.title=`Productos – ${config.store_name}`;
+  try{
+    const res=await fetch('../productos.json',{cache:'no-store'});
+    products=await res.json();
+  }catch(e){ $catalog.innerHTML='<div class="empty-state"><p>Error cargando el catálogo</p></div>'; return; }
+  loadCart();
+  cartItems=cartItems.filter(ci=>products.find(p=>String(p.id)===String(ci.id)));
+  buildFilterPills();
+  renderCatalog();
+  updateCartUI();
+}
+init().catch(e=>{ console.error(e); $catalog.innerHTML='<div class="empty-state"><p>Error cargando el catálogo</p></div>'; });
+})();
+</script>
+</body>
+</html>
