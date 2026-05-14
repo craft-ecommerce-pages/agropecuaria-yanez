@@ -8,7 +8,9 @@
     "categoria": "",
     "descripcion": "Es un óxido de potasio (27% K2O) de aplicación foliar complejado con ácidos carboxílicos de gran pureza y bajo peso molecular. Mejora el calibre, presión y color de frutos al aumentar la entrada de agua a la planta y controlar la transpiración, favoreciendo un mejor reparto de nutrientes al interior de la planta.  La formulación de AGROFULL K incluye potasio asociado a ácidos carboxílicos de bajo peso molecular, éstos logran penetrar fácilmente al interior de las hojas, liberando el potasio, aumentando el potencial osmótico en esta zona y generando un mayor flujo de agua y nutrientes desde la raíz a la parte aérea. Este mayor flujo facilita la traslocación de los elementos fundamentales hacia los frutos, semillas y órganos de consumo, logrando obtener un mejor calibre, color y firmeza en frutos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/agrofull-k/images/agrofull-k-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
