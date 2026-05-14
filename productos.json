@@ -21,7 +21,9 @@
     "categoria": "",
     "descripcion": "Polvo soluble a base de un alto contenido de extracto de algas marinas Ascophillum Nodosum al 80%, enriquecido con aminoácidos al 20%, que ayuda a mejorar el suelo y vigorizar las plantas incrementando los rendimientos y la calidad de las cosechas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/algaser-plus/images/algaser-plus-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -55,7 +57,9 @@
     "categoria": "",
     "descripcion": "Polvo soluble a base de una alta concentración de aminoácidos y péptidos al 80%, enriquecido con algas marinas al 20%. Los aminoácidos son obtenidos a través de una cuidadosa hidrolisis enzimática de proteína natural. Se utiliza para estimular el crecimiento y desarrollo del cultivo, en especial, cuando deba superar etapas cr%ticas o situaciones de estrés.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/aminopep-plus/images/aminopep-plus-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -98,7 +102,9 @@
     "categoria": "",
     "descripcion": "Regulador de crecimiento tetra-hormonal (Auxinas, Citoquininas, Giberelinas y Brasinoesteroides). El principal efecto de las auxinas es la elongación de las células, debido principalmente a que la pared celular se hace más plástica. Las citoquininas, en combinación con las auxinas, provocan la formación de masas celulares indiferenciadas denominadas callo. También estimulan el desarrollo de las yemas laterales. Tiene la propiedad de estimular el metabolismo y la fitoregulación de las plantas, facilitando una mejor absorción de los nutrientes y un mayor vigor productivo. Las giberelinas aceleran la germinación de semillas y provocan de la entrada en floración independientemente del fotoperiodo o de la temperatura. Los brasinoesteroides influyen en la germinación, rizogénesis, floración, senescencia y abscisión.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/apoyador-plus/images/apoyador-plus-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -133,7 +139,9 @@
     "categoria": "",
     "descripcion": "Aval es un fungicida sistémico y translaminar de amplio espectro desarrollado para el control preventivo, curativo y erradicante de enfermedades causadas por hongos ascomicetos, basidiometos y deuteromicetos. Su principio activo como Propiconazole al 25% (250 g/L EC) y Difenoconazole (250 g/L EC). Ambos compuestos pertenecen a la familia química de los triazoles y actúan directamente inhibiendo la síntesis de ergosterol en la membrana celular del hongo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/aval/images/aval-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -146,7 +154,9 @@
     "categoria": "",
     "descripcion": "Biocal es un acondicionador organico, desarrolado para las necesidades de los suelos y aguas de nuestro sector, contiene 30% de Calcio activo (CaO) y coadyudante cationico liquidos en una formulacion de efecto imediato y duradero. Su objetivo es recuperar el suelo ayudando a su oxigenacion y al enraizamiento profundo del cultivo evitando al volteo y embolconamiento, logarndo tambien que se desarrolle una vida microbiona natural y benefica para evitar que patogenos contagien su cultivo",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/biocal/images/biocal-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -169,7 +179,9 @@
     "categoria": "",
     "descripcion": "Campuz actúa como un fungicida con acción protectora de amplio espectro y curativa. Tiene contacto y actividad sistémica local y también inhibe la esporulación, por las propiedades de sus ingredientes activos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/campuz/images/campuz-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -190,7 +202,9 @@
     "categoria": "",
     "descripcion": "Piretroide sintético no sistémico, de gran capacidad de penetración, con actividad insecticida por contacto e ingestión, con buen efecto de choque y buena persistencia que actúa sobre el sistema nervioso de los insectos alternando el flujo de iones a través de la membrana nerviosa.  propiedades repelentes. Su tecnología molecular permite un amplio control y efectividad con bajas dosis de aplicación.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/centella/images/centella-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -203,7 +217,9 @@
     "categoria": "",
     "descripcion": "Es un fungicida – bactericida de amplio espectro a base de sulfato de cobre pentahidratado que combate enfermedades como el Oídio, Erwinia, Phytopthora, Moniliasis, entre otras, en una amplia gama de cultivos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/cuprospor/images/cuprospor-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -225,7 +241,9 @@
     "categoria": "",
     "descripcion": "Estimula el crecimiento y facilita la nutrición de las plantas al promover la emisión de yema, la formación de brotes, mejorar el tamaño de espigas y aumentar la cantidad de flores.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/cytogrow-plus/images/cytogrow-plus-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -260,7 +278,9 @@
     "categoria": "",
     "descripcion": "Diatomix® es un mejorador de suelos y fertilizante orgánico de alta pureza, compuesto por 92% de sílice amorfo proveniente de algas fosilizadas (diatomeas). Su formulación contribuye a fortalecer los cultivos, mejorar la estructura del suelo y optimizar la disponibilidad de nutrientes.\nEl alto contenido de sílice favorece el desarrollo radicular, incrementa la resistencia natural de las plantas frente a plagas, enfermedades y estrés hídrico, además de mejorar la firmeza de tejidos vegetales y la eficiencia en la absorción de agua y nutrientes. También ayuda a incrementar la retención de humedad y la actividad biológica del suelo, promoviendo cultivos más vigorosos y productivos.\n\nPuede aplicarse tanto de manera foliar como edáfica, adaptándose a diversos sistemas de producción agrícola. Para aplicaciones foliares se recomienda una dosis de 3 kg por cada 200 litros de agua, mientras que para aplicación al suelo la dosis aproximada es de 18 kg por hectárea, dependiendo de las necesidades del cultivo y las condiciones del terreno.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/diatomix/images/diatomix-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -281,7 +301,9 @@
     "categoria": "",
     "descripcion": "Insecticida y acaricida de actividad estomacal y acción por contacto. ESLABÓN controla muchas especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados y piretroides en cultivos como cítricos, soya, tomate riñón, naranjilla, papa y ornamentales.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/eslabon/images/eslabon-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -294,7 +316,9 @@
     "categoria": "",
     "descripcion": "Es un acaricida de alta eficacia para el control de estados inmaduros de ácaros (huevos y ninfas) principalmente del género Tetranychus spp. Para lograr un control completo de los ácaros plaga en los cultivos se recomienda la aplicación conjunta o seguida de un acaricida de características adulticidas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/estruendo/images/estruendo-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -307,7 +331,9 @@
     "categoria": "",
     "descripcion": "Insecticida sistémico y de contacto de amplio espectro para el control de un sin número de plagas tales como chinches, polillas, gusanos, moscas, trips, barrenadores y minadores. Formulado especialmente para tratamientos foliares y radiculares (drench). Posee larga acción residual por lo que garantiza un control duradero en el tiempo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/finidor/images/finidor-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -320,7 +346,9 @@
     "categoria": "",
     "descripcion": "Fertilizante de acción rápida diseñado para apoyar el desarrollo del cultivo aportando nutrientes esenciales. Su formulación facilita la absorción y la respuesta temprana, contribuyendo a mejorar la uniformidad, el crecimiento y la productividad, ayudando a corregir situaciones de estrés o deficiencias nutricionales durante el ciclo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/flash/images/flash-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -341,7 +369,9 @@
     "categoria": "",
     "descripcion": "Bioestimulante radicular que actua promoviendo el crecimiento de las raices y funciones en base a un potente reactor enzimatico y fito hormonas de crecimiento radicular. Favorece la captacion de agua, nutrientes, anclaje e interviene en la CIC.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/flizz-plus/images/flizz-plus-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -363,7 +393,9 @@
     "categoria": "",
     "descripcion": "FortacyL Estim promueve el vigor y la actividad fisiológica de la planta, apoyando procesos de crecimiento y recuperación en momentos de demanda del cultivo. Es una alternativa para complementar programas de fertilización y manejo nutricional, especialmente cuando se busca estimular el desarrollo y mejorar la respuesta del cultivo. Provee componentes que reducen el estres ambiental provocados por agua, luz y temeperatura.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fortacyl-estim/images/fortacyl-estim-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -376,7 +408,9 @@
     "categoria": "",
     "descripcion": "FortacyL K (fosfito de potasio) aporta potasio en una forma fisiológicamente activa, apoyando procesos de defensa y recuperación de la planta. Es una herramienta útil para complementar programas de manejo nutricional y mejorar la respuesta del cultivo ante situaciones adversas, según recomendación técnica.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fortacyl-k/images/fortacyl-k-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -389,7 +423,9 @@
     "categoria": "",
     "descripcion": "Fungicida protectante de amplio espectro. Se recomienda para controlar muchas enfermedades causadas por hongos que dañan las hortalizas, frutales, cultivos tropicales, ornamentales y forrajes. Fungicida para aplicación foliar con propiedades protectantes. El producto debe ser aplicado antes de la aparición de los síntomas de la enfermedad.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fungil/images/fungil-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -423,7 +459,9 @@
     "categoria": "",
     "descripcion": "Herbicida post-emergente es un herbicida de acción post-emergente diseñado para el control eficaz de malezas anuales y perennes, tanto de hoja ancha como gramíneas, en diversos sistemas agrícolas y áreas no cultivadas. Su formulación permite un control rápido y uniforme de las malezas, ayudando a reducir la competencia por agua, nutrientes y luz, favoreciendo así el mejor desarrollo y productividad de los cultivos. Está recomendado para aplicaciones en frutales, palma aceitera, plantaciones industriales como madera y caucho, arbustos ornamentales, terrenos no cultivados y también en aplicaciones de pre-emergencia en hortalizas. Para obtener mejores resultados, debe aplicarse cuando las malezas se encuentren en activo crecimiento y alcancen entre 10 y 15 cm de altura, asegurando una cobertura total y uniforme del follaje. Una correcta aplicación favorece una mayor absorción del producto y un control más eficiente y duradero de las malezas",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/glufone/images/glufone-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -458,7 +496,9 @@
     "categoria": "",
     "descripcion": "IMPULSE® 800 EC es un fungicida sistémico, protectante y erradicante con una alta eficacia (preventiva y curativa). Actúa en forma preventiva-curativa y erradicativa sobre el agente causal.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/impulse/images/impulse-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -471,7 +511,9 @@
     "categoria": "",
     "descripcion": "potente insecticida para el control de una amplia gama de especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados, piretroides y hormonales.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/kanon/images/kanon-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -493,7 +535,9 @@
     "categoria": "",
     "descripcion": "Fungicida sistémico- curativo con propiedades antiesporulantes. Excelente combinación para prevenir y controlar las enfermedades causadas por oomicetos que son comúnmente conocidos como: lanchas, tizones o mildius.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/katalic/images/katalic-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -519,7 +563,9 @@
     "categoria": "",
     "descripcion": "KMELOT® es un insecticida con doble mecanismo de acción que actúa de forma sistémica y de contacto. Posee un amplio espectro de control de plagas como mosca blanca, pulgones, minadores, trips y demás, en cultivos de hortalizas, ornamentales, frutales, tropicales y forestales.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/kmelot/images/kmelot-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -532,7 +578,9 @@
     "categoria": "",
     "descripcion": "Kurazeb (Mancozeb 800 WP) es un fungicida foliar de contacto diseñado para prevenir y controlar una amplia variedad de enfermedades fúngicas (hongos) en diversos cultivos. Actúa impidiendo la germinación de esporas, protegiendo las hojas de patógenos como tizones, mildius y manchas foliares.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/kurazeb/images/kurazeb-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -553,7 +601,9 @@
     "categoria": "",
     "descripcion": "Piretroide de elevada actividad insecticida, especialmente contra insectos lepidópteros, pero también coleópteros, dípteros hemípteros, entre otras clases. Eficaz para control de insecto en cultivos como maíz, papa, tomate, frutales (incluyendo cítricos), café, cacao, hortalizas y cultivos tropicales.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/kylate/images/kylate-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -575,7 +625,9 @@
     "categoria": "",
     "descripcion": "Actúa por contacto, residual y estomacal penetra rápidamente a través de la cutícula del insecto, alterando la conducción de los impulsos nerviosos, provocando pérdida del control muscular y un rápido efecto de derribe. Actúa entonces sobre el sistema nervioso de los insectos, causando disturbios en la función nerviosa por interacción en el canal de sodio.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/lamcy/images/lamcy-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -588,7 +640,9 @@
     "categoria": "",
     "descripcion": "LIXILOM es un biofertilizante orgánico líquido natural elaborado a partir de lixiviado de lombriz roja californiana y enriquecido con minerales esenciales para mejorar la fertilidad del suelo y el desarrollo de los cultivos.\n\nActúa como acondicionador de suelos, bioestimulante radicular y fuente de nutrición vegetal gracias a su contenido balanceado de nutrientes NPK (3-6-4), favoreciendo un crecimiento más vigoroso y saludable. Además, estimula la actividad microbiológica, mejora la absorción de nutrientes y contribuye al fortalecimiento de las plantas frente a condiciones de estrés.\n\nSu formulación permite aplicaciones tanto foliares como edáficas, adaptándose a una amplia variedad de cultivos agrícolas, hortícolas y frutales, promoviendo mayor productividad y calidad en las cosechas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/lixilom/images/lixilom-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -609,7 +663,9 @@
     "categoria": "",
     "descripcion": "Metabolik actúa como regulador del crecimiento, ayudando a coordinar procesos fisiológicos clave en la planta. Es una herramienta útil para complementar el programa de nutrición y manejo, apoyando la uniformidad, el vigor y la respuesta del cultivo, según dosis y momento de aplicación. Activando el metabolismo de la planta mejorando la estimulación hormonal y la síntesis de aminoácidos en el cultivo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/metabolik/images/metabolik-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -630,7 +686,9 @@
     "categoria": "",
     "descripcion": "El fungicida Metron 500G es un producto sistémico y de contacto (polvo mojable) diseñado para proteger cultivos de enfermedades fúngicas, principalmente el mildiú velloso y la lancha (Phytophthora spp.). Su doble acción previene y cura enfermedades en papas, solanáceas, leguminosas, frutales y ornamentales.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/metron/images/metron-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -643,7 +701,9 @@
     "categoria": "",
     "descripcion": "Es un fungicida con propiedades: Preventiva, curativa y sistémica por lo que controla varias enfermedades simultáneamente con una sola aplicación.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/novak/images/novak-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -669,7 +729,9 @@
     "categoria": "",
     "descripcion": "Factor determinante en la germinacion de los granos del polen y el crecimiento del tubo polinico. Es el constituyente principal en los tejidos meristematicos y en la textura de las flores y frutos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-boro/images/nutrikel-boro-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -690,7 +752,9 @@
     "categoria": "",
     "descripcion": "Quelatamientos a base de poliaminas y oxidos metalicos. Estimula al desarrollo del follaje, favorece a la floracion y cuajado, promoviendo altos rendimientos en sus cultivos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-ca-b-zn/images/nutrikel-ca-b-zn-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -725,7 +789,9 @@
     "categoria": "",
     "descripcion": "Aporte esencial de potasio para todo tipo de cultivo. Incrementa el peso, mejora la textura, la calidad y coloración de los frutos y granos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-engrose-plus/images/nutrikel-engrose-plus-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -738,7 +804,9 @@
     "categoria": "",
     "descripcion": "Fertilizante con accion bioestimulante formulado a base de NPK enriquecidos con aminoacidos de rapida asimilacion aplicado en etapas de pre floracion y floracion, activa la energia y el metabolismo de las plantas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-espigador/images/nutrikel-espigador-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -764,7 +832,9 @@
     "categoria": "",
     "descripcion": "Bioestimulante completo a base de NPK, enriquecido con algas marinas, aminoácidos, ácidos húmicos, vitaminas y brasinoesteroides. Previene estrés a temperaturas bajas, sequías, plagas y enfermedades.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-max/images/nutrikel-max-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -777,7 +847,9 @@
     "categoria": "",
     "descripcion": "Multi Mineral con acción bioestimulante con micro elementos, vitaminas, ácidos húmicos y fito hormonas de origen natural, esenciales para estimular el desarrollo los principales procesos fisiológicos en los diferentes cultivos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-multi/images/nutrikel-multi-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -798,7 +870,9 @@
     "categoria": "",
     "descripcion": "NUTRIKEL NPK (20-20-20) brinda una nutrición balanceada con Nitrógeno (N) para el crecimiento, Fósforo (P) para el desarrollo radicular y energético de la planta, y Potasio (K) para fortalecer procesos fisiológicos y mejorar la respuesta del cultivo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-npk-20-20-20/images/nutrikel-npk-20-20-20-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -811,7 +885,9 @@
     "categoria": "",
     "descripcion": "Acción bioestimulante y multi propósito que actúa como regenerador de suelos, CIC y elicitor de defensas. Provee una mayor resistencia y protección contra diversos factores bióticos y abióticos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-silicio/images/nutrikel-silicio-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -824,7 +900,9 @@
     "categoria": "",
     "descripcion": "Es un Bioestimulante por sus aminoácidos que liberan a la plantas de todo tipo de estrés y mejora su desarrollo. El azufre actua como mecanismo de defensa contra plagas y enfermedades. El Zinc es un micronutriente esencial, ya que mejora la activación enzimática, es un regulador de crecimiento y fomenta la reproducción celular.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-zinc-plus/images/nutrikel-zinc-plus-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -837,7 +915,9 @@
     "categoria": "",
     "descripcion": "NUTRIX CACAO es una fórmula mejorada diseñada para potenciar el desarrollo del cultivo de cacao. Este cambio representa una evolución real en su formulación, incorporando tres componentes claves que aumentan su eficiencia en campo: ácidos húmicos, ácidos fúlvicos y silicio. Conserva la base del producto que ya conocías, pero ahora ofrece una nutrición más completa, que acompaña de mejor manera los procesos del cacao, favoreciendo un crecimiento más vigoroso y un mejor desempeño del cultivo, según recomendación técnica.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrix-cacao/images/nutrix-cacao-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -850,7 +930,9 @@
     "categoria": "",
     "descripcion": "Pollux es un insecticida carbamato de amplio espectro con Methomyl 90% SP (900 g/kg) como ingrediente activo, diseñado para el control de insectos masticadores y chupadores, especialmente lepidópteros en cultivos hortícolas y cereales (maíz). Actúa por contacto, ingestión y traslaminar, con efecto de choque instantáneo y corta residualidad",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/pollux/images/pollux-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -863,7 +945,9 @@
     "categoria": "",
     "descripcion": "Rooslito es un insecticida sistémico y de contacto de amplio espectro, ideal para controlar plagas masticadoras, chupadoras y raspadores en diversos cultivos (tomate, papa, arroz). Combina Lambda-cyhalothrin y Thiamethoxam en suspensión concentrada (SC), ofreciendo rápido derribe y efecto residual.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/rooslito/images/rooslito-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -889,7 +973,9 @@
     "categoria": "",
     "descripcion": "Sibilant es un insecticida y acaricida de doble acción formulado con Bifenthrin (100 g/l) y Lufenuron (50 g/l), diseñado para brindar un control rápido, efectivo y prolongado sobre diversas plagas que afectan los cultivos agrícolas.\nSu combinación de ingredientes activos permite una acción de choque inmediata sobre insectos adultos y una acción persistente que interfiere en el desarrollo de larvas y estados inmaduros, rompiendo el ciclo biológico de las plagas y reduciendo reinfestaciones. Además, actúa por contacto e ingestión, ofreciendo una protección más completa y duradera.\n\nSibilant es altamente eficaz en el control de plagas como gusano blanco, polilla, trips, pulgones, gusano cogollero y ácaros, ayudando a disminuir daños en hojas, tallos y frutos, y favoreciendo un mejor desarrollo y rendimiento de los cultivos. Puede utilizarse en diversos sistemas agrícolas y su dosis estándar recomendada es de 250 ml por cada 200 litros de agua, ajustándose según el cultivo y el nivel de infestación.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/sibilant/images/sibilant-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -915,7 +1001,9 @@
     "categoria": "",
     "descripcion": "SULTÁN® es un insecticida–nematicida de acción sistémica y de contacto, formulado para el control eficiente de un amplio espectro de plagas que afectan diversos cultivos agrícolas. Su mecanismo de acción actúa directamente sobre el sistema nervioso de los insectos y nemátodos, provocando una sobreexcitación, parálisis y posteriormente la muerte de la plaga.\nGracias a sus propiedades sistémicas, el producto es absorbido por la planta y distribuido internamente, brindando una protección más prolongada y efectiva incluso en áreas de difícil acceso. Además, su acción por contacto permite un control rápido y eficaz desde las primeras aplicaciones.\n\nSULTÁN® ofrece excelentes resultados en el manejo de plagas como gusano blanco, cogollero, minadores, nemátodos e insectos chupadores, contribuyendo a reducir daños en raíces, hojas y tejidos vegetales. Está recomendado para cultivos como papa, tomate, maíz, ornamentales, frutales y cultivos tropicales, favoreciendo un mejor desarrollo, sanidad y productividad de las plantas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/sultan/images/sultan-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -949,7 +1037,9 @@
     "categoria": "",
     "descripcion": "Verdefance – Limpiador de Musgo Elimina el musgo de tus cultivos de cacao, ayudando a mantener las plantas más sanas y con mejor acceso a luz y aireación, favoreciendo un desarrollo más uniforme. Aplicar según recomendación técnica.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/verdefance/images/verdefance-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -1004,7 +1094,9 @@
     "categoria": "",
     "descripcion": "VULTUR es un fertilizante líquido inorgánico concentrado, rico en calcio (17%), zinc (3.9%) y boro (0.39%), diseñado para mejorar el desarrollo, floración y fructificación de cultivos como maíz y cacao. Formulado con ácidos carboxílicos, fortalece raíces y tejidos",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/vultur/images/vultur-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1025,7 +1117,9 @@
     "categoria": "",
     "descripcion": "ZENDO® es un insecticida de amplio espectro formulado con clorpirifos, altamente eficaz para el control de una gran variedad de insectos y plagas que afectan diferentes cultivos agrícolas. Su acción combina efectos por contacto, ingestión e inhalación, proporcionando un control rápido y eficiente incluso en infestaciones de difícil manejo.\nGracias a su formulación especializada y alta presión de vapor, logra una excelente penetración y distribución en el follaje, alcanzando áreas donde otras aplicaciones tienen menor cobertura. Además, presenta alta resistencia al lavado por lluvia o riego, prolongando su efecto residual y aumentando la protección del cultivo.\n\nEn el suelo, ZENDO® se fija a la materia orgánica, permitiendo un efectivo control de insectos de suelo y tierreros, reduciendo daños en raíces y etapas iniciales del desarrollo vegetal. Su uso contribuye a mantener cultivos más sanos, vigorosos y productivos, siendo una herramienta confiable dentro de programas de manejo integrado de plagas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/zendo/images/zendo-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
