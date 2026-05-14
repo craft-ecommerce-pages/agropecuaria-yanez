@@ -937,6 +937,19 @@
     "sku": ""
   },
   {
+    "id": 12406,
+    "slug": "resveratrol",
+    "nombre": "Resveratrol",
+    "precio": "29.99",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Descriupcion de prueba",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": 12395,
     "slug": "rooslito",
     "nombre": "ROOSLITO",
