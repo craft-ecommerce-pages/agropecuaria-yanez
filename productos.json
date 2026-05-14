@@ -440,7 +440,9 @@
     "categoria": "",
     "descripcion": "Sal de potasio de ácido húmico de alta pureza obtenida de leonardita, diseñada para mejorar la nutrición y el vigor del zooplancton y las algas. Favorece la absorción y el transporte de nutrientes, estimulando el crecimiento y desarrollo de los organismos acuáticos. Además, contribuye a optimizar la productividad y el equilibrio biológico del sistema.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/germizol/images/germizol-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
