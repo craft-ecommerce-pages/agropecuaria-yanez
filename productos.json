@@ -773,7 +773,9 @@
     "categoria": "",
     "descripcion": "Ayuda a mejorar las etapas de pre floracion, floracion y cuajado. Promoviendo el rendimiento y buena calidad en sus cultivos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-calcio-boro/images/nutrikel-calcio-boro-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
