@@ -708,12 +708,20 @@
     "precio": "13",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "El fungicida Metron 500G es un producto sistémico y de contacto (polvo mojable) diseñado para proteger cultivos de enfermedades fúngicas, principalmente el mildiú velloso y la lancha (Phytophthora spp.). Su doble acción previene y cura enfermedades en papas, solanáceas, leguminosas, frutales y ornamentales.",
+    "descripcion": "Metron 500G es un fungicida sistémico y de contacto, formulado como polvo mojable, diseñado para el control eficaz de enfermedades fúngicas en diversos cultivos agrícolas.\n\nSu doble modo de acción le permite actuar tanto de forma preventiva como curativa, protegiendo el cultivo antes y después de la infección. Está especialmente indicado para el manejo de mildiú velloso y lancha (Phytophthora spp.), patógenos de alta agresividad en diferentes sistemas productivos.\n\nGracias a su actividad sistémica, se distribuye dentro de la planta brindando protección en tejidos nuevos, mientras que su acción de contacto actúa directamente sobre el hongo en la superficie, deteniendo su desarrollo y propagación.\nEs recomendado para su uso en papas, solanáceas, leguminosas, frutales y ornamentales, contribuyendo a mantener la sanidad del cultivo, reducir pérdidas y asegurar una mejor productividad y calidad de la cosecha.",
     "stock": -1,
     "imagenes": [
       "/producto/metron/images/metron-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "type": "option",
+        "options": [
+          "500gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
