@@ -721,26 +721,13 @@
     "sku": ""
   },
   {
-    "id": 12355,
-    "slug": "nutrikal-suelo",
-    "nombre": "NUTRIKAL (SUELO)",
-    "precio": "12",
-    "precio_promo": "",
-    "categoria": "",
-    "descripcion": "Complejo orgánico de calcio líquido que permite solucionar problemas nutricionales de calcio (asimilación) en los cultivos y a su vez es un mejorador estructural de suelo con problemas de compactación.",
-    "stock": -1,
-    "imagenes": [],
-    "variantes": [],
-    "sku": ""
-  },
-  {
     "id": 12356,
     "slug": "nutrikel-boro",
     "nombre": "NUTRIKEL BORO",
     "precio": "9",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Factor determinante en la germinacion de los granos del polen y el crecimiento del tubo polinico. Es el constituyente principal en los tejidos meristematicos y en la textura de las flores y frutos.",
+    "descripcion": "Elemento clave para la germinación del polen y el crecimiento del tubo polínico, esencial para la reproducción eficiente de la planta.\n\nTambién es un componente fundamental de los tejidos meristemáticos, contribuyendo al desarrollo de brotes y nuevas hojas, y juega un papel importante en la textura y firmeza de flores y frutos, favoreciendo su calidad y consistencia.",
     "stock": -1,
     "imagenes": [
       "/producto/nutrikel-boro/images/nutrikel-boro-1.webp"
@@ -748,6 +735,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "500ML",
           "LT"
