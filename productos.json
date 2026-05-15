@@ -1000,7 +1000,9 @@
     "categoria": "",
     "descripcion": "SILVACUR® COMBI es un fungicida sistémico de amplio espectro, con acción preventiva y curativa, utilizado para controlar enfermedades fúngicas en banano, uva, arroz, soya y otros cultivos. Combina tebuconazole y triadimenol para combatir hongos como la Sigatoka negra, Oidium, Roya, y manchas foliares al inhibir la biosíntesis de ergosterol.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/silvacur/images/silvacur-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
