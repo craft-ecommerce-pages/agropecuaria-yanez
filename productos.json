@@ -1036,7 +1036,7 @@
     "precio": "30",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "TOPSTAR 250 Difenoconazole 250 g/l es un fungicida sistémico de amplio espectro con acción protectora y curativa, diseñado para controlar enfermedades fúngicas en una variedad de cultivos",
+    "descripcion": "TOPSTAR 250 (Difenoconazole 250 g/L) es un fungicida sistémico de amplio espectro perteneciente al grupo de los triazoles, formulado con acción protectora, curativa y erradicante temprana. Está diseñado para el control eficaz de una amplia gama de enfermedades fúngicas que afectan diversos cultivos agrícolas, actuando tanto en etapas preventivas como en infecciones ya establecidas. Su ingrediente activo, el difenoconazole, inhibe la biosíntesis del ergosterol en los hongos, un componente esencial de la membrana celular. Esta acción interfiere en el crecimiento y desarrollo del patógeno, deteniendo la expansión de la infección y evitando la formación de nuevas estructuras fúngicas. TOPSTAR 250 se distribuye de manera uniforme, protegiendo hojas, brotes y tejidos en crecimiento, lo que permite un control más completo y duradero. Su efecto residual contribuye a mantener la protección del cultivo por más tiempo, reduciendo la incidencia de reinfecciones. Es una herramienta eficaz dentro de programas de manejo integrado de enfermedades (MIE). Está recomendado para su uso en múltiples cultivos donde las enfermedades fúngicas representan una limitante productiva, ayudando a mantener la sanidad vegetal, mejorar el desarrollo del cultivo y asegurar una mejor calidad y rendimiento de la cosecha.",
     "stock": -1,
     "imagenes": [
       "/producto/topstar/images/topstar-1.webp"
@@ -1068,7 +1068,9 @@
     "categoria": "",
     "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro, con acción sistémica y de contacto, diseñado para el tratamiento de semillas, cormos, esquejes y tubérculos antes de la siembra. Combina Carboxin y Tiram para controlar hongos patógenos del suelo y semillas, asegurando una germinación uniforme, protegida y con mejor rendimiento.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/vitavax-floable/images/vitavax-floable-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
