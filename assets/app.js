@@ -38,6 +38,18 @@ window.formatPrice = formatPrice;
 
 function normalize(s){ return (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
 
+function variantOptDisplay(o){
+  return o&&typeof o==='object'?(o.label||o.name||''):(o||'');
+}
+
+function resolveVariantPrice(p, variantes){
+  if(!p||!variantes) return Number(p.precio)||0;
+  for(const val of Object.values(variantes)){
+    if(val&&typeof val==='object'&&val.price!=null) return Number(val.price);
+  }
+  return Number(p.precio)||0;
+}
+
 function formatPrice(p){
   const cur = (config.currency||'$');
   return `${cur}${Number(p).toFixed(2)}`;
@@ -53,7 +65,7 @@ function showToast(msg){
 
 function cartKey(id, v){
   if(!v||!Object.keys(v).length) return String(id);
-  return id+':'+Object.entries(v).sort().map(([k,val])=>k+'='+val).join(',');
+  return id+':'+Object.entries(v).sort().map(([k,val])=>k+'='+variantOptDisplay(val)).join(',');
 }
 
 function cartAdd(id, variantes, qty){
@@ -64,7 +76,8 @@ function cartAdd(id, variantes, qty){
   if(ex){ ex.qty += qty; }
   else{
     const imgs = Array.isArray(p.imagenes)&&p.imagenes.length?p.imagenes:[p.imagen||''];
-    cartItems.push({key,id,nombre:p.nombre,precio:p.precio,qty,variantes:variantes||{},imagen:imgs[0]});
+    const price = resolveVariantPrice(p, variantes);
+    cartItems.push({key,id,nombre:p.nombre,precio:price,qty,variantes:variantes||{},imagen:imgs[0]});
   }
   saveCart(); updateCartUI(); updateCardButtons();
   showToast(`${p.nombre} agregado`);
@@ -113,7 +126,7 @@ function updateCartUI(){
   }
   $cartItems.innerHTML = '';
   cartItems.forEach(item=>{
-    const vL = item.variantes?Object.values(item.variantes).join(' · '):'';
+    const vL = item.variantes?Object.values(item.variantes).map(v=>variantOptDisplay(v)).join(' · '):'';
     const div = document.createElement('div');
     div.className = 'cart-item';
     div.innerHTML = `
@@ -169,7 +182,7 @@ function checkout(){
   if(!num){ alert('Número de WhatsApp no configurado'); return; }
   let msg = `${config.whatsapp_message||'Hola! Quiero hacer un pedido:'}\n\n*PEDIDO AGRO YÁNEZ*\n━━━━━━━━━━━━━━━\n`;
   cartItems.forEach(i=>{
-    const vL = i.variantes?Object.values(i.variantes).join(' · '):'';
+    const vL = i.variantes?Object.values(i.variantes).map(v=>variantOptDisplay(v)).join(' · '):'';
     msg += `▸ ${i.nombre}${vL?' ('+vL+')':''}\n  ${i.qty} × ${formatPrice(i.precio)} = ${formatPrice(i.qty*i.precio)}\n`;
   });
   msg += `━━━━━━━━━━━━━━━\n*TOTAL: ${formatPrice(cartTotalPrice())}*\n\n${location.href}`;
@@ -206,20 +219,27 @@ function renderModalDetail(){
   const hasVariants=Array.isArray(p.variantes)&&p.variantes.length>0;
   const catLabels=config.categories||{};
   let vHTML='';
+  let showPrice = p.precio;
   if(hasVariants){
     vHTML=p.variantes.map(g=>`
       <div class="variant-group">
         <div class="variant-label">${g.name}</div>
         <div class="variant-options">
-          ${g.options.map(o=>`<button class="variant-option${modalVariants[g.name]===o?' selected':''}" data-group="${g.name}" data-opt="${o}">${o}</button>`).join('')}
+          ${g.options.map(o=>{
+            const display = variantOptDisplay(o);
+            const optJson = JSON.stringify(o).replace(/'/g,"&#39;");
+            return `<button class="variant-option${variantOptDisplay(modalVariants[g.name])===display?' selected':''}" data-group="${g.name}" data-opt='${optJson}'>${display}</button>`;
+          }).join('')}
         </div>
       </div>`).join('');
+    const selectedVariant = Object.values(modalVariants).find(v=>v&&typeof v==='object'&&v.price!=null);
+    if(selectedVariant) showPrice = selectedVariant.price;
   }
   const allSel=!hasVariants||p.variantes.every(g=>modalVariants[g.name]);
   $modalDetail.innerHTML=`
     <div class="modal-name">${p.nombre}</div>
     <div class="modal-cat">${catLabels[p.categoria]||p.categoria}</div>
-    <div class="modal-price">${formatPrice(p.precio)}</div>
+    <div class="modal-price">${formatPrice(showPrice)}</div>
     ${p.descripcion?`<div class="modal-desc">${p.descripcion}</div>`:''}
     ${vHTML}
     ${hasVariants&&!allSel?'<p class="modal-variant-hint">Selecciona todas las opciones</p>':''}
@@ -239,7 +259,10 @@ function renderModalDetail(){
   document.getElementById('mqInc')?.addEventListener('click',()=>{ modalQty++;document.getElementById('mqVal').textContent=modalQty; });
   document.getElementById('btnModalAdd')?.addEventListener('click',()=>{ cartAdd(modalProduct.id,modalVariants,modalQty); closeModal(); });
   $modalDetail.querySelectorAll('.variant-option').forEach(btn=>{
-    btn.addEventListener('click',()=>{ modalVariants[btn.dataset.group]=btn.dataset.opt; renderModalDetail(); });
+    btn.addEventListener('click',()=>{
+      try{ modalVariants[btn.dataset.group]=JSON.parse(btn.dataset.opt); }catch(e){ modalVariants[btn.dataset.group]=btn.dataset.opt; }
+      renderModalDetail();
+    });
   });
 }
 

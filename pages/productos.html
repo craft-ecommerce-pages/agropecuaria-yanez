@@ -197,17 +197,29 @@ const $filterCount = document.getElementById('filterCount');
 function normalize(s){ return (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
 function formatPrice(p){ const cur=(config.currency||'$'); return `${cur}${Number(p).toFixed(2)}`; }
 function showToast(msg){ if(!$toast) return; $toast.textContent=msg; $toast.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>$toast.classList.remove('show'),2200); }
-function cartKey(id,v){ if(!v||!Object.keys(v).length) return String(id); return id+':'+Object.entries(v).sort().map(([k,val])=>k+'='+val).join(','); }
-function variantLabel(v){ return v&&Object.keys(v).length?Object.values(v).join(' · '):''; }
+function variantOptDisplay(o){ return o&&typeof o==='object'?(o.label||o.name||''):(o||''); }
+function cartKey(id,v){ if(!v||!Object.keys(v).length) return String(id); return id+':'+Object.entries(v).sort().map(([k,val])=>k+'='+variantOptDisplay(val)).join(','); }
+function variantLabel(v){ if(!v||!Object.keys(v).length) return ''; return Object.values(v).map(v=>variantOptDisplay(v)).join(' · '); }
 function cartTotalQty(){ return cartItems.reduce((s,i)=>s+i.qty,0); }
 function cartTotalPrice(){ return cartItems.reduce((s,i)=>s+i.precio*i.qty,0); }
+function resolveVariantPrice(p,variantes){
+  if(!p||!variantes) return Number(p.precio)||0;
+  for(const val of Object.values(variantes)){
+    if(val&&typeof val==='object'&&val.price!=null) return Number(val.price);
+  }
+  return Number(p.precio)||0;
+}
 
 function cartAdd(id,variantes,qty){
   const p=products.find(x=>String(x.id)===String(id)); if(!p) return;
   const key=cartKey(id,variantes);
   const ex=cartItems.find(i=>i.key===key);
   if(ex){ ex.qty+=qty; }
-  else{ const imgs=(Array.isArray(p.imagenes)&&p.imagenes.length)?p.imagenes:[p.imagen||'']; cartItems.push({key,id,nombre:p.nombre,precio:p.precio,qty,variantes:variantes||{},imagen:imgs[0]}); }
+  else{
+    const imgs=(Array.isArray(p.imagenes)&&p.imagenes.length)?p.imagenes:[p.imagen||''];
+    const price=resolveVariantPrice(p,variantes);
+    cartItems.push({key,id,nombre:p.nombre,precio:price,qty,variantes:variantes||{},imagen:imgs[0]});
+  }
   saveCart(); updateCartUI(); updateCardButtons();
   showToast(`${p.nombre} agregado`);
 }
@@ -364,12 +376,21 @@ function renderModalDetail(){
   const p=modalProduct; const catLabels=config.categories||{};
   const hasV=Array.isArray(p.variantes)&&p.variantes.length>0;
   let vHTML='';
-  if(hasV){ vHTML=p.variantes.map(g=>`<div class="variant-group"><div class="variant-label">${g.name}</div><div class="variant-options">${g.options.map(o=>`<button class="variant-option${modalVariants[g.name]===o?' selected':''}" data-group="${g.name}" data-opt="${o}">${o}</button>`).join('')}</div></div>`).join(''); }
+  let showPrice=p.precio;
+  if(hasV){
+    vHTML=p.variantes.map(g=>`<div class="variant-group"><div class="variant-label">${g.name}</div><div class="variant-options">${g.options.map(o=>{
+      const display=variantOptDisplay(o);
+      const json=JSON.stringify(o).replace(/'/g,"&#39;");
+      return `<button class="variant-option${variantOptDisplay(modalVariants[g.name])===display?' selected':''}" data-group="${g.name}" data-opt='${json}'>${display}</button>`;
+    }).join('')}</div></div>`).join('');
+    const sv=Object.values(modalVariants).find(v=>v&&typeof v==='object'&&v.price!=null);
+    if(sv) showPrice=sv.price;
+  }
   const allS=!hasV||p.variantes.every(g=>modalVariants[g.name]);
   $modalDetail.innerHTML=`
     <div class="modal-name">${p.nombre}</div>
     <div class="modal-cat">${catLabels[p.categoria]||p.categoria}</div>
-    <div class="modal-price">${formatPrice(p.precio)}</div>
+    <div class="modal-price">${formatPrice(showPrice)}</div>
     ${p.descripcion?`<div class="modal-desc">${p.descripcion}</div>`:''}
     ${vHTML}
     ${hasV&&!allS?'<p class="modal-variant-hint">Selecciona todas las opciones</p>':''}
@@ -387,7 +408,10 @@ function renderModalDetail(){
   document.getElementById('mqDec')?.addEventListener('click',()=>{ if(modalQty>1){modalQty--;document.getElementById('mqVal').textContent=modalQty;} });
   document.getElementById('mqInc')?.addEventListener('click',()=>{ modalQty++;document.getElementById('mqVal').textContent=modalQty; });
   document.getElementById('btnModalAdd')?.addEventListener('click',()=>{ cartAdd(modalProduct.id,modalVariants,modalQty); closeModal(); });
-  $modalDetail.querySelectorAll('.variant-option').forEach(btn=>{ btn.addEventListener('click',()=>{ modalVariants[btn.dataset.group]=btn.dataset.opt; renderModalDetail(); }); });
+  $modalDetail.querySelectorAll('.variant-option').forEach(btn=>{ btn.addEventListener('click',()=>{
+    try{ modalVariants[btn.dataset.group]=JSON.parse(btn.dataset.opt); }catch(e){ modalVariants[btn.dataset.group]=btn.dataset.opt; }
+    renderModalDetail();
+  }); });
 }
 
 function closeModal(){ $modalOverlay.classList.remove('open'); document.body.style.overflow=''; modalProduct=null; }
