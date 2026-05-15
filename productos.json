@@ -419,7 +419,9 @@
     "categoria": "",
     "descripcion": "Regulador de pH y coadyuvante multifuncional para uso agrícola\n\nProducto diseñado para optimizar la calidad del agua de aplicación y mejorar la eficiencia de agroquímicos y fertilizantes en el cultivo. Actúa regulando el pH, ablandando el agua y mejorando la compatibilidad de las mezclas, incluso en condiciones de alta dureza.\n\nSu acción como adherente, penetrante y dispersante favorece una mejor cobertura del follaje, una distribución uniforme de los productos y una mayor absorción por parte de la planta, potenciando el desempeño de las aplicaciones agrícolas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fijafol/images/fijafol-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
