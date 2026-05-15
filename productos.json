@@ -186,7 +186,7 @@
     "precio": "5",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Campuz actúa como un fungicida con acción protectora de amplio espectro y curativa. Tiene contacto y actividad sistémica local y también inhibe la esporulación, por las propiedades de sus ingredientes activos.",
+    "descripcion": "Campuz es un fungicida de amplio espectro con acción protectora y curativa, que combina actividad de contacto y sistémica local. Sus ingredientes activos actúan inhibiendo el desarrollo del hongo y reduciendo la esporulación, lo que ayuda a cortar el ciclo de la enfermedad.\n\nSu efecto preventivo y curativo permite proteger el cultivo antes y después de la infección, brindando un control eficaz de diversos patógenos fúngicos. Contribuye a mantener la sanidad vegetal, limitar la propagación de enfermedades y mejorar la productividad agrícola.",
     "stock": -1,
     "imagenes": [
       "/producto/campuz/images/campuz-1.webp"
@@ -194,6 +194,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "250GR",
           "500GR"
