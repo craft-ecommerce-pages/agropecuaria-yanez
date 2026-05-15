@@ -754,6 +754,27 @@
     "sku": ""
   },
   {
+    "id": 12409,
+    "slug": "n-30-ls",
+    "nombre": "N-30 LS",
+    "precio": "8",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "type": "option",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12378,
     "slug": "novak",
     "nombre": "NOVAK",
