@@ -828,10 +828,16 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
+        "type": "price_select",
         "options": [
-          "250ML",
-          "LT"
+          {
+            "name": "250ML",
+            "price_delta": 14.6
+          },
+          {
+            "name": "Litro",
+            "price_delta": 45
+          }
         ]
       }
     ],
