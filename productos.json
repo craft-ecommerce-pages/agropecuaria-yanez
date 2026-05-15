@@ -61,7 +61,9 @@
     "categoria": "",
     "descripcion": "",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/amino-50/images/amino-50-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
