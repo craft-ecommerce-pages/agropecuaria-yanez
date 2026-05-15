@@ -998,7 +998,7 @@
     "precio": "188",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "SILVACUR® COMBI es un fungicida sistémico de amplio espectro, con acción preventiva y curativa, utilizado para controlar enfermedades fúngicas en banano, uva, arroz, soya y otros cultivos. Combina tebuconazole y triadimenol para combatir hongos como la Sigatoka negra, Oidium, Roya, y manchas foliares al inhibir la biosíntesis de ergosterol.",
+    "descripcion": "SILVACUR® COMBI es un fungicida sistémico de amplio espectro con acción preventiva, curativa y antiesporulante, formulado para el control eficaz de diversas enfermedades fúngicas en cultivos de alta importancia económica como banano, uva, arroz, soya y otros.\nSu formulación combina dos ingredientes activos del grupo de los triazoles, tebuconazole y triadimenol, que actúan de forma complementaria inhibiendo la biosíntesis del ergosterol, componente esencial de la membrana celular de los hongos. Esta acción detiene el crecimiento del patógeno, impide su desarrollo y reduce la formación de nuevas esporas, limitando la propagación de la enfermedad.\nGracias a su doble acción sistémica, SILVACUR® COMBI se distribuye dentro de la planta brindando protección uniforme en tejidos nuevos y ya desarrollados, lo que permite un control eficaz incluso en condiciones de alta presión de infección.\nEs especialmente efectivo contra enfermedades como Sigatoka negra, oídio, roya y manchas foliares, contribuyendo a mantener la sanidad del cultivo, prolongar la vida foliar y mejorar el rendimiento y la calidad de la producción agrícola.",
     "stock": -1,
     "imagenes": [
       "/producto/silvacur/images/silvacur-1.webp"
@@ -1038,7 +1038,9 @@
     "categoria": "",
     "descripcion": "TOPSTAR 250 Difenoconazole 250 g/l es un fungicida sistémico de amplio espectro con acción protectora y curativa, diseñado para controlar enfermedades fúngicas en una variedad de cultivos",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/topstar/images/topstar-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
