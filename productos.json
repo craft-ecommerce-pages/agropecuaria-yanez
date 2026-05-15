@@ -84,7 +84,9 @@
     "categoria": "",
     "descripcion": "ANGLOQUAT es un herbicida no selectivo de acción rápida formulado con Paraquat 200 g/L, diseñado para el control eficiente de malezas de hoja ancha y gramíneas en diferentes sistemas agrícolas. Su acción de contacto permite desecar rápidamente las partes verdes de las malezas, brindando resultados visibles en corto tiempo y facilitando las labores de manejo del cultivo. ANGLOQUAT actúa interfiriendo en el proceso de fotosíntesis de las plantas, provocando la deshidratación y muerte de los tejidos vegetales. Es ideal para aplicaciones en frutales, palma aceitera, cultivos industriales, áreas no cultivadas, caminos agrícolas y manejo de malezas previo a la siembra. También puede utilizarse como apoyo en programas de labranza mínima y manejo integrado de malezas. Para obtener máxima eficacia, se recomienda aplicar el producto sobre malezas jóvenes y en activo crecimiento, asegurando una cobertura uniforme del follaje. Su rápida acción ayuda a reducir la competencia por agua, luz y nutrientes, favoreciendo un mejor desarrollo del cultivo. Debido a su alta efectividad y amplio espectro de control, ANGLOQUAT es una herramienta confiable para productores que buscan un manejo rápido, eficiente y práctico de las malezas en el campo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/angloquat/images/angloquat-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
