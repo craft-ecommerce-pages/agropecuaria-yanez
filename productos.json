@@ -426,6 +426,19 @@
     "sku": ""
   },
   {
+    "id": 12415,
+    "slug": "fijal",
+    "nombre": "FIJAL",
+    "precio": "5",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Fijador agrícola de alta eficiencia para aplicaciones foliares\n\nFijador formulado a base de Alkil Aril Poliglicol Éter, diseñado para mejorar la adherencia, humectación y dispersión de los agroquímicos sobre el follaje de las plantas.\n\nSu acción permite una mejor distribución del producto en la superficie foliar, favoreciendo una cobertura más uniforme, mayor permanencia y optimización del desempeño de las aplicaciones agrícolas.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": 12388,
     "slug": "finidor",
     "nombre": "FINIDOR",
