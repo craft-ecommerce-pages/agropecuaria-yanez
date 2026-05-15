@@ -1083,7 +1083,7 @@
     "precio": "9",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "VULTUR es un fertilizante líquido inorgánico concentrado, rico en calcio (17%), zinc (3.9%) y boro (0.39%), diseñado para mejorar el desarrollo, floración y fructificación de cultivos como maíz y cacao. Formulado con ácidos carboxílicos, fortalece raíces y tejidos",
+    "descripcion": "VULTUR es un fertilizante líquido inorgánico concentrado, rico en calcio (17%), zinc (3.9%) y boro (0.39%), diseñado para optimizar el crecimiento, floración y fructificación en cultivos como maíz, cacao y otros de importancia agrícola.\n\nSu formulación con ácidos carboxílicos mejora la disponibilidad y absorción de los nutrientes, favoreciendo su rápida asimilación por la planta. El calcio fortalece las paredes celulares y mejora la firmeza de los tejidos, mientras que el zinc y el boro participan en procesos clave de división celular, formación de flores y cuajado de frutos.\n\nContribuye al desarrollo de raíces más vigorosas, plantas más equilibradas y una mejor calidad de la producción, aumentando el rendimiento y la resistencia del cultivo frente a condiciones de estrés.",
     "stock": -1,
     "imagenes": [
       "/producto/vultur/images/vultur-1.webp"
@@ -1091,6 +1091,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "500ML",
           "LT"
