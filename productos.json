@@ -954,7 +954,9 @@
     "categoria": "",
     "descripcion": "",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutri-san-ls/images/nutri-san-ls-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
