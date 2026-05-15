@@ -133,7 +133,9 @@
     "categoria": "",
     "descripcion": "El insecticida Arutam es una mezcla técnica formulada con Emamectin benzoate (100 g/kg) y Lufenuron (400 g/kg), diseñada para el control de insectos, especialmente larvas de lepidópteros en diversos cultivos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/arutam/images/arutam-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
