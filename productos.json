@@ -970,7 +970,9 @@
     "categoria": "",
     "descripcion": "SATISFAR (basado en Azoxistrobina 500 g/kg) es un fungicida sistémico y translaminar de amplio espectro, formulado como gránulos dispersables (WG). Se utiliza para prevenir, curar y erradicar hongos patógenos como royas, oidios, antracnosis y pudriciones en cultivos como papa, cebolla, maíz, soya, frutales y ornamentales",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/satisfar/images/satisfar-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
