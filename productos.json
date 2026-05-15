@@ -814,19 +814,6 @@
     "sku": ""
   },
   {
-    "id": 12361,
-    "slug": "nutrikel-humic",
-    "nombre": "NUTRIKEL HUMIC",
-    "precio": "14",
-    "precio_promo": "",
-    "categoria": "",
-    "descripcion": "Enmienda orgánica a base de ácidos húmicos derivado de la Leonardita y enriquecida con Potasio. Incrementa la absorción, translocación y asimilación de nutrientes provenientes de suelo.",
-    "stock": -1,
-    "imagenes": [],
-    "variantes": [],
-    "sku": ""
-  },
-  {
     "id": 12362,
     "slug": "nutrikel-max",
     "nombre": "NUTRIKEL MAX",
@@ -845,7 +832,7 @@
     "id": 12363,
     "slug": "nutrikel-multi",
     "nombre": "NUTRIKEL MULTI",
-    "precio": "0",
+    "precio": "8",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Multi Mineral con acción bioestimulante con micro elementos, vitaminas, ácidos húmicos y fito hormonas de origen natural, esenciales para estimular el desarrollo los principales procesos fisiológicos en los diferentes cultivos.",
@@ -856,6 +843,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "500ML",
           "LT"
