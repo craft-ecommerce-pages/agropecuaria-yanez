@@ -203,6 +203,19 @@
     "sku": ""
   },
   {
+    "id": 12410,
+    "slug": "bronco-plus",
+    "nombre": "BRONCO PLUS",
+    "precio": "14.5",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Emulsificante no iónico para uso agrícola\n\nFormulado a base de Poliglicol Éter de alcohol graso y aditivos especiales, diseñado para la preparación de emulsiones estables aceite/agua utilizadas en aplicaciones agrícolas.\n\nFavorece la mezcla homogénea de productos formulados, mejorando la dispersión, estabilidad y cobertura durante la aplicación. Su acción emulsificante optimiza la compatibilidad entre componentes oleosos y acuosos, contribuyendo a una aplicación más uniforme y eficiente en el cultivo.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": 12371,
     "slug": "campuz",
     "nombre": "CAMPUZ",
