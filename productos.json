@@ -599,7 +599,7 @@
     "precio": "11",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Kurazeb (Mancozeb 800 WP) es un fungicida foliar de contacto diseñado para prevenir y controlar una amplia variedad de enfermedades fúngicas (hongos) en diversos cultivos. Actúa impidiendo la germinación de esporas, protegiendo las hojas de patógenos como tizones, mildius y manchas foliares.",
+    "descripcion": "Kurazeb (Mancozeb 800 WP) es un fungicida de contacto de amplio espectro, formulado como polvo mojable, diseñado para la prevención y control eficaz de múltiples enfermedades fúngicas en diversos cultivos agrícolas.\n\nSu modo de acción actúa sobre la superficie de la planta, inhibiendo la germinación de esporas y el establecimiento del hongo, lo que impide la infección inicial y la propagación de la enfermedad.\n\nEs altamente efectivo contra tizones, mildius, royas y manchas foliares, formando una barrera protectora que resguarda el tejido vegetal expuesto. Su uso contribuye a mantener la sanidad del cultivo, reducir pérdidas y mejorar la calidad y rendimiento de la producción agrícola.",
     "stock": -1,
     "imagenes": [
       "/producto/kurazeb/images/kurazeb-1.webp"
@@ -607,6 +607,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "KG",
           "25KG"
