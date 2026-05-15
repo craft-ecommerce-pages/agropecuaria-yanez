@@ -113,11 +113,20 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
+        "type": "price_select",
         "options": [
-          "LT",
-          "GL",
-          "CANECA"
+          {
+            "name": "Litro",
+            "price_delta": 4.7
+          },
+          {
+            "name": "Galón",
+            "price_delta": 15.8
+          },
+          {
+            "name": "Caneca",
+            "price_delta": 76
+          }
         ]
       }
     ],
