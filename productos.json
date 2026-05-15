@@ -359,6 +359,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "3KG",
           "18KG"
