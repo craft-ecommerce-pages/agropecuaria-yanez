@@ -928,19 +928,6 @@
     "sku": ""
   },
   {
-    "id": 12406,
-    "slug": "resveratrol",
-    "nombre": "Resveratrol",
-    "precio": "29.99",
-    "precio_promo": "",
-    "categoria": "",
-    "descripcion": "Descriupcion de prueba",
-    "stock": -1,
-    "imagenes": [],
-    "variantes": [],
-    "sku": ""
-  },
-  {
     "id": 12395,
     "slug": "rooslito",
     "nombre": "ROOSLITO",
@@ -1039,7 +1026,7 @@
     "precio": "35",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Verdefance – Limpiador de Musgo Elimina el musgo de tus cultivos de cacao, ayudando a mantener las plantas más sanas y con mejor acceso a luz y aireación, favoreciendo un desarrollo más uniforme. Aplicar según recomendación técnica.",
+    "descripcion": "**Verdefance – Limpiador de Musgo** es un producto especializado para la eliminación y control de musgo en cultivos de cacao, contribuyendo a mejorar la sanidad y el desarrollo de las plantas.\n\nActúa reduciendo la presencia de musgo sobre ramas y estructuras vegetales, lo que favorece una mejor penetración de luz, mayor aireación y condiciones más óptimas para el crecimiento del cultivo.\n\nSu uso contribuye a mantener plantas más limpias, vigorosas y equilibradas, promoviendo un desarrollo más uniforme y mejorando el manejo agronómico del cultivo. Se recomienda aplicar según indicación técnica para asegurar su máxima eficacia.",
     "stock": -1,
     "imagenes": [
       "/producto/verdefance/images/verdefance-1.webp"
