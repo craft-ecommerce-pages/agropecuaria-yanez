@@ -480,6 +480,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "LT",
           "GL",
