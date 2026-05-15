@@ -53,6 +53,27 @@
     "sku": ""
   },
   {
+    "id": 12407,
+    "slug": "amino-50",
+    "nombre": "AMINO-50",
+    "precio": "11.3",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "type": "option",
+        "options": [
+          "500gr"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12345,
     "slug": "aminopep-plus",
     "nombre": "AMINOPEP PLUS",
