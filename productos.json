@@ -573,7 +573,9 @@
     "categoria": "",
     "descripcion": "Solución potásica procedente de aceites vegetales con efecto insecticida – acaricida que tiene un control efectivo sobre insectos chupadores como son la cochinilla, mosca blanca, ácaros, áfidos, pulgones, trips, entre otros.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/killbac/images/killbac-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
