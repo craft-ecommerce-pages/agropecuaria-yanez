@@ -1090,7 +1090,7 @@
     "precio": "14",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Volcán-C es un fungicida y bactericida agrícola sistémico y de contacto, utilizado principalmente para controlar hongos del orden Peronosporales (como Phytophthora y Peronospora o mildius) y bacterias como Erwinia, Xanthomonas y Pseudomonas. Su acción combina protección preventiva y efecto curativo en cultivos.",
+    "descripcion": "Volcán-C es un fungicida y bactericida agrícola de acción sistémica y de contacto, formulado para el manejo integral de enfermedades causadas por hongos y bacterias en diversos cultivos. Está especialmente indicado para el control de patógenos del orden Peronosporales, como Phytophthora spp. y Peronospora spp. (mildius), así como de bacterias fitopatógenas de importancia económica como Erwinia, Xanthomonas y Pseudomonas.\nSu doble modo de acción le permite actuar tanto en la superficie de la planta como en su interior, proporcionando una protección preventiva al inhibir la germinación de esporas y el establecimiento del patógeno, además de un efecto curativo inicial, al limitar el avance de infecciones ya presentes en los tejidos vegetales.\nVolcán-C interfiere en procesos esenciales del desarrollo de hongos y bacterias, afectando su multiplicación y propagación dentro del cultivo, lo que contribuye a reducir la incidencia y severidad de las enfermedades. Su acción sistémica favorece una distribución uniforme del ingrediente activo, protegiendo brotes nuevos y tejidos en crecimiento.",
     "stock": -1,
     "imagenes": [
       "/producto/volcan/images/volcan-1.webp"
@@ -1098,6 +1098,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "500GR",
           "KG"
