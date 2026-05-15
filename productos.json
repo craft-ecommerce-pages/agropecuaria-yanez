@@ -67,7 +67,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "500gr"
         ]
@@ -113,20 +112,10 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "price_select",
         "options": [
-          {
-            "name": "Litro",
-            "price_delta": 4.7
-          },
-          {
-            "name": "Galón",
-            "price_delta": 15.8
-          },
-          {
-            "name": "Caneca",
-            "price_delta": 76
-          }
+          "Litro (+$4.70)",
+          "Galón (+$15.80)",
+          "Caneca (+$76.00)"
         ]
       }
     ],
@@ -256,7 +245,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "250GR",
           "500GR"
@@ -295,7 +283,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "250ML",
           "500ML",
@@ -359,7 +346,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "3KG",
           "18KG"
@@ -392,11 +378,12 @@
     "categoria": "",
     "descripcion": "Estaposy® 5 es un coadyuvante líquido biodegradable, diseñado para optimizar la calidad del agua utilizada en aplicaciones agrícolas y mejorar el desempeño de agroquímicos y fertilizantes.\n\nSu formulación avanzada regula el pH y secuestra los iones responsables de la dureza del agua, manteniendo condiciones químicas estables que favorecen la compatibilidad y efectividad de las mezclas, incluso en aguas duras.\n\nAdemás, presenta acción adherente, penetrante y dispersante, lo que permite una mejor distribución de los productos sobre el follaje, mayor cobertura y una absorción más eficiente por parte de las plantas, incrementando el rendimiento de las aplicaciones foliares.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/estaposy5/images/estaposy5-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "250ml",
           "Lt"
@@ -610,7 +597,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "LT",
           "GL",
@@ -650,7 +636,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "5LT"
         ]
@@ -742,7 +727,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "KG",
           "25KG"
@@ -828,16 +812,9 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "price_select",
         "options": [
-          {
-            "name": "250ML",
-            "price_delta": 14.6
-          },
-          {
-            "name": "Litro",
-            "price_delta": 45
-          }
+          "250ML (+$14.60)",
+          "Litro (+$45.00)"
         ]
       }
     ],
@@ -858,7 +835,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "500gr"
         ]
@@ -881,7 +857,6 @@
     "variantes": [
       {
         "name": "Presentacion",
-        "type": "option",
         "options": [
           "Lt"
         ]
@@ -919,7 +894,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "500ML",
           "LT"
@@ -1027,7 +1001,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "500ML",
           "LT"
@@ -1096,7 +1069,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "Lt"
         ]
@@ -1262,7 +1234,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "250ML",
           "LT"
@@ -1286,7 +1257,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "500GR",
           "KG"
@@ -1310,7 +1280,6 @@
     "variantes": [
       {
         "name": "Presentación",
-        "type": "option",
         "options": [
           "500ML",
           "LT"
