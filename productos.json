@@ -1066,7 +1066,7 @@
     "precio": "12",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro, con acción sistémica y de contacto, diseñado para el tratamiento de semillas, cormos, esquejes y tubérculos antes de la siembra. Combina Carboxin y Tiram para controlar hongos patógenos del suelo y semillas, asegurando una germinación uniforme, protegida y con mejor rendimiento.",
+    "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro con acción sistémica y de contacto, especialmente formulado para el tratamiento de material de propagación como semillas, cormos, esquejes y tubérculos antes de la siembra. Su combinación de Carboxin y Tiram proporciona una protección integral contra hongos patógenos presentes en el suelo y en la semilla, reduciendo el riesgo de infecciones tempranas en el cultivo. El Carboxin actúa de forma sistémica, penetrando en el tejido vegetal y protegiendo el embrión desde el interior, mientras que el Tiram actúa por contacto en la superficie, creando una barrera protectora que inhibe la germinación de esporas y el desarrollo de hongos. Esta sinergia permite un control eficaz de enfermedades como pudriciones de semilla, damping-off y otros patógenos que afectan la emergencia inicial del cultivo.\nVITAVAX FLOABLE contribuye a una germinación más uniforme y vigorosa, favoreciendo un establecimiento rápido y saludable de las plantas. Al reducir la presión de enfermedades en las etapas iniciales, mejora el porcentaje de emergencia y fortalece el desarrollo radicular, lo que se traduce en plantas más sanas y productivas.",
     "stock": -1,
     "imagenes": [
       "/producto/vitavax-floable/images/vitavax-floable-1.webp"
@@ -1074,6 +1074,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "250ML",
           "LT"
