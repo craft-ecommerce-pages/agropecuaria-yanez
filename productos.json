@@ -698,6 +698,7 @@
     "variantes": [
       {
         "name": "Presentación",
+        "type": "option",
         "options": [
           "250ML",
           "LT"
