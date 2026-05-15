@@ -514,7 +514,15 @@
     "imagenes": [
       "/producto/impulse/images/impulse-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "type": "option",
+        "options": [
+          "5LT"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
