@@ -113,9 +113,18 @@
       {
         "name": "Presentación",
         "options": [
-          "Litro (+$4.70)",
-          "Galón (+$15.80)",
-          "Caneca (+$76.00)"
+          {
+            "label": "Litro ($9.20)",
+            "price": 9.2
+          },
+          {
+            "label": "Galón ($20.30)",
+            "price": 20.3
+          },
+          {
+            "label": "Caneca ($80.50)",
+            "price": 80.5
+          }
         ]
       }
     ],
@@ -813,8 +822,14 @@
       {
         "name": "Presentación",
         "options": [
-          "250ML (+$14.60)",
-          "Litro (+$45.00)"
+          {
+            "label": "250ML ($31.60)",
+            "price": 31.6
+          },
+          {
+            "label": "Litro ($62.00)",
+            "price": 62.0
+          }
         ]
       }
     ],
