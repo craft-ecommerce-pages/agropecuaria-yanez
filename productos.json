@@ -946,6 +946,19 @@
     "sku": ""
   },
   {
+    "id": 12408,
+    "slug": "nutri-san-ls",
+    "nombre": "NUTRI-SAN LS",
+    "precio": "12",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": 12367,
     "slug": "nutrix-cacao",
     "nombre": "NUTRIX CACAO",
