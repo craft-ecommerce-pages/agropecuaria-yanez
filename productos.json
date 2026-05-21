@@ -702,7 +702,7 @@
     "id": 12351,
     "slug": "fortacyl-estim",
     "nombre": "FORTACYL ESTIM",
-    "precio": "21",
+    "precio": "20",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "FortacyL Estim promueve el vigor y la actividad fisiológica de la planta, apoyando procesos de crecimiento y recuperación en momentos de demanda del cultivo. Es una alternativa para complementar programas de fertilización y manejo nutricional, especialmente cuando se busca estimular el desarrollo y mejorar la respuesta del cultivo. Provee componentes que reducen el estres ambiental provocados por agua, luz y temeperatura.",
@@ -710,7 +710,14 @@
     "imagenes": [
       "/producto/fortacyl-estim/images/fortacyl-estim-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
