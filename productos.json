@@ -985,8 +985,14 @@
       {
         "name": "Presentación",
         "options": [
-          "KG",
-          "25KG"
+          {
+            "label": "KG ($11.00)",
+            "price": 11.0
+          },
+          {
+            "label": "25KG ($180.00)",
+            "price": 180.0
+          }
         ]
       }
     ],
