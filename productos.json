@@ -669,7 +669,7 @@
     "id": 12350,
     "slug": "flizz-plus",
     "nombre": "FLIZZ PLUS",
-    "precio": "8",
+    "precio": "7",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Bioestimulante radicular que actua promoviendo el crecimiento de las raices y funciones en base a un potente reactor enzimatico y fito hormonas de crecimiento radicular. Favorece la captacion de agua, nutrientes, anclaje e interviene en la CIC.",
@@ -681,9 +681,18 @@
       {
         "name": "Presentación",
         "options": [
-          "500ML",
-          "LT",
-          "GL"
+          {
+            "label": "500ML ($7.00)",
+            "price": 7.0
+          },
+          {
+            "label": "LT ($12.50)",
+            "price": 12.5
+          },
+          {
+            "label": "GL ($45.00)",
+            "price": 45.0
+          }
         ]
       }
     ],
