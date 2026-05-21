@@ -724,7 +724,7 @@
     "id": 12352,
     "slug": "fortacyl-k",
     "nombre": "FORTACYL K",
-    "precio": "25",
+    "precio": "22.5",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "FortacyL K (fosfito de potasio) aporta potasio en una forma fisiológicamente activa, apoyando procesos de defensa y recuperación de la planta. Es una herramienta útil para complementar programas de manejo nutricional y mejorar la respuesta del cultivo ante situaciones adversas, según recomendación técnica.",
@@ -732,7 +732,14 @@
     "imagenes": [
       "/producto/fortacyl-k/images/fortacyl-k-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
