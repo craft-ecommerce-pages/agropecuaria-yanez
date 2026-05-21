@@ -1002,7 +1002,7 @@
     "id": 12392,
     "slug": "kylate",
     "nombre": "KYLATE",
-    "precio": "5",
+    "precio": "4",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Piretroide de elevada actividad insecticida, especialmente contra insectos lepidópteros, pero también coleópteros, dípteros hemípteros, entre otras clases. Eficaz para control de insecto en cultivos como maíz, papa, tomate, frutales (incluyendo cítricos), café, cacao, hortalizas y cultivos tropicales.",
@@ -1014,9 +1014,18 @@
       {
         "name": "Presentación",
         "options": [
-          "250ML",
-          "500ML",
-          "LT"
+          {
+            "label": "250ML ($4.00)",
+            "price": 4.0
+          },
+          {
+            "label": "500ML ($7.00)",
+            "price": 7.0
+          },
+          {
+            "label": "LT ($11.50)",
+            "price": 11.5
+          }
         ]
       }
     ],
