@@ -282,7 +282,14 @@
     "imagenes": [
       "/producto/bronco-plus/images/bronco-plus-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
