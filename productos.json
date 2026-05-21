@@ -877,7 +877,7 @@
     "precio": "6",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "potente insecticida para el control de una amplia gama de especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados, piretroides y hormonales.",
+    "descripcion": "Potente insecticida para el control de una amplia gama de especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados, piretroides y hormonales.",
     "stock": -1,
     "imagenes": [
       "/producto/kanon/images/kanon-1.webp"
@@ -886,9 +886,18 @@
       {
         "name": "Presentación",
         "options": [
-          "250ML",
-          "500ML",
-          "LT"
+          {
+            "label": "250ML ($6.00)",
+            "price": 6.0
+          },
+          {
+            "label": "500ML ($9.00)",
+            "price": 9.0
+          },
+          {
+            "label": "LT ($16.50)",
+            "price": 16.5
+          }
         ]
       }
     ],
