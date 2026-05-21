@@ -797,10 +797,10 @@
     "id": 12403,
     "slug": "glufone",
     "nombre": "GLUFONE",
-    "precio": "6",
+    "precio": "5.25",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Herbicida post-emergente es un herbicida de acción post-emergente diseñado para el control eficaz de malezas anuales y perennes, tanto de hoja ancha como gramíneas, en diversos sistemas agrícolas y áreas no cultivadas. Su formulación permite un control rápido y uniforme de las malezas, ayudando a reducir la competencia por agua, nutrientes y luz, favoreciendo así el mejor desarrollo y productividad de los cultivos. Está recomendado para aplicaciones en frutales, palma aceitera, plantaciones industriales como madera y caucho, arbustos ornamentales, terrenos no cultivados y también en aplicaciones de pre-emergencia en hortalizas. Para obtener mejores resultados, debe aplicarse cuando las malezas se encuentren en activo crecimiento y alcancen entre 10 y 15 cm de altura, asegurando una cobertura total y uniforme del follaje. Una correcta aplicación favorece una mayor absorción del producto y un control más eficiente y duradero de las malezas",
+    "descripcion": "Herbicida post-emergente es un herbicida de acción post-emergente diseñado para el control de malezas anuales y perennes, tanto de hoja ancha como gramíneas. Su aplicación ayuda a eliminar las malezas en crecimiento activo, reduciendo la competencia por agua, nutrientes y luz, lo que favorece el desarrollo del cultivo. Se recomienda su uso con buena cobertura foliar para lograr un control más rápido, uniforme y duradero.",
     "stock": -1,
     "imagenes": [
       "/producto/glufone/images/glufone-1.webp"
@@ -809,9 +809,18 @@
       {
         "name": "Presentación",
         "options": [
-          "LT",
-          "GL",
-          "CANECA"
+          {
+            "label": "LT ($5.25)",
+            "price": 5.25
+          },
+          {
+            "label": "GL ($19.00)",
+            "price": 19.0
+          },
+          {
+            "label": "CANECA ($79.50)",
+            "price": 79.5
+          }
         ]
       }
     ],
