@@ -1493,7 +1493,14 @@
     "imagenes": [
       "/producto/rooslito/images/rooslito-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
