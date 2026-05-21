@@ -1449,7 +1449,14 @@
     "imagenes": [
       "/producto/nutrix-cacao/images/nutrix-cacao-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
