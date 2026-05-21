@@ -1043,7 +1043,14 @@
     "imagenes": [
       "/producto/lamcy/images/lamcy-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "250ml"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
