@@ -754,7 +754,14 @@
     "imagenes": [
       "/producto/fungil/images/fungil-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
