@@ -1203,7 +1203,7 @@
     "id": 12358,
     "slug": "nutrikel-ca-b-zn",
     "nombre": "NUTRIKEL CA-B-ZN",
-    "precio": "16",
+    "precio": "13",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Quelatamientos a base de poliaminas y oxidos metalicos. Estimula al desarrollo del follaje, favorece a la floracion y cuajado, promoviendo altos rendimientos en sus cultivos.",
@@ -1211,7 +1211,14 @@
     "imagenes": [
       "/producto/nutrikel-ca-b-zn/images/nutrikel-ca-b-zn-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
