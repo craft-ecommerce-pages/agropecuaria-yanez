@@ -487,7 +487,14 @@
     "imagenes": [
       "/producto/eslabon/images/eslabon-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "250ml"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
