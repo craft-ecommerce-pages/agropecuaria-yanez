@@ -768,7 +768,7 @@
     "id": 12402,
     "slug": "germizol",
     "nombre": "GERMIZOL",
-    "precio": "17",
+    "precio": "15",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Sal de potasio de ácido húmico de alta pureza obtenida de leonardita, diseñada para mejorar la nutrición y el vigor del zooplancton y las algas. Favorece la absorción y el transporte de nutrientes, estimulando el crecimiento y desarrollo de los organismos acuáticos. Además, contribuye a optimizar la productividad y el equilibrio biológico del sistema.",
@@ -780,8 +780,14 @@
       {
         "name": "Presentación",
         "options": [
-          "KG",
-          "20KG"
+          {
+            "label": "KG ($15.00)",
+            "price": 15.0
+          },
+          {
+            "label": "20KG ($250.00)",
+            "price": 250.0
+          }
         ]
       }
     ],
