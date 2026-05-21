@@ -365,7 +365,7 @@
     "precio": "15",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Fungicida y bactericida de amplio espectro a base de sulfato de cobre pentahidratado, formulado para el control eficaz de enfermedades fúngicas y bacterianas en diversos cultivos agrícolas.\n\nActúa por contacto, formando una barrera protectora en la superficie vegetal que inhibe la germinación de esporas y la multiplicación de bacterias fitopatógenas, reduciendo la progresión de la enfermedad.\n\nEs efectivo contra oídio, Erwinia, Phytophthora, moniliasis y otros patógenos de importancia económica, contribuyendo a mantener la sanidad del cultivo, reducir pérdidas y mejorar la productividad agrícola.",
+    "descripcion": "Fungicida a base de sulfato de cobre pentahidratado es un fungicida y bactericida de amplio espectro que actúa por contacto, formando una barrera protectora sobre la planta para impedir el desarrollo de hongos y bacterias. Es eficaz contra enfermedades como oídio, Erwinia, Phytophthora y moniliasis, ayudando a mantener la sanidad del cultivo, reducir pérdidas y mejorar la productividad agrícola.",
     "stock": -1,
     "imagenes": [
       "/producto/cuprospor/images/cuprospor-1.webp"
@@ -374,9 +374,18 @@
       {
         "name": "Presentación",
         "options": [
-          "250ML",
-          "500ML",
-          "LT"
+          {
+            "label": "250ML ($15.00)",
+            "price": 15.0
+          },
+          {
+            "label": "500ML ($20.00)",
+            "price": 20.0
+          },
+          {
+            "label": "LT ($35.00)",
+            "price": 35.0
+          }
         ]
       }
     ],
