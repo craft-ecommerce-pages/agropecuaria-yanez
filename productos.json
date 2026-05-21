@@ -221,10 +221,22 @@
       {
         "name": "Presentación",
         "options": [
-          "LT",
-          "GL",
-          "CANECA",
-          "TANQUE"
+          {
+            "label": "LT=$ ($10.00)",
+            "price": 10.0
+          },
+          {
+            "label": "GL ($35.00)",
+            "price": 35.0
+          },
+          {
+            "label": "CANECA ($140.00)",
+            "price": 140.0
+          },
+          {
+            "label": "TANQUE ($1358.00)",
+            "price": 1358.0
+          }
         ]
       }
     ],
