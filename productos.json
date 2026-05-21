@@ -431,12 +431,19 @@
     "precio": "73",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "DAKOTA es un bioestimulante edáfico de origen canadiense con alto contenido de ácidos húmicos provenientes de leonardita de alta calidad. Actúa como acondicionador de suelos, mejorando de manera progresiva la estructura, fertilidad y capacidad de retención de nutrientes y humedad durante largos períodos.\n\nSu aplicación favorece el desarrollo radicular, incrementa la disponibilidad de nutrientes y estimula la actividad microbiológica del suelo, contribuyendo a un mejor crecimiento y rendimiento de los cultivos. Es ampliamente utilizado en cultivos hortícolas, frutales y agrícolas en general.\n\nGracias a su alto aporte de materia orgánica, se recomienda aplicarlo en las etapas iniciales del cultivo para optimizar las condiciones del suelo, mejorar su calidad y ayudar a prevenir problemas de acidificación",
+    "descripcion": "DAKOTA es un bioestimulante de origen canadiense elaborado con ácidos húmicos de leonardita, utilizado para mejorar la estructura, fertilidad y retención de humedad del suelo. Favorece el desarrollo radicular, aumenta la disponibilidad de nutrientes y estimula la actividad microbiológica, contribuyendo a un mejor crecimiento y rendimiento de los cultivos. Se recomienda su aplicación en etapas iniciales para optimizar la calidad del suelo y prevenir la acidificación.",
     "stock": -1,
     "imagenes": [
       "/producto/dakota/images/dakota-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "25Kg"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
