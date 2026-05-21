@@ -1266,7 +1266,14 @@
     "imagenes": [
       "/producto/nutrikel-engrose-plus/images/nutrikel-engrose-plus-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
