@@ -1532,12 +1532,19 @@
     "precio": "39",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Sibilant es un insecticida y acaricida de doble acción formulado con Bifenthrin (100 g/l) y Lufenuron (50 g/l), diseñado para brindar un control rápido, efectivo y prolongado sobre diversas plagas que afectan los cultivos agrícolas.\nSu combinación de ingredientes activos permite una acción de choque inmediata sobre insectos adultos y una acción persistente que interfiere en el desarrollo de larvas y estados inmaduros, rompiendo el ciclo biológico de las plagas y reduciendo reinfestaciones. Además, actúa por contacto e ingestión, ofreciendo una protección más completa y duradera.\n\nSibilant es altamente eficaz en el control de plagas como gusano blanco, polilla, trips, pulgones, gusano cogollero y ácaros, ayudando a disminuir daños en hojas, tallos y frutos, y favoreciendo un mejor desarrollo y rendimiento de los cultivos. Puede utilizarse en diversos sistemas agrícolas y su dosis estándar recomendada es de 250 ml por cada 200 litros de agua, ajustándose según el cultivo y el nivel de infestación.",
+    "descripcion": "Sibilant es un insecticida y acaricida de doble acción que combina Bifenthrin y Lufenuron para un control rápido y prolongado de plagas. Actúa sobre insectos adultos por contacto e ingestión y sobre larvas interrumpiendo su desarrollo, rompiendo el ciclo biológico. Es eficaz contra gusano blanco, polilla, trips, pulgones, gusano cogollero y ácaros, reduciendo daños y favoreciendo un mejor crecimiento y rendimiento de los cultivos.",
     "stock": -1,
     "imagenes": [
       "/producto/sibilant/images/sibilant-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
