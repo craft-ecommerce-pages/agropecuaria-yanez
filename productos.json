@@ -1471,7 +1471,14 @@
     "imagenes": [
       "/producto/pollux/images/pollux-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "100gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
