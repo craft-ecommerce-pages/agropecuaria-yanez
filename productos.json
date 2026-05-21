@@ -223,7 +223,14 @@
     "imagenes": [
       "/producto/aval/images/aval-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
