@@ -1590,7 +1590,14 @@
     "imagenes": [
       "/producto/verdefance/images/verdefance-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Kg"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
@@ -1600,15 +1607,21 @@
     "precio": "12",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro con acción sistémica y de contacto, especialmente formulado para el tratamiento de material de propagación como semillas, cormos, esquejes y tubérculos antes de la siembra. Su combinación de Carboxin y Tiram proporciona una protección integral contra hongos patógenos presentes en el suelo y en la semilla, reduciendo el riesgo de infecciones tempranas en el cultivo. El Carboxin actúa de forma sistémica, penetrando en el tejido vegetal y protegiendo el embrión desde el interior, mientras que el Tiram actúa por contacto en la superficie, creando una barrera protectora que inhibe la germinación de esporas y el desarrollo de hongos. Esta sinergia permite un control eficaz de enfermedades como pudriciones de semilla, damping-off y otros patógenos que afectan la emergencia inicial del cultivo.\nVITAVAX FLOABLE contribuye a una germinación más uniforme y vigorosa, favoreciendo un establecimiento rápido y saludable de las plantas. Al reducir la presión de enfermedades en las etapas iniciales, mejora el porcentaje de emergencia y fortalece el desarrollo radicular, lo que se traduce en plantas más sanas y productivas.",
+    "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro con acción sistémica y de contacto, formulado para el tratamiento de semillas, cormos, esquejes y tubérculos antes de la siembra. Combina Carboxin y Tiram para proteger el embrión desde el interior y la superficie de los patógenos, controlando pudriciones, damping-off y otras enfermedades tempranas. Favorece una germinación uniforme y vigorosa, un rápido establecimiento y desarrollo radicular, contribuyendo a plantas más sanas y productivas.",
     "stock": -1,
     "imagenes": [],
     "variantes": [
       {
         "name": "Presentación",
         "options": [
-          "250ML",
-          "LT"
+          {
+            "label": "250ML ($12.00)",
+            "price": 12.0
+          },
+          {
+            "label": "LT ($36.00)",
+            "price": 36.0
+          }
         ]
       }
     ],
@@ -1621,15 +1634,21 @@
     "precio": "14",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Volcán-C es un fungicida y bactericida agrícola de acción sistémica y de contacto, formulado para el manejo integral de enfermedades causadas por hongos y bacterias en diversos cultivos. Está especialmente indicado para el control de patógenos del orden Peronosporales, como Phytophthora spp. y Peronospora spp. (mildius), así como de bacterias fitopatógenas de importancia económica como Erwinia, Xanthomonas y Pseudomonas.\nSu doble modo de acción le permite actuar tanto en la superficie de la planta como en su interior, proporcionando una protección preventiva al inhibir la germinación de esporas y el establecimiento del patógeno, además de un efecto curativo inicial, al limitar el avance de infecciones ya presentes en los tejidos vegetales.\nVolcán-C interfiere en procesos esenciales del desarrollo de hongos y bacterias, afectando su multiplicación y propagación dentro del cultivo, lo que contribuye a reducir la incidencia y severidad de las enfermedades. Su acción sistémica favorece una distribución uniforme del ingrediente activo, protegiendo brotes nuevos y tejidos en crecimiento.",
+    "descripcion": "Volcán-C es un fungicida y bactericida de acción sistémica y de contacto, indicado para el control de hongos como Phytophthora y Peronospora, y bacterias fitopatógenas como Erwinia, Xanthomonas y Pseudomonas. Actúa de manera preventiva y curativa, inhibiendo la germinación de esporas y limitando infecciones existentes, con distribución uniforme que protege tejidos nuevos y en crecimiento, reduciendo la incidencia y severidad de las enfermedades en diversos cultivos.",
     "stock": -1,
     "imagenes": [],
     "variantes": [
       {
         "name": "Presentación",
         "options": [
-          "500GR",
-          "KG"
+          {
+            "label": "500GR ($14.00)",
+            "price": 14.0
+          },
+          {
+            "label": "KG ($25.00)",
+            "price": 25.0
+          }
         ]
       }
     ],
@@ -1639,10 +1658,10 @@
     "id": 12369,
     "slug": "vultur",
     "nombre": "VULTUR",
-    "precio": "9",
+    "precio": "8",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "VULTUR es un fertilizante líquido inorgánico concentrado, rico en calcio (17%), zinc (3.9%) y boro (0.39%), diseñado para optimizar el crecimiento, floración y fructificación en cultivos como maíz, cacao y otros de importancia agrícola.\n\nSu formulación con ácidos carboxílicos mejora la disponibilidad y absorción de los nutrientes, favoreciendo su rápida asimilación por la planta. El calcio fortalece las paredes celulares y mejora la firmeza de los tejidos, mientras que el zinc y el boro participan en procesos clave de división celular, formación de flores y cuajado de frutos.\n\nContribuye al desarrollo de raíces más vigorosas, plantas más equilibradas y una mejor calidad de la producción, aumentando el rendimiento y la resistencia del cultivo frente a condiciones de estrés.",
+    "descripcion": "VULTUR es un fertilizante líquido rico en calcio, zinc y boro, diseñado para mejorar crecimiento, floración y fructificación en cultivos como maíz y cacao. Su formulación con ácidos carboxílicos optimiza la absorción de nutrientes, fortaleciendo paredes celulares, promoviendo división celular, formación de flores y cuajado de frutos, favoreciendo raíces vigorosas, plantas equilibradas, mayor calidad y rendimiento, y mejor resistencia al estrés.",
     "stock": -1,
     "imagenes": [
       "/producto/vultur/images/vultur-1.webp"
@@ -1651,8 +1670,14 @@
       {
         "name": "Presentación",
         "options": [
-          "500ML",
-          "LT"
+          {
+            "label": "500ML ($8.00)",
+            "price": 8.0
+          },
+          {
+            "label": "LT ($15.00)",
+            "price": 15.0
+          }
         ]
       }
     ],
@@ -1665,7 +1690,7 @@
     "precio": "8",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "ZENDO® es un insecticida de amplio espectro formulado con clorpirifos, altamente eficaz para el control de una gran variedad de insectos y plagas que afectan diferentes cultivos agrícolas. Su acción combina efectos por contacto, ingestión e inhalación, proporcionando un control rápido y eficiente incluso en infestaciones de difícil manejo.\nGracias a su formulación especializada y alta presión de vapor, logra una excelente penetración y distribución en el follaje, alcanzando áreas donde otras aplicaciones tienen menor cobertura. Además, presenta alta resistencia al lavado por lluvia o riego, prolongando su efecto residual y aumentando la protección del cultivo.\n\nEn el suelo, ZENDO® se fija a la materia orgánica, permitiendo un efectivo control de insectos de suelo y tierreros, reduciendo daños en raíces y etapas iniciales del desarrollo vegetal. Su uso contribuye a mantener cultivos más sanos, vigorosos y productivos, siendo una herramienta confiable dentro de programas de manejo integrado de plagas.",
+    "descripcion": "ZENDO® es un insecticida de amplio espectro con clorpirifos que actúa por contacto, ingestión e inhalación, ofreciendo control rápido y eficiente de insectos en follaje y suelo. Su formulación permite penetración uniforme, resistencia al lavado y efecto residual prolongado, protegiendo raíces y etapas iniciales de los cultivos. Favorece plantas más sanas, vigorosas y productivas, siendo útil en programas de manejo integrado de plagas.",
     "stock": -1,
     "imagenes": [
       "/producto/zendo/images/zendo-1.webp"
@@ -1674,24 +1699,14 @@
       {
         "name": "Presentación",
         "options": [
-          "500ML",
-          "LT"
-        ]
-      }
-    ],
-    "sku": ""
-  }
-]to residual y aumentando la protección del cultivo.\n\nEn el suelo, ZENDO® se fija a la materia orgánica, permitiendo un efectivo control de insectos de suelo y tierreros, reduciendo daños en raíces y etapas iniciales del desarrollo vegetal. Su uso contribuye a mantener cultivos más sanos, vigorosos y productivos, siendo una herramienta confiable dentro de programas de manejo integrado de plagas.",
-    "stock": -1,
-    "imagenes": [
-      "/producto/zendo/images/zendo-1.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Presentación",
-        "options": [
-          "500ML",
-          "LT"
+          {
+            "label": "500ML ($8.00)",
+            "price": 8.0
+          },
+          {
+            "label": "LT ($14.00)",
+            "price": 14.0
+          }
         ]
       }
     ],
