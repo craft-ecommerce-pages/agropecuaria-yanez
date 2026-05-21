@@ -250,7 +250,7 @@
         "name": "Presentación",
         "options": [
           {
-            "label": "LT=$ ($10.00)",
+            "label": "LT ($10.00)",
             "price": 10.0
           },
           {
