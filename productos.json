@@ -395,7 +395,7 @@
     "id": 12348,
     "slug": "cytogrow-plus",
     "nombre": "CYTOGROW PLUS",
-    "precio": "13",
+    "precio": "12",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Estimula el crecimiento y facilita la nutrición de las plantas al promover la emisión de yema, la formación de brotes, mejorar el tamaño de espigas y aumentar la cantidad de flores.",
@@ -407,9 +407,18 @@
       {
         "name": "Presentación",
         "options": [
-          "250ML",
-          "500ML",
-          "LT"
+          {
+            "label": "250ML ($12.00)",
+            "price": 12.0
+          },
+          {
+            "label": "500ML ($17.00)",
+            "price": 17.0
+          },
+          {
+            "label": "LT ($33.00)",
+            "price": 33.0
+          }
         ]
       }
     ],
