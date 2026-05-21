@@ -915,7 +915,14 @@
     "imagenes": [
       "/producto/katalic/images/katalic-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "500gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
