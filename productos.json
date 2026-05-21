@@ -1378,12 +1378,19 @@
     "precio": "13",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Bioestimulante multifuncional con acción regeneradora del suelo, mejora la Capacidad de Intercambio Catiónico (CIC) y actúa como elicitor de defensas naturales en las plantas. Su formulación favorece la recuperación de la fertilidad del suelo, optimiza la disponibilidad de nutrientes y mejora la actividad biológica del entorno radicular.\n\nAdemás, estimula los mecanismos de defensa del cultivo, aumentando su resistencia frente a factores bióticos (plagas y enfermedades) y abióticos (sequía, salinidad, estrés térmico, entre otros). Contribuye a un desarrollo más equilibrado, mayor vigor vegetal y mejor desempeño productivo del cultivo.",
+    "descripcion": "Bioestimulante multifuncional es un bioestimulante que regenera la fertilidad del suelo, mejora la capacidad de intercambio catiónico (CIC) y optimiza la disponibilidad de nutrientes. Actúa como elicitor de defensas naturales, aumentando la resistencia del cultivo frente a estrés biótico y abiótico, promoviendo un desarrollo equilibrado, mayor vigor y mejor desempeño productivo.",
     "stock": -1,
     "imagenes": [
       "/producto/nutrikel-silicio/images/nutrikel-silicio-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
