@@ -513,8 +513,14 @@
       {
         "name": "Presentación",
         "options": [
-          "250ml",
-          "Lt"
+          {
+            "label": "250ml ($3.50)",
+            "price": 3.5
+          },
+          {
+            "label": "Lt ($10.75)",
+            "price": 10.75
+          }
         ]
       }
     ],
