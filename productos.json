@@ -55,7 +55,14 @@
     "imagenes": [
       "/producto/amepax/images/amepax-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
