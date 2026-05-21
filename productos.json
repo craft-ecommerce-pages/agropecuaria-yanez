@@ -1225,7 +1225,7 @@
     "id": 12357,
     "slug": "nutrikel-calcio-boro",
     "nombre": "NUTRIKEL CALCIO-BORO",
-    "precio": "9",
+    "precio": "8",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Fertilizante bioestimulante diseñado para optimizar las etapas de prefloración, floración y cuajado en los cultivos.\n\nSu acción favorece un desarrollo más equilibrado y vigoroso de la planta, promoviendo mayor rendimiento, mejor cuajado y frutos de alta calidad, asegurando una cosecha más productiva y uniforme.",
@@ -1237,9 +1237,18 @@
       {
         "name": "Presentación",
         "options": [
-          "500ML",
-          "LT",
-          "GL"
+          {
+            "label": "500ML ($8.00)",
+            "price": 8.0
+          },
+          {
+            "label": "LT ($14.00)",
+            "price": 14.0
+          },
+          {
+            "label": "GL ($45.00)",
+            "price": 45.0
+          }
         ]
       }
     ],
