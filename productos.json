@@ -1310,7 +1310,14 @@
     "imagenes": [
       "/producto/nutrikel-max/images/nutrikel-max-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
