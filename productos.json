@@ -582,7 +582,14 @@
     "imagenes": [
       "/producto/fijal/images/fijal-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
