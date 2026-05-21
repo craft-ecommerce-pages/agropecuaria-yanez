@@ -538,7 +538,14 @@
     "imagenes": [
       "/producto/estruendo/images/estruendo-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "100gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
