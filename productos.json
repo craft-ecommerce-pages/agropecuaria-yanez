@@ -126,16 +126,16 @@
         "name": "Presentación",
         "options": [
           {
-            "label": "Litro ($9.20)",
-            "price": 9.2
+            "label": "Litro=$ ($4.50)",
+            "price": 4.5
           },
           {
-            "label": "Galón ($20.30)",
-            "price": 20.3
+            "label": "Galón ($15.80)",
+            "price": 15.8
           },
           {
-            "label": "Caneca ($80.50)",
-            "price": 80.5
+            "label": "Caneca ($76.00)",
+            "price": 76.0
           }
         ]
       }
