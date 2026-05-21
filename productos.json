@@ -1174,7 +1174,7 @@
     "id": 12356,
     "slug": "nutrikel-boro",
     "nombre": "NUTRIKEL BORO",
-    "precio": "9",
+    "precio": "7.5",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Elemento clave para la germinación del polen y el crecimiento del tubo polínico, esencial para la reproducción eficiente de la planta.\n\nTambién es un componente fundamental de los tejidos meristemáticos, contribuyendo al desarrollo de brotes y nuevas hojas, y juega un papel importante en la textura y firmeza de flores y frutos, favoreciendo su calidad y consistencia.",
@@ -1186,8 +1186,14 @@
       {
         "name": "Presentación",
         "options": [
-          "500ML",
-          "LT"
+          {
+            "label": "500ML ($7.50)",
+            "price": 7.5
+          },
+          {
+            "label": "LT ($14.00)",
+            "price": 14.0
+          }
         ]
       }
     ],
