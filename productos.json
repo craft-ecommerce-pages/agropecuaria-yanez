@@ -1510,12 +1510,19 @@
     "precio": "18",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "SATISFAR (Azoxistrobina 500 g/kg) es un fungicida sistémico y translaminar de amplio espectro, formulado como gránulos dispersables (WG), con acción preventiva, curativa temprana y antiesporulante. Su ingrediente activo, la azoxistrobina, actúa inhibiendo la respiración mitocondrial de los hongos, bloqueando su crecimiento y deteniendo la propagación de la enfermedad.\n\nGracias a su movimiento dentro de la planta, protege de manera uniforme los tejidos tratados y en crecimiento, brindando un control eficaz y prolongado. Es altamente efectivo contra royas, oídios, antracnosis y pudriciones, y se recomienda en cultivos como papa, cebolla, maíz, soya, frutales y ornamentales, contribuyendo a mantener la sanidad del cultivo y mejorar su rendimiento y calidad.",
+    "descripcion": "SATISFAR es un fungicida de amplio espectro formulado como gránulos dispersables, con acción preventiva, curativa temprana y antiesporulante. Su ingrediente activo, azoxistrobina, inhibe la respiración mitocondrial de los hongos, deteniendo su crecimiento y propagación. Se mueve dentro de la planta, protegiendo tejidos existentes y nuevos, y es eficaz contra royas, oídios, antracnosis y pudriciones, contribuyendo a mantener la sanidad, rendimiento y calidad de cultivos como papa, cebolla, maíz, soya, frutales y ornamentales.",
     "stock": -1,
     "imagenes": [
       "/producto/satisfar/images/satisfar-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "100gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
