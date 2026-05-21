@@ -201,7 +201,14 @@
     "imagenes": [
       "/producto/arutam/images/arutam-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "75gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
