@@ -596,7 +596,7 @@
     "id": 12388,
     "slug": "finidor",
     "nombre": "FINIDOR",
-    "precio": "12",
+    "precio": "10",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Insecticida sistémico y de contacto de amplio espectro para el control de un sin número de plagas tales como chinches, polillas, gusanos, moscas, trips, barrenadores y minadores. Formulado especialmente para tratamientos foliares y radiculares (drench). Posee larga acción residual por lo que garantiza un control duradero en el tiempo.",
@@ -604,7 +604,14 @@
     "imagenes": [
       "/producto/finidor/images/finidor-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "120ml"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
