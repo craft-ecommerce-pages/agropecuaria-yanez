@@ -1086,7 +1086,7 @@
     "id": 12354,
     "slug": "metabolik",
     "nombre": "METABOLIK",
-    "precio": "17",
+    "precio": "15",
     "precio_promo": "",
     "categoria": "",
     "descripcion": "Metabolik actúa como regulador del crecimiento, ayudando a coordinar procesos fisiológicos clave en la planta. Es una herramienta útil para complementar el programa de nutrición y manejo, apoyando la uniformidad, el vigor y la respuesta del cultivo, según dosis y momento de aplicación. Activando el metabolismo de la planta mejorando la estimulación hormonal y la síntesis de aminoácidos en el cultivo.",
@@ -1099,12 +1099,12 @@
         "name": "Presentación",
         "options": [
           {
-            "label": "250ML ($31.60)",
-            "price": 31.6
+            "label": "250ML ($15.00)",
+            "price": 15.0
           },
           {
-            "label": "Litro ($62.00)",
-            "price": 62.0
+            "label": "Litro ($45.00)",
+            "price": 45.0
           }
         ]
       }
