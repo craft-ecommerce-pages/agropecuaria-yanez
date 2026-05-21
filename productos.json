@@ -560,7 +560,14 @@
     "imagenes": [
       "/producto/fijafol/images/fijafol-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
