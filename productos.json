@@ -932,12 +932,19 @@
     "precio": "17",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Solución potásica elaborada a partir de aceites vegetales, con acción insecticida y acaricida de origen vegetal, especialmente formulada para el control efectivo de insectos chupadores y ácaros que afectan diversos cultivos agrícolas y ornamentales.\nActúa principalmente por contacto, reblandeciendo y alterando la capa protectora externa de los insectos y ácaros, provocando deshidratación, asfixia y muerte de la plaga. Gracias a su mecanismo físico de acción, ofrece un excelente control sobre cochinillas, mosca blanca, ácaros, áfidos, pulgones, trips y otros insectos de cuerpo blando, reduciendo rápidamente las poblaciones infestantes.\nSu formulación a base de aceites vegetales favorece una buena cobertura y adherencia sobre hojas y tallos, permitiendo alcanzar insectos ubicados en el envés de las hojas y zonas de difícil acceso. Además, ayuda a limpiar la melaza producida por algunas plagas, mejorando la respiración y apariencia del follaje.",
+    "descripcion": "Insecticida potásico a base de aceites vegetales es un insecticida y acaricida de origen vegetal que actúa por contacto, debilitando la capa protectora de insectos y ácaros hasta provocar su deshidratación y muerte. Es eficaz contra plagas de cuerpo blando como pulgones, mosca blanca, trips, cochinillas y ácaros. Su formulación a base de aceites vegetales mejora la cobertura y adherencia en el follaje, ayudando también a limpiar la melaza y mejorar la sanidad de la planta.",
     "stock": -1,
     "imagenes": [
       "/producto/killbac/images/killbac-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
