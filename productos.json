@@ -149,7 +149,7 @@
     "precio": "20",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Regulador de crecimiento tetra-hormonal (Auxinas, Citoquininas, Giberelinas y Brasinoesteroides). El principal efecto de las auxinas es la elongación de las células, debido principalmente a que la pared celular se hace más plástica. Las citoquininas, en combinación con las auxinas, provocan la formación de masas celulares indiferenciadas denominadas callo. También estimulan el desarrollo de las yemas laterales. Tiene la propiedad de estimular el metabolismo y la fitoregulación de las plantas, facilitando una mejor absorción de los nutrientes y un mayor vigor productivo. Las giberelinas aceleran la germinación de semillas y provocan de la entrada en floración independientemente del fotoperiodo o de la temperatura. Los brasinoesteroides influyen en la germinación, rizogénesis, floración, senescencia y abscisión.",
+    "descripcion": "Regulador tetra-hormonal es un regulador de crecimiento vegetal que combina auxinas, citoquininas, giberelinas y brasinoesteroides para estimular el desarrollo integral de la planta. Favorece la elongación celular, formación de tejidos, desarrollo de yemas, germinación, floración y crecimiento radicular, además de mejorar la absorción de nutrientes, el metabolismo y el vigor productivo del cultivo.",
     "stock": -1,
     "imagenes": [
       "/producto/apoyador-plus/images/apoyador-plus-1.webp"
@@ -158,9 +158,18 @@
       {
         "name": "Presentación",
         "options": [
-          "250ML",
-          "500ML",
-          "LT"
+          {
+            "label": "250ML=$ ($20.00)",
+            "price": 20.0
+          },
+          {
+            "label": "500ML ($39.00)",
+            "price": 39.0
+          },
+          {
+            "label": "LT ($57.00)",
+            "price": 57.0
+          }
         ]
       }
     ],
