@@ -11,7 +11,14 @@
     "imagenes": [
       "/producto/agrofull-k/images/agrofull-k-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
