@@ -96,8 +96,14 @@
       {
         "name": "Presentación",
         "options": [
-          "250GR",
-          "KG"
+          {
+            "label": "250GR ($18.00)",
+            "price": 18.0
+          },
+          {
+            "label": "KG ($41.50)",
+            "price": 41.5
+          }
         ]
       }
     ],
