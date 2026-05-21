@@ -313,7 +313,14 @@
     "imagenes": [
       "/producto/centella/images/centella-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
