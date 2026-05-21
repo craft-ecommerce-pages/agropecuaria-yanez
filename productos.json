@@ -1288,7 +1288,14 @@
     "imagenes": [
       "/producto/nutrikel-espigador/images/nutrikel-espigador-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
