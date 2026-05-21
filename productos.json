@@ -1400,12 +1400,19 @@
     "precio": "15",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "Bioestimulante de alta eficiencia formulado a base de aminoácidos, azufre y zinc, diseñado para mejorar el crecimiento y la respuesta fisiológica de los cultivos frente a condiciones de estrés. Sus aminoácidos favorecen la recuperación y el desarrollo vegetal, ayudando a la planta a superar estrés abiótico y promoviendo un crecimiento más vigoroso.\n\nEl azufre contribuye como elemento de defensa natural, fortaleciendo la resistencia del cultivo frente al ataque de plagas y enfermedades. Por su parte, el zinc actúa como micronutriente esencial, participando en la activación enzimática, regulación del crecimiento y estimulación de la división celular.\n\nEn conjunto, estos componentes mejoran el metabolismo de la planta, optimizan su desarrollo y favorecen una mayor productividad y sanidad del cultivo.",
+    "descripcion": "Bioestimulante aminoácido-azufre-zinc es un bioestimulante formulado con aminoácidos, azufre y zinc que mejora el crecimiento y la respuesta fisiológica de los cultivos frente a estrés. Los aminoácidos favorecen el desarrollo vegetal, el azufre fortalece la defensa natural y el zinc actúa como micronutriente esencial, optimizando metabolismo, división celular y desarrollo, promoviendo mayor vigor, productividad y sanidad del cultivo.",
     "stock": -1,
     "imagenes": [
       "/producto/nutrikel-zinc-plus/images/nutrikel-zinc-plus-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
