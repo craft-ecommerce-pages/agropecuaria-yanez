@@ -954,12 +954,19 @@
     "precio": "8",
     "precio_promo": "",
     "categoria": "",
-    "descripcion": "KMELOT® es un insecticida de doble mecanismo de acción que combina efecto sistémico y de contacto, proporcionando un control rápido, eficaz y prolongado sobre una amplia variedad de plagas de importancia agrícola. Su formulación permite una excelente absorción y distribución dentro de la planta, protegiendo tanto el follaje tratado como los nuevos brotes en desarrollo.\nEstá especialmente diseñado para el manejo de plagas chupadoras y minadoras como mosca blanca, pulgones, trips, minadores de hoja y otros insectos que afectan el crecimiento y productividad de los cultivos. Su acción sistémica permite controlar insectos ocultos o de difícil acceso, mientras que su efecto de contacto genera un rápido derribe y disminución inmediata de las poblaciones infestantes.\nKMELOT® actúa interfiriendo en el sistema nervioso de los insectos, provocando alteraciones en la alimentación, movilidad y reproducción, lo que conduce rápidamente a su control y eliminación. Además, su efecto residual contribuye a mantener una protección prolongada del cultivo, reduciendo reinfestaciones y favoreciendo un manejo fitosanitario más eficiente.",
+    "descripcion": "KMELOT® es un insecticida de doble acción (sistémica y de contacto) que proporciona control rápido y prolongado de plagas agrícolas. Se distribuye dentro de la planta, protegiendo brotes nuevos, y actúa también por contacto generando un efecto de derribe inmediato. Está orientado al control de insectos chupadores y minadores como mosca blanca, pulgones, trips y minadores de hoja, afectando su sistema nervioso y reduciendo su alimentación, movilidad y reproducción, con protección residual que ayuda a prevenir reinfestaciones.",
     "stock": -1,
     "imagenes": [
       "/producto/kmelot/images/kmelot-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "100gr"
+        ]
+      }
+    ],
     "sku": ""
   },
   {
