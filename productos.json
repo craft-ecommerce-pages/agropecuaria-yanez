@@ -322,6 +322,19 @@
     "sku": ""
   },
   {
+    "id": 12422,
+    "slug": "bomba-fumigadora-5lt",
+    "nombre": "BOMBA FUMIGADORA 5LT",
+    "precio": "9",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Bomba pressure sprayer (pulverizador o fumigador a presión) de 5 litros es un equipo manual diseñado para aplicar líquidos de manera uniforme. Es ideal para jardinería, control de plagas y limpieza en exteriores. Funciona acumulando presión mediante una bomba manual para lograr una aspersión continua y controlada.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": 12421,
     "slug": "bomba-jacto-hd550",
     "nombre": "BOMBA JACTO HD550",
