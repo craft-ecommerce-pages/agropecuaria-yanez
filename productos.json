@@ -1073,6 +1073,37 @@
     "sku": ""
   },
   {
+    "id": 12426,
+    "slug": "killbac-oil",
+    "nombre": "KILLBAC OIL",
+    "precio": "11",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Killbac Oil es un aceite mineral emulsificado de alta pureza diseñado para uso agrícola. Funciona principalmente como coadyuvante o adherente para mejorar la efectividad de los agroquímicos, y también como insecticida/acaricida de contacto.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          {
+            "label": "Lt ($11.00)",
+            "price": 11.0
+          },
+          {
+            "label": "Gl ($42.00)",
+            "price": 42.0
+          },
+          {
+            "label": "Caneca ($170.00)",
+            "price": 170.0
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12391,
     "slug": "kmelot",
     "nombre": "KMELOT",
