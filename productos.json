@@ -792,7 +792,9 @@
     "categoria": "",
     "descripcion": "Dispersante siliconado de alta eficiencia para aplicaciones agrícolas\n\nDispersante formulado a base de siliconas que reduce significativamente la tensión superficial de las gotas pulverizadas, favoreciendo una mejor extensión y cobertura sobre la superficie de las plantas.\n\nSu acción permite una distribución más uniforme del caldo de aplicación, mejorando el contacto del producto con el follaje y potenciando la eficacia de agroquímicos y fertilizantes.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fitowet/images/fitowet-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
