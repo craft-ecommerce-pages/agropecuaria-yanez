@@ -1692,7 +1692,9 @@
     "categoria": "",
     "descripcion": "",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/saniquat-40/images/saniquat-40-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
