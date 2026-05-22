@@ -1511,6 +1511,26 @@
     "sku": ""
   },
   {
+    "id": 12418,
+    "slug": "regener-booster",
+    "nombre": "REGENER BOOSTER",
+    "precio": "20",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Regener Booster es un bioestimulante y regenerador de suelos 100% orgánico y biodegradable. Es ampliamente utilizado en el agro ecuatoriano (en cultivos como banano, plátano, cacao y flores) para mejorar el desarrollo vegetativo, activar la floración y fortalecer el sistema inmunológico de las plantas.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentación",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12395,
     "slug": "rooslito",
     "nombre": "ROOSLITO",
