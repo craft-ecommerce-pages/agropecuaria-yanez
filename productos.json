@@ -1714,7 +1714,9 @@
     "categoria": "",
     "descripcion": "",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/regula-dureza/images/regula-dureza-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
