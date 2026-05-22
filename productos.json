@@ -330,7 +330,9 @@
     "categoria": "",
     "descripcion": "El Jacto HD 550 es un pulverizador agrícola y de jardinería manual de alta resistencia. Diseñado para el trabajo diario, destaca por su bomba de pistón duplo y su cámara de compresión de 900 ml, lo que permite alcanzar y mantener la presión con menos bombeos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bomba-jacto-hd550/images/bomba-jacto-hd550-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
