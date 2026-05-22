@@ -300,6 +300,26 @@
     "sku": ""
   },
   {
+    "id": 12419,
+    "slug": "biodarhy",
+    "nombre": "BIODARHY",
+    "precio": "31",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "BIODARHY es una enmienda bioestimulante de alto rendimiento para uso agrícola, diseñada para mejorar la estructura del suelo y potenciar la eficiencia de los fertilizantes.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "20Kg"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12410,
     "slug": "bronco-plus",
     "nombre": "BRONCO PLUS",
