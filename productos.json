@@ -1908,7 +1908,9 @@
     "categoria": "",
     "descripcion": "TOPSTAR 250 es un fungicida sistémico de amplio espectro con acción protectora, curativa y erradicante temprana, formulado con difenoconazole. Inhibe la biosíntesis del ergosterol en los hongos, deteniendo su crecimiento y propagación. Se distribuye dentro de la planta, protegiendo hojas, brotes y tejidos en desarrollo, con efecto residual prolongado. Es eficaz en múltiples cultivos, contribuyendo a mantener la sanidad, mejorar el desarrollo del cultivo y asegurar mayor calidad y rendimiento de la cosecha dentro de programas de manejo integrado de enfermedades.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/topstar/images/topstar-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
