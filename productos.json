@@ -1684,6 +1684,26 @@
     "sku": ""
   },
   {
+    "id": 12425,
+    "slug": "saniquat-40",
+    "nombre": "SANIQUAT-40",
+    "precio": "44.8",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "Gl"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12379,
     "slug": "satisfar",
     "nombre": "SATISFAR",
