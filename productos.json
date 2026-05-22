@@ -1651,6 +1651,37 @@
     "sku": ""
   },
   {
+    "id": 12424,
+    "slug": "saniquat-25",
+    "nombre": "SANIQUAT-25",
+    "precio": "10",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "SANIQUAT-25 es un potente desinfectante y sanitizante multiusos formulado a base de sales de amonio cuaternario (generalmente de quinta generación). Está diseñado para eliminar de manera efectiva y segura hongos, bacterias y virus en superficies duras.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          {
+            "label": "Lt ($10.00)",
+            "price": 10.0
+          },
+          {
+            "label": "Gl ($32.70)",
+            "price": 32.7
+          },
+          {
+            "label": "Caneca ($123.50)",
+            "price": 123.5
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12379,
     "slug": "satisfar",
     "nombre": "SATISFAR",
