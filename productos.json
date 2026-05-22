@@ -389,7 +389,9 @@
     "categoria": "",
     "descripcion": "La bomba Matabi es un pulverizador o fumigadora manual diseñada para aplicar líquidos de manera precisa y uniforme, como pesticidas, herbicidas o fertilizantes. Su construcción resistente y fácil manejo la hace ideal para uso profesional en agricultura, jardinería y control de plagas, garantizando una distribución eficiente del producto y un trabajo más seguro y efectivo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bomba-matabi/images/bomba-matabi-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
