@@ -653,10 +653,7 @@
       {
         "name": "Presentación",
         "options": [
-          {
-            "label": "18Kg ($155.00)",
-            "price": 155.0
-          }
+          "18Kg"
         ]
       }
     ],
