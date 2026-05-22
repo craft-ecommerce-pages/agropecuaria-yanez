@@ -330,7 +330,9 @@
     "categoria": "",
     "descripcion": "Jacto PJH-9000 es una de las mochilas pulverizadoras manuales más populares y duraderas a nivel mundial, ideal para labores agrícolas y de jardinería. Cuenta con un tanque de 20 litros y una bomba de pistón doble de alta presión, lo que permite una aplicación precisa y eficiente de pesticidas y fertilizantes.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bomba-jacto-pjh-9000/images/bomba-jacto-pjh-9000-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
