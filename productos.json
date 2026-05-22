@@ -433,7 +433,9 @@
     "categoria": "",
     "descripcion": "Una bomba sprayer de 2 litros (también conocida como pulverizador o fumigador manual) es un dispositivo ligero y portátil diseñado para esparcir líquidos en forma de rocío o niebla fina. Funciona mediante presión manual acumulada y es ideal para el cuidado de plantas, limpieza y desinfección.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bomba-sprayer-2lt/images/bomba-sprayer-2lt-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
