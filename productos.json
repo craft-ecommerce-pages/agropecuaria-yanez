@@ -308,7 +308,9 @@
     "categoria": "",
     "descripcion": "BIODARHY es una enmienda bioestimulante de alto rendimiento para uso agrícola, diseñada para mejorar la estructura del suelo y potenciar la eficiencia de los fertilizantes.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/biodarhy/images/biodarhy-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
