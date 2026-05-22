@@ -485,7 +485,9 @@
     "categoria": "",
     "descripcion": "Calcio, Boro y Zinc es un fertilizante agrícola y bioestimulante fundamental utilizado en las etapas de floración y cuajado de frutos. Estos tres nutrientes trabajan en sinergia para mejorar la calidad de las cosechas, prevenir el aborto de flores y asegurar un correcto desarrollo celular.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/calcio-boro-zinc-ls/images/calcio-boro-zinc-ls-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
