@@ -330,7 +330,9 @@
     "categoria": "",
     "descripcion": "Bomba pressure sprayer (pulverizador o fumigador a presión) de 5 litros es un equipo manual diseñado para aplicar líquidos de manera uniforme. Es ideal para jardinería, control de plagas y limpieza en exteriores. Funciona acumulando presión mediante una bomba manual para lograr una aspersión continua y controlada.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bomba-fumigadora-5lt/images/bomba-fumigadora-5lt-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
