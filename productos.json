@@ -653,7 +653,10 @@
       {
         "name": "Presentación",
         "options": [
-          "18Kg=$"
+          {
+            "label": "18Kg ($155.00)",
+            "price": 155.0
+          }
         ]
       }
     ],
