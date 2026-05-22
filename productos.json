@@ -8,7 +8,9 @@
     "categoria": "",
     "descripcion": "AGROFULL K es un fertilizante foliar de óxido de potasio complejado con ácidos carboxílicos de bajo peso molecular, lo que facilita su rápida absorción por las hojas. Su acción mejora el flujo de agua y nutrientes dentro de la planta, favoreciendo el transporte de elementos hacia frutos y órganos de consumo. Como resultado, ayuda a aumentar el calibre, color, firmeza y calidad de los frutos, además de optimizar la transpiración y el potencial osmótico de la planta.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/agrofull-k/images/agrofull-k-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -57,7 +59,9 @@
     "categoria": "",
     "descripcion": "AMEPAX es un herbicida selectivo y sistémico a base de ametrina, utilizado para el control de malezas de hoja ancha y algunas gramíneas. Actúa inhibiendo la fotosíntesis de las malezas, deteniendo su crecimiento y provocando su eliminación progresiva. Ofrece control prolongado gracias a su efecto residual en el suelo, reduciendo nuevas emergencias y disminuyendo la necesidad de aplicaciones repetidas. Es ampliamente usado en cultivos como caña de azúcar, maíz y plantaciones industriales, recomendándose su aplicación en malezas jóvenes y en crecimiento activo para obtener mejores resultados.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/amepax/images/amepax-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
@@ -77,7 +81,9 @@
     "categoria": "",
     "descripcion": "Amino-50 es un bioestimulante de aplicación foliar y radicular con alta concentración de aminoácidos libres, nitrógeno, fósforo y potasio. Ayuda a fortalecer la planta frente al estrés, estimulando el crecimiento radicular y foliar, además de mantener activos los procesos metabólicos esenciales para el desarrollo del cultivo en todas sus etapas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/amino-50/images/amino-50-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -126,7 +132,9 @@
     "categoria": "",
     "descripcion": "ANGLOQUAT es un herbicida no selectivo de acción rápida y de contacto, formulado con Paraquat 200 g/L para el control de malezas de hoja ancha y gramíneas. Actúa bloqueando la fotosíntesis, deshidratando rápidamente los tejidos vegetales y eliminando las malezas en poco tiempo. Se utiliza en frutales, palma aceitera, cultivos industriales y áreas no cultivadas, ayudando a reducir la competencia por agua, luz y nutrientes. Para mejores resultados, se recomienda aplicarlo sobre malezas jóvenes y en crecimiento activo con buena cobertura foliar.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/angloquat/images/angloquat-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -190,7 +198,9 @@
     "categoria": "",
     "descripcion": "Arutam es un insecticida de acción combinada diseñado para el control eficaz de larvas de lepidópteros en diversos cultivos. Contiene Emamectin benzoate, que actúa sobre el sistema nervioso causando parálisis rápida, y Lufenuron, que inhibe la formación del exoesqueleto durante la muda. Esta combinación brinda un control inmediato y preventivo, reduciendo el daño de las plagas y prolongando la protección del cultivo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/arutam/images/arutam-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -269,7 +279,9 @@
     "categoria": "",
     "descripcion": "Emulsificante no iónico para uso agrícola\n\nFormulado a base de Poliglicol Éter de alcohol graso y aditivos especiales, diseñado para la preparación de emulsiones estables aceite/agua utilizadas en aplicaciones agrícolas.\n\nFavorece la mezcla homogénea de productos formulados, mejorando la dispersión, estabilidad y cobertura durante la aplicación. Su acción emulsificante optimiza la compatibilidad entre componentes oleosos y acuosos, contribuyendo a una aplicación más uniforme y eficiente en el cultivo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bronco-plus/images/bronco-plus-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -289,7 +301,9 @@
     "categoria": "",
     "descripcion": "Coadyuvante emulsificante para aplicaciones agrícolas\n\nCoadyuvante especialmente formulado para la preparación de formulaciones aceitosas de insecticidas, fungicidas y herbicidas, compatible con productos solubles, concentrados emulsificables y polvos mojables.\n\nSu avanzada acción emulsificante permite formar mezclas estables con soluciones acuosas, mejorando la dispersión y uniformidad de aplicación sobre el follaje. Favorece la formación de una película homogénea, aumentando la cobertura y eficiencia de los tratamientos agrícolas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bronco-ultra/images/bronco-ultra-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -419,7 +433,9 @@
     "categoria": "",
     "descripcion": "DAKOTA es un bioestimulante de origen canadiense elaborado con ácidos húmicos de leonardita, utilizado para mejorar la estructura, fertilidad y retención de humedad del suelo. Favorece el desarrollo radicular, aumenta la disponibilidad de nutrientes y estimula la actividad microbiológica, contribuyendo a un mejor crecimiento y rendimiento de los cultivos. Se recomienda su aplicación en etapas iniciales para optimizar la calidad del suelo y prevenir la acidificación.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/dakota/images/dakota-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
@@ -490,7 +506,9 @@
     "categoria": "",
     "descripcion": "Estaposy® 5 es un coadyuvante líquido biodegradable que mejora la calidad del agua en aplicaciones agrícolas al regular el pH y reducir la dureza. También actúa como adherente, penetrante y dispersante, optimizando la cobertura, compatibilidad y absorción de agroquímicos y fertilizantes, aumentando así la eficacia de las aplicaciones foliares.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/estaposy5/images/estaposy5-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -539,7 +557,9 @@
     "categoria": "",
     "descripcion": "Regulador de pH y coadyuvante multifuncional agrícola es un coadyuvante agrícola diseñado para mejorar la calidad del agua utilizada en aplicaciones de agroquímicos y fertilizantes. Regula el pH, reduce la dureza del agua y mejora la compatibilidad de las mezclas. Además, actúa como adherente, penetrante y dispersante, favoreciendo una mejor cobertura del follaje, mayor absorción y mayor eficiencia de las aplicaciones agrícolas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fijafol/images/fijafol-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -559,7 +579,9 @@
     "categoria": "",
     "descripcion": "Fijador agrícola de alta eficiencia para aplicaciones foliares\n\nFijador formulado a base de Alkil Aril Poliglicol Éter, diseñado para mejorar la adherencia, humectación y dispersión de los agroquímicos sobre el follaje de las plantas.\n\nSu acción permite una mejor distribución del producto en la superficie foliar, favoreciendo una cobertura más uniforme, mayor permanencia y optimización del desempeño de las aplicaciones agrícolas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fijal/images/fijal-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -601,7 +623,9 @@
     "categoria": "",
     "descripcion": "Dispersante siliconado de alta eficiencia para aplicaciones agrícolas\n\nDispersante formulado a base de siliconas que reduce significativamente la tensión superficial de las gotas pulverizadas, favoreciendo una mejor extensión y cobertura sobre la superficie de las plantas.\n\nSu acción permite una distribución más uniforme del caldo de aplicación, mejorando el contacto del producto con el follaje y potenciando la eficacia de agroquímicos y fertilizantes.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/fitowet/images/fitowet-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
@@ -749,7 +773,9 @@
     "categoria": "",
     "descripcion": "Sal de potasio de ácido húmico de alta pureza obtenida de leonardita, diseñada para mejorar la nutrición y el vigor del zooplancton y las algas. Favorece la absorción y el transporte de nutrientes, estimulando el crecimiento y desarrollo de los organismos acuáticos. Además, contribuye a optimizar la productividad y el equilibrio biológico del sistema.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/germizol/images/germizol-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -809,7 +835,9 @@
     "categoria": "",
     "descripcion": "Ibisoil Ca Flow® es un abono cálcico de aplicación radicular, libre de sales, que aporta calcio de rápida disponibilidad para mejorar el tamaño, firmeza y vida postcosecha de los frutos. Además, favorece la absorción de nutrientes al mejorar la estructura del suelo, estimular el desarrollo radicular y ayudar a desplazar sales. Su acción sobre el suelo contribuye a la floculación y formación de agregados, reduciendo pérdidas por lixiviación y optimizando la disponibilidad de calcio.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/ibisoil-ca-flow/images/ibisoil-ca-flow-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -906,7 +934,9 @@
     "categoria": "",
     "descripcion": "Insecticida potásico a base de aceites vegetales es un insecticida y acaricida de origen vegetal que actúa por contacto, debilitando la capa protectora de insectos y ácaros hasta provocar su deshidratación y muerte. Es eficaz contra plagas de cuerpo blando como pulgones, mosca blanca, trips, cochinillas y ácaros. Su formulación a base de aceites vegetales mejora la cobertura y adherencia en el follaje, ayudando también a limpiar la melaza y mejorar la sanidad de la planta.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/killbac/images/killbac-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1112,7 +1142,9 @@
     "categoria": "",
     "descripcion": "Fertilizante nitrogenado de rápida absorción es un fertilizante diseñado para una nutrición rápida y eficiente, con alta disponibilidad de nitrógeno que favorece su fácil absorción por la planta. Estimula el crecimiento vegetativo, fortalece tallos y hojas, mejora la fotosíntesis y contribuye a aumentar la productividad y el vigor de los cultivos en diferentes etapas de desarrollo.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/n-30-ls/images/n-30-ls-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
@@ -1198,7 +1230,9 @@
     "categoria": "",
     "descripcion": "Fertilizante bioestimulante diseñado para optimizar las etapas de prefloración, floración y cuajado en los cultivos.\n\nSu acción favorece un desarrollo más equilibrado y vigoroso de la planta, promoviendo mayor rendimiento, mejor cuajado y frutos de alta calidad, asegurando una cosecha más productiva y uniforme.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutrikel-calcio-boro/images/nutrikel-calcio-boro-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1390,7 +1424,9 @@
     "categoria": "",
     "descripcion": "Nutrisan® es un bioestimulante orgánico que combina aminoácidos, carbohidratos y extractos vegetales para nutrir y fortalecer las plantas. Estimula el crecimiento y desarrollo, mejora el rendimiento y la calidad de la cosecha, fortalece las defensas naturales, favorece la recuperación de cultivos debilitados y ayuda a las plantas a enfrentar estrés ambiental, aumentando vigor y actividad fisiológica.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/nutri-san-ls/images/nutri-san-ls-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1476,7 +1512,9 @@
     "categoria": "",
     "descripcion": "SATISFAR es un fungicida de amplio espectro formulado como gránulos dispersables, con acción preventiva, curativa temprana y antiesporulante. Su ingrediente activo, azoxistrobina, inhibe la respiración mitocondrial de los hongos, deteniendo su crecimiento y propagación. Se mueve dentro de la planta, protegiendo tejidos existentes y nuevos, y es eficaz contra royas, oídios, antracnosis y pudriciones, contribuyendo a mantener la sanidad, rendimiento y calidad de cultivos como papa, cebolla, maíz, soya, frutales y ornamentales.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/satisfar/images/satisfar-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1518,7 +1556,9 @@
     "categoria": "",
     "descripcion": "SILVACUR® COMBI es un fungicida sistémico de amplio espectro con acción preventiva, curativa y antiesporulante, formulado con tebuconazole y triadimenol. Inhibe la biosíntesis del ergosterol en los hongos, deteniendo su crecimiento y propagación. Se distribuye dentro de la planta, protegiendo tejidos nuevos y desarrollados, y es eficaz contra Sigatoka negra, oídio, roya y manchas foliares, ayudando a mantener la sanidad, prolongar la vida foliar y mejorar el rendimiento y calidad de los cultivos como banano, uva, arroz y soya.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/silvacur/images/silvacur-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1567,7 +1607,9 @@
     "categoria": "",
     "descripcion": "TOPSTAR 250 es un fungicida sistémico de amplio espectro con acción protectora, curativa y erradicante temprana, formulado con difenoconazole. Inhibe la biosíntesis del ergosterol en los hongos, deteniendo su crecimiento y propagación. Se distribuye dentro de la planta, protegiendo hojas, brotes y tejidos en desarrollo, con efecto residual prolongado. Es eficaz en múltiples cultivos, contribuyendo a mantener la sanidad, mejorar el desarrollo del cultivo y asegurar mayor calidad y rendimiento de la cosecha dentro de programas de manejo integrado de enfermedades.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/topstar/images/topstar-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1609,7 +1651,9 @@
     "categoria": "",
     "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro con acción sistémica y de contacto, formulado para el tratamiento de semillas, cormos, esquejes y tubérculos antes de la siembra. Combina Carboxin y Tiram para proteger el embrión desde el interior y la superficie de los patógenos, controlando pudriciones, damping-off y otras enfermedades tempranas. Favorece una germinación uniforme y vigorosa, un rápido establecimiento y desarrollo radicular, contribuyendo a plantas más sanas y productivas.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/vitavax-floable/images/vitavax-floable-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
@@ -1636,7 +1680,9 @@
     "categoria": "",
     "descripcion": "Volcán-C es un fungicida y bactericida de acción sistémica y de contacto, indicado para el control de hongos como Phytophthora y Peronospora, y bacterias fitopatógenas como Erwinia, Xanthomonas y Pseudomonas. Actúa de manera preventiva y curativa, inhibiendo la germinación de esporas y limitando infecciones existentes, con distribución uniforme que protege tejidos nuevos y en crecimiento, reduciendo la incidencia y severidad de las enfermedades en diversos cultivos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/volcan/images/volcan-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentación",
