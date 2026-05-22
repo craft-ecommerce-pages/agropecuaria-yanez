@@ -337,6 +337,33 @@
     "sku": ""
   },
   {
+    "id": 12427,
+    "slug": "bomba-ik",
+    "nombre": "BOMBA IK",
+    "precio": "24",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "La bomba IK (o pulverizador IK) hace referencia a la línea de pulverizadores y generadores de espuma de la marca IK Sprayers. Son equipos de bombeo manual o presurizable, altamente valorados por profesionales de la automoción (detailing), limpieza, desinfección y mantenimiento industrial, gracias a su gran resistencia a químicos agresivos",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          {
+            "label": "1.5Lt ($24.00)",
+            "price": 24.0
+          },
+          {
+            "label": "2Lt ($29.00)",
+            "price": 29.0
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12421,
     "slug": "bomba-jacto-hd550",
     "nombre": "BOMBA JACTO HD550",
