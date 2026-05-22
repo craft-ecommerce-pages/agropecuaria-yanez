@@ -1081,7 +1081,9 @@
     "categoria": "",
     "descripcion": "Killbac Oil es un aceite mineral emulsificado de alta pureza diseñado para uso agrícola. Funciona principalmente como coadyuvante o adherente para mejorar la efectividad de los agroquímicos, y también como insecticida/acaricida de contacto.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/killbac-oil/images/killbac-oil-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
