@@ -322,6 +322,26 @@
     "sku": ""
   },
   {
+    "id": 12420,
+    "slug": "bomba-jacto-pjh-9000",
+    "nombre": "BOMBA JACTO PJH-9000",
+    "precio": "98",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Jacto PJH-9000 es una de las mochilas pulverizadoras manuales más populares y duraderas a nivel mundial, ideal para labores agrícolas y de jardinería. Cuenta con un tanque de 20 litros y una bomba de pistón doble de alta presión, lo que permite una aplicación precisa y eficiente de pesticidas y fertilizantes.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "20Lt"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12410,
     "slug": "bronco-plus",
     "nombre": "BRONCO PLUS",
