@@ -345,7 +345,9 @@
     "categoria": "",
     "descripcion": "La bomba IK (o pulverizador IK) hace referencia a la línea de pulverizadores y generadores de espuma de la marca IK Sprayers. Son equipos de bombeo manual o presurizable, altamente valorados por profesionales de la automoción (detailing), limpieza, desinfección y mantenimiento industrial, gracias a su gran resistencia a químicos agresivos",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/bomba-ik/images/bomba-ik-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
