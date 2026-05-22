@@ -30,7 +30,9 @@
     "categoria": "",
     "descripcion": "AgroMagic / Polvo Mágico es un fertilizante 100% orgánico que mejora el desarrollo del cultivo y la productividad, desbloquea nutrientes, optimiza la estructura del suelo, fortalece el desarrollo radicular y estimula la formación de flores y frutos.",
     "stock": -1,
-    "imagenes": [],
+    "imagenes": [
+      "/producto/agromagic/images/agromagic-1.webp"
+    ],
     "variantes": [
       {
         "name": "Presentacion",
