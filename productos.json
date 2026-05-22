@@ -477,6 +477,26 @@
     "sku": ""
   },
   {
+    "id": 12430,
+    "slug": "calcio-boro-zinc-ls",
+    "nombre": "CALCIO-BORO-ZINC LS",
+    "precio": "10",
+    "precio_promo": "",
+    "categoria": "",
+    "descripcion": "Calcio, Boro y Zinc es un fertilizante agrícola y bioestimulante fundamental utilizado en las etapas de floración y cuajado de frutos. Estos tres nutrientes trabajan en sinergia para mejorar la calidad de las cosechas, prevenir el aborto de flores y asegurar un correcto desarrollo celular.",
+    "stock": -1,
+    "imagenes": [],
+    "variantes": [
+      {
+        "name": "Presentacion",
+        "options": [
+          "Lt"
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": 12371,
     "slug": "campuz",
     "nombre": "CAMPUZ",
