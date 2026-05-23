@@ -238,7 +238,7 @@ function renderModalDetail(){
   const allSel=!hasVariants||p.variantes.every(g=>modalVariants[g.name]);
   $modalDetail.innerHTML=`
     <div class="modal-name">${p.nombre}</div>
-    <div class="modal-cat">${catLabels[p.categoria]||p.categoria}</div>
+    <div class="modal-cat">${catLabels[(p.categorias||[])[0]]||(p.categorias||[])[0]||''}</div>
     <div class="modal-price">${formatPrice(showPrice)}</div>
     ${p.descripcion?`<div class="modal-desc">${p.descripcion}</div>`:''}
     ${vHTML}
@@ -333,7 +333,7 @@ async function init(){
 
   // Render featured (mas_vendidos category or destacado flag)
   if($catalog){
-    const featured = products.filter(p=>p.destacado||p.categoria==='mas vendidos').slice(0,5);
+    const featured = products.filter(p=>p.destacado||(p.categorias||[]).includes('mas_vendidos')).slice(0,5);
     const toShow = featured.length ? featured : products.slice(0,5);
     if(!toShow.length){
       $catalog.innerHTML='<p class="text-center" style="padding:40px;color:var(--text-light)">No hay productos disponibles aún.</p>';
@@ -353,7 +353,7 @@ async function init(){
             </div>
           </div>
           <div class="card-body">
-            <div class="card-cat">${p.categoria||'General'}</div>
+            <div class="card-cat">${(p.categorias||[])[0]||'General'}</div>
             <div class="card-name">${p.nombre}</div>
             ${p.descripcion?`<div class="card-desc">${p.descripcion}</div>`:''}
             <div class="card-footer">

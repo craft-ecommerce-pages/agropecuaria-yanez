@@ -292,14 +292,14 @@ function updateCardButtons(){
 function renderCatalog(){
   const catLabels=config.categories||{};
   const filtered=products.filter(p=>{
-    const mC=activeFilter==='all'||p.categoria===activeFilter;
+    const mC=activeFilter==='all'||(p.categorias||[]).includes(activeFilter);
     const mS=!searchQuery||normalize(p.nombre).includes(searchQuery)||normalize(p.descripcion||'').includes(searchQuery);
     return mC&&mS;
   });
   if($filterCount) $filterCount.textContent=`${filtered.length} producto${filtered.length!==1?'s':''}`;
 
   const groups={};
-  filtered.forEach(p=>{ if(!groups[p.categoria]) groups[p.categoria]=[]; groups[p.categoria].push(p); });
+  filtered.forEach(p=>{ const c=(p.categorias||[])[0]||''; if(!groups[c]) groups[c]=[]; groups[c].push(p); });
   const cats=Object.keys(groups);
 
   $catalog.innerHTML='';
@@ -329,7 +329,7 @@ function renderCatalog(){
           </div>
         </div>
         <div class="card-body">
-          <div class="card-cat">${catLabels[p.categoria]||p.categoria}</div>
+          <div class="card-cat">${catLabels[(p.categorias||[])[0]]||(p.categorias||[])[0]||''}</div>
           <div class="card-name">${p.nombre}</div>
           ${p.descripcion?`<div class="card-desc">${p.descripcion}</div>`:''}
           <div class="card-footer">
@@ -357,7 +357,7 @@ function renderCatalog(){
 }
 
 function buildFilterPills(){
-  const cats=[...new Set(products.map(p=>p.categoria).filter(Boolean))];
+  const cats=[...new Set(products.flatMap(p=>p.categorias||[]))];
   const catLabels=config.categories||{};
   $filterPills.innerHTML='<button class="pill active" data-cat="all">Todos</button>';
   cats.forEach(cat=>{
@@ -400,7 +400,7 @@ function renderModalDetail(){
   const allS=!hasV||p.variantes.every(g=>modalVariants[g.name]);
   $modalDetail.innerHTML=`
     <div class="modal-name">${p.nombre}</div>
-    <div class="modal-cat">${catLabels[p.categoria]||p.categoria}</div>
+    <div class="modal-cat">${catLabels[(p.categorias||[])[0]]||(p.categorias||[])[0]||''}</div>
     <div class="modal-price">${formatPrice(showPrice)}</div>
     ${p.descripcion?`<div class="modal-desc">${p.descripcion}</div>`:''}
     ${vHTML}
