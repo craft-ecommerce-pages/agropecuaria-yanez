@@ -5,18 +5,15 @@
   "whatsapp_number": "593981648703",
   "whatsapp_message": "Hola, vi su web y me gustaría más información sobre sus servicios",
   "categories": {
-    "abono_foliar": "ABONO FOLIAR",
-    "bioestimulantes": "BIOESTIMULANTES",
-    "insecticidas": "INSECTICDAS",
-    "enmiendas": "ENMIENDAS",
-    "fertilizantes": "FERTILIZANTES",
-    "equipos": "EQUIPOS",
-    "fungicidas": "FUNGICIDAS",
-    "coadyuvantes": "COADYUVANTES",
-    "herbicidas": "HERBICIDAS",
-    "biologicos": "BIOLOGICOS",
-    "insumos": "Insumos",
-    "semillas": "Semillas",
-    "veterinarios": "Veterinarios"
+    "abono_foliar": "Abono foliar",
+    "bioestimulantes": "Bioestimulantes",
+    "insecticidas": "Insecticidas",
+    "enmiendas": "Enmiendas",
+    "fertilizantes": "Fertilizantes",
+    "equipos": "Equipos",
+    "fungicidas": "Fungicidas",
+    "coadyuvantes": "Coadyuvantes",
+    "herbicidas": "Herbicidas",
+    "biologicos": "Biologicos"
   }
 }
