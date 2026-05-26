@@ -1,19 +1,19 @@
 {
-  "store_name": "Agropecuaria Yánez",
-  "site_title": "Agropecuaria Yánez – Insumos agrícolas y pecuarios",
-  "currency": "$",
-  "whatsapp_number": "593981648703",
-  "whatsapp_message": "Hola, vi su web y me gustaría más información sobre sus servicios",
   "categories": {
     "abono_foliar": "Abono foliar",
     "bioestimulantes": "Bioestimulantes",
-    "insecticidas": "Insecticidas",
-    "enmiendas": "Enmiendas",
-    "fertilizantes": "Fertilizantes",
-    "equipos": "Equipos",
-    "fungicidas": "Fungicidas",
+    "biologicos": "Biologicos",
     "coadyuvantes": "Coadyuvantes",
+    "enmiendas": "Enmiendas",
+    "equipos": "Equipos",
+    "fertilizantes": "Fertilizantes",
+    "fungicidas": "Fungicidas",
     "herbicidas": "Herbicidas",
-    "biologicos": "Biologicos"
-  }
+    "insecticidas": "Insecticidas"
+  },
+  "currency": "$",
+  "site_title": "Agropecuaria Yánez – Insumos agrícolas y pecuarios",
+  "store_name": "Agropecuaria Yánez",
+  "whatsapp_message": "Hola, vi su web y me gustaría más información sobre sus servicios",
+  "whatsapp_number": "593981648703"
 }

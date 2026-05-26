@@ -1,11 +1,11 @@
 [
   {
-    "id": 12343,
+    "id": "12343",
     "slug": "agrofull-k",
     "nombre": "AGROFULL K",
     "precio": "15",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "AGROFULL K es un fertilizante foliar de óxido de potasio complejado con ácidos carboxílicos de bajo peso molecular, lo que facilita su rápida absorción por las hojas. Su acción mejora el flujo de agua y nutrientes dentro de la planta, favoreciendo el transporte de elementos hacia frutos y órganos de consumo. Como resultado, ayuda a aumentar el calibre, color, firmeza y calidad de los frutos, además de optimizar la transpiración y el potencial osmótico de la planta.",
     "stock": -1,
     "imagenes": [
@@ -13,21 +13,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12417,
+    "id": "12417",
     "slug": "agromagic",
     "nombre": "AGROMAGIC",
     "precio": "17",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "AgroMagic / Polvo Mágico es un fertilizante 100% orgánico que mejora el desarrollo del cultivo y la productividad, desbloquea nutrientes, optimiza la estructura del suelo, fortalece el desarrollo radicular y estimula la formación de flores y frutos.",
     "stock": -1,
     "imagenes": [
@@ -35,15 +35,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           {
             "label": "500gr ($17.00)",
-            "price": 17.0
+            "price": 17
           },
           {
             "label": "Kg ($26.00)",
-            "price": 26.0
+            "price": 26
           }
         ]
       }
@@ -51,12 +50,12 @@
     "sku": ""
   },
   {
-    "id": 12431,
+    "id": "12431",
     "slug": "algaser-plus",
     "nombre": "ALGASER PLUS",
     "precio": "9",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Polvo soluble a base de un alto contenido de extracto de algas marinas Ascophillum Nodosum al 80%, enriquecido con aminoácidos al 20%, que ayuda a mejorar el suelo y vigorizar las plantas incrementando los rendimientos y la calidad de las cosechas.",
     "stock": -1,
     "imagenes": [
@@ -64,15 +63,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250GR ($9.00)",
-            "price": 9.0
+            "price": 9
           },
           {
             "label": "KG ($30.00)",
-            "price": 30.0
+            "price": 30
           }
         ]
       }
@@ -80,12 +78,12 @@
     "sku": ""
   },
   {
-    "id": 12405,
+    "id": "12405",
     "slug": "amepax",
     "nombre": "AMEPAX",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "AMEPAX es un herbicida selectivo y sistémico a base de ametrina, utilizado para el control de malezas de hoja ancha y algunas gramíneas. Actúa inhibiendo la fotosíntesis de las malezas, deteniendo su crecimiento y provocando su eliminación progresiva. Ofrece control prolongado gracias a su efecto residual en el suelo, reduciendo nuevas emergencias y disminuyendo la necesidad de aplicaciones repetidas. Es ampliamente usado en cultivos como caña de azúcar, maíz y plantaciones industriales, recomendándose su aplicación en malezas jóvenes y en crecimiento activo para obtener mejores resultados.",
     "stock": -1,
     "imagenes": [
@@ -93,21 +91,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12407,
+    "id": "12407",
     "slug": "amino-50",
     "nombre": "AMINO-50",
     "precio": "11.3",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Amino-50 es un bioestimulante de aplicación foliar y radicular con alta concentración de aminoácidos libres, nitrógeno, fósforo y potasio. Ayuda a fortalecer la planta frente al estrés, estimulando el crecimiento radicular y foliar, además de mantener activos los procesos metabólicos esenciales para el desarrollo del cultivo en todas sus etapas.",
     "stock": -1,
     "imagenes": [
@@ -115,21 +113,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "500gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12345,
+    "id": "12345",
     "slug": "aminopep-plus",
     "nombre": "AMINOPEP PLUS",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Polvo soluble a base de una alta concentración de aminoácidos y péptidos al 80%, enriquecido con algas marinas al 20%. Los aminoácidos son obtenidos a través de una cuidadosa hidrolisis enzimática de proteína natural. Se utiliza para estimular el crecimiento y desarrollo del cultivo, en especial, cuando deba superar etapas cr%ticas o situaciones de estrés.",
     "stock": -1,
     "imagenes": [
@@ -137,15 +135,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250GR ($10.00)",
-            "price": 10.0
+            "price": 10
           },
           {
             "label": "KG ($33.00)",
-            "price": 33.0
+            "price": 33
           }
         ]
       }
@@ -153,12 +150,12 @@
     "sku": ""
   },
   {
-    "id": 12404,
+    "id": "12404",
     "slug": "angloquat",
     "nombre": "ANGLOQUAT",
     "precio": "4.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "ANGLOQUAT es un herbicida no selectivo de acción rápida y de contacto, formulado con Paraquat 200 g/L para el control de malezas de hoja ancha y gramíneas. Actúa bloqueando la fotosíntesis, deshidratando rápidamente los tejidos vegetales y eliminando las malezas en poco tiempo. Se utiliza en frutales, palma aceitera, cultivos industriales y áreas no cultivadas, ayudando a reducir la competencia por agua, luz y nutrientes. Para mejores resultados, se recomienda aplicarlo sobre malezas jóvenes y en crecimiento activo con buena cobertura foliar.",
     "stock": -1,
     "imagenes": [
@@ -166,7 +163,6 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "Litro ($4.50)",
@@ -178,7 +174,7 @@
           },
           {
             "label": "Caneca ($76.00)",
-            "price": 76.0
+            "price": 76
           }
         ]
       }
@@ -186,12 +182,12 @@
     "sku": ""
   },
   {
-    "id": 12346,
+    "id": "12346",
     "slug": "apoyador-plus",
     "nombre": "APOYADOR PLUS",
     "precio": "20",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Regulador tetra-hormonal es un regulador de crecimiento vegetal que combina auxinas, citoquininas, giberelinas y brasinoesteroides para estimular el desarrollo integral de la planta. Favorece la elongación celular, formación de tejidos, desarrollo de yemas, germinación, floración y crecimiento radicular, además de mejorar la absorción de nutrientes, el metabolismo y el vigor productivo del cultivo.",
     "stock": -1,
     "imagenes": [
@@ -199,19 +195,18 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($20.00)",
-            "price": 20.0
+            "price": 20
           },
           {
             "label": "500ML ($39.00)",
-            "price": 39.0
+            "price": 39
           },
           {
             "label": "LT ($57.00)",
-            "price": 57.0
+            "price": 57
           }
         ]
       }
@@ -219,12 +214,12 @@
     "sku": ""
   },
   {
-    "id": 12384,
+    "id": "12384",
     "slug": "arutam",
     "nombre": "ARUTAM",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Arutam es un insecticida de acción combinada diseñado para el control eficaz de larvas de lepidópteros en diversos cultivos. Contiene Emamectin benzoate, que actúa sobre el sistema nervioso causando parálisis rápida, y Lufenuron, que inhibe la formación del exoesqueleto durante la muda. Esta combinación brinda un control inmediato y preventivo, reduciendo el daño de las plagas y prolongando la protección del cultivo.",
     "stock": -1,
     "imagenes": [
@@ -232,21 +227,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "75gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12370,
+    "id": "12370",
     "slug": "aval",
     "nombre": "AVAL",
     "precio": "25",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Aval es un fungicida sistémico y translaminar de amplio espectro desarrollado para el control preventivo, curativo y erradicante de enfermedades causadas por hongos ascomicetos, basidiometos y deuteromicetos. Su principio activo como Propiconazole al 25% (250 g/L EC) y Difenoconazole (250 g/L EC). Ambos compuestos pertenecen a la familia química de los triazoles y actúan directamente inhibiendo la síntesis de ergosterol en la membrana celular del hongo.",
     "stock": -1,
     "imagenes": [
@@ -254,21 +249,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12347,
+    "id": "12347",
     "slug": "biocal",
     "nombre": "BIOCAL",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Biocal es un acondicionador organico, desarrolado para las necesidades de los suelos y aguas de nuestro sector, contiene 30% de Calcio activo (CaO) y coadyudante cationico liquidos en una formulacion de efecto imediato y duradero. Su objetivo es recuperar el suelo ayudando a su oxigenacion y al enraizamiento profundo del cultivo evitando al volteo y embolconamiento, logarndo tambien que se desarrolle una vida microbiona natural y benefica para evitar que patogenos contagien su cultivo",
     "stock": -1,
     "imagenes": [
@@ -276,23 +271,22 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "LT ($10.00)",
-            "price": 10.0
+            "price": 10
           },
           {
             "label": "GL ($35.00)",
-            "price": 35.0
+            "price": 35
           },
           {
             "label": "CANECA ($140.00)",
-            "price": 140.0
+            "price": 140
           },
           {
             "label": "TANQUE ($1358.00)",
-            "price": 1358.0
+            "price": 1358
           }
         ]
       }
@@ -300,12 +294,12 @@
     "sku": ""
   },
   {
-    "id": 12419,
+    "id": "12419",
     "slug": "biodarhy",
     "nombre": "BIODARHY",
     "precio": "31",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "BIODARHY es una enmienda bioestimulante de alto rendimiento para uso agrícola, diseñada para mejorar la estructura del suelo y potenciar la eficiencia de los fertilizantes.",
     "stock": -1,
     "imagenes": [
@@ -313,21 +307,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "20Kg"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12422,
+    "id": "12422",
     "slug": "bomba-fumigadora-5lt",
     "nombre": "BOMBA FUMIGADORA 5LT",
     "precio": "9",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Bomba pressure sprayer (pulverizador o fumigador a presión) de 5 litros es un equipo manual diseñado para aplicar líquidos de manera uniforme. Es ideal para jardinería, control de plagas y limpieza en exteriores. Funciona acumulando presión mediante una bomba manual para lograr una aspersión continua y controlada.",
     "stock": -1,
     "imagenes": [
@@ -337,12 +331,12 @@
     "sku": ""
   },
   {
-    "id": 12427,
+    "id": "12427",
     "slug": "bomba-ik",
     "nombre": "BOMBA IK",
     "precio": "24",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "La bomba IK (o pulverizador IK) hace referencia a la línea de pulverizadores y generadores de espuma de la marca IK Sprayers. Son equipos de bombeo manual o presurizable, altamente valorados por profesionales de la automoción (detailing), limpieza, desinfección y mantenimiento industrial, gracias a su gran resistencia a químicos agresivos",
     "stock": -1,
     "imagenes": [
@@ -350,15 +344,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           {
             "label": "1.5Lt ($24.00)",
-            "price": 24.0
+            "price": 24
           },
           {
             "label": "2Lt ($29.00)",
-            "price": 29.0
+            "price": 29
           }
         ]
       }
@@ -366,12 +359,12 @@
     "sku": ""
   },
   {
-    "id": 12421,
+    "id": "12421",
     "slug": "bomba-jacto-hd550",
     "nombre": "BOMBA JACTO HD550",
     "precio": "84",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "El Jacto HD 550 es un pulverizador agrícola y de jardinería manual de alta resistencia. Diseñado para el trabajo diario, destaca por su bomba de pistón duplo y su cámara de compresión de 900 ml, lo que permite alcanzar y mantener la presión con menos bombeos.",
     "stock": -1,
     "imagenes": [
@@ -379,21 +372,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "20Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12420,
+    "id": "12420",
     "slug": "bomba-jacto-pjh-9000",
     "nombre": "BOMBA JACTO PJH-9000",
     "precio": "98",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Jacto PJH-9000 es una de las mochilas pulverizadoras manuales más populares y duraderas a nivel mundial, ideal para labores agrícolas y de jardinería. Cuenta con un tanque de 20 litros y una bomba de pistón doble de alta presión, lo que permite una aplicación precisa y eficiente de pesticidas y fertilizantes.",
     "stock": -1,
     "imagenes": [
@@ -401,21 +394,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "20Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12423,
+    "id": "12423",
     "slug": "bomba-matabi",
     "nombre": "BOMBA MATABI",
     "precio": "96",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "La bomba Matabi es un pulverizador o fumigadora manual diseñada para aplicar líquidos de manera precisa y uniforme, como pesticidas, herbicidas o fertilizantes. Su construcción resistente y fácil manejo la hace ideal para uso profesional en agricultura, jardinería y control de plagas, garantizando una distribución eficiente del producto y un trabajo más seguro y efectivo.",
     "stock": -1,
     "imagenes": [
@@ -425,12 +418,12 @@
     "sku": ""
   },
   {
-    "id": 12428,
+    "id": "12428",
     "slug": "bomba-sprayer-2lt",
     "nombre": "BOMBA SPRAYER 2LT",
     "precio": "4.75",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Una bomba sprayer de 2 litros (también conocida como pulverizador o fumigador manual) es un dispositivo ligero y portátil diseñado para esparcir líquidos en forma de rocío o niebla fina. Funciona mediante presión manual acumulada y es ideal para el cuidado de plantas, limpieza y desinfección.",
     "stock": -1,
     "imagenes": [
@@ -440,12 +433,12 @@
     "sku": ""
   },
   {
-    "id": 12410,
+    "id": "12410",
     "slug": "bronco-plus",
     "nombre": "BRONCO PLUS",
     "precio": "14.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Emulsificante no iónico para uso agrícola\n\nFormulado a base de Poliglicol Éter de alcohol graso y aditivos especiales, diseñado para la preparación de emulsiones estables aceite/agua utilizadas en aplicaciones agrícolas.\n\nFavorece la mezcla homogénea de productos formulados, mejorando la dispersión, estabilidad y cobertura durante la aplicación. Su acción emulsificante optimiza la compatibilidad entre componentes oleosos y acuosos, contribuyendo a una aplicación más uniforme y eficiente en el cultivo.",
     "stock": -1,
     "imagenes": [
@@ -453,21 +446,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12411,
+    "id": "12411",
     "slug": "bronco-ultra",
     "nombre": "BRONCO ULTRA",
     "precio": "13.75",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Coadyuvante emulsificante para aplicaciones agrícolas\n\nCoadyuvante especialmente formulado para la preparación de formulaciones aceitosas de insecticidas, fungicidas y herbicidas, compatible con productos solubles, concentrados emulsificables y polvos mojables.\n\nSu avanzada acción emulsificante permite formar mezclas estables con soluciones acuosas, mejorando la dispersión y uniformidad de aplicación sobre el follaje. Favorece la formación de una película homogénea, aumentando la cobertura y eficiencia de los tratamientos agrícolas.",
     "stock": -1,
     "imagenes": [
@@ -477,12 +470,12 @@
     "sku": ""
   },
   {
-    "id": 12430,
+    "id": "12430",
     "slug": "calcio-boro-zinc-ls",
     "nombre": "CALCIO-BORO-ZINC LS",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Calcio, Boro y Zinc es un fertilizante agrícola y bioestimulante fundamental utilizado en las etapas de floración y cuajado de frutos. Estos tres nutrientes trabajan en sinergia para mejorar la calidad de las cosechas, prevenir el aborto de flores y asegurar un correcto desarrollo celular.",
     "stock": -1,
     "imagenes": [
@@ -490,21 +483,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12371,
+    "id": "12371",
     "slug": "campuz",
     "nombre": "CAMPUZ",
     "precio": "5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Campuz es un fungicida de amplio espectro con acción protectora y curativa, que combina actividad de contacto y sistémica local. Sus ingredientes activos actúan inhibiendo el desarrollo del hongo y reduciendo la esporulación, lo que ayuda a cortar el ciclo de la enfermedad.\n\nSu efecto preventivo y curativo permite proteger el cultivo antes y después de la infección, brindando un control eficaz de diversos patógenos fúngicos. Contribuye a mantener la sanidad vegetal, limitar la propagación de enfermedades y mejorar la productividad agrícola.",
     "stock": -1,
     "imagenes": [
@@ -512,15 +505,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250GR ($5.00)",
-            "price": 5.0
+            "price": 5
           },
           {
             "label": "500GR ($8.00)",
-            "price": 8.0
+            "price": 8
           }
         ]
       }
@@ -528,12 +520,12 @@
     "sku": ""
   },
   {
-    "id": 12385,
+    "id": "12385",
     "slug": "centella",
     "nombre": "CENTELLA",
     "precio": "25",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Piretroide sintético no sistémico, de gran capacidad de penetración, con actividad insecticida por contacto e ingestión, con buen efecto de choque y buena persistencia que actúa sobre el sistema nervioso de los insectos alternando el flujo de iones a través de la membrana nerviosa.  propiedades repelentes. Su tecnología molecular permite un amplio control y efectividad con bajas dosis de aplicación.",
     "stock": -1,
     "imagenes": [
@@ -541,21 +533,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12372,
+    "id": "12372",
     "slug": "cuprospor",
     "nombre": "CUPROSPOR",
     "precio": "15",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fungicida a base de sulfato de cobre pentahidratado es un fungicida y bactericida de amplio espectro que actúa por contacto, formando una barrera protectora sobre la planta para impedir el desarrollo de hongos y bacterias. Es eficaz contra enfermedades como oídio, Erwinia, Phytophthora y moniliasis, ayudando a mantener la sanidad del cultivo, reducir pérdidas y mejorar la productividad agrícola.",
     "stock": -1,
     "imagenes": [
@@ -563,19 +555,18 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($15.00)",
-            "price": 15.0
+            "price": 15
           },
           {
             "label": "500ML ($20.00)",
-            "price": 20.0
+            "price": 20
           },
           {
             "label": "LT ($35.00)",
-            "price": 35.0
+            "price": 35
           }
         ]
       }
@@ -583,12 +574,12 @@
     "sku": ""
   },
   {
-    "id": 12348,
+    "id": "12348",
     "slug": "cytogrow-plus",
     "nombre": "CYTOGROW PLUS",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Estimula el crecimiento y facilita la nutrición de las plantas al promover la emisión de yema, la formación de brotes, mejorar el tamaño de espigas y aumentar la cantidad de flores.",
     "stock": -1,
     "imagenes": [
@@ -596,19 +587,18 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($12.00)",
-            "price": 12.0
+            "price": 12
           },
           {
             "label": "500ML ($17.00)",
-            "price": 17.0
+            "price": 17
           },
           {
             "label": "LT ($33.00)",
-            "price": 33.0
+            "price": 33
           }
         ]
       }
@@ -616,12 +606,12 @@
     "sku": ""
   },
   {
-    "id": 12401,
+    "id": "12401",
     "slug": "dakota",
     "nombre": "DAKOTA",
     "precio": "73",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "DAKOTA es un bioestimulante de origen canadiense elaborado con ácidos húmicos de leonardita, utilizado para mejorar la estructura, fertilidad y retención de humedad del suelo. Favorece el desarrollo radicular, aumenta la disponibilidad de nutrientes y estimula la actividad microbiológica, contribuyendo a un mejor crecimiento y rendimiento de los cultivos. Se recomienda su aplicación en etapas iniciales para optimizar la calidad del suelo y prevenir la acidificación.",
     "stock": -1,
     "imagenes": [
@@ -629,21 +619,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "25Kg"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12399,
+    "id": "12399",
     "slug": "diatomix",
     "nombre": "DIATOMIX",
     "precio": "$155",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Diatomix® es un mejorador de suelos y fertilizante orgánico elaborado con 92% de sílice amorfo proveniente de diatomeas. Fortalece los cultivos, mejora la estructura y humedad del suelo, estimula el desarrollo radicular y aumenta la resistencia de las plantas frente a plagas, enfermedades y estrés hídrico. Puede aplicarse de forma foliar o edáfica para mejorar la absorción de nutrientes y promover cultivos más vigorosos y productivos.",
     "stock": -1,
     "imagenes": [
@@ -651,11 +641,10 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "18Kg ($155.00)",
-            "price": 155.0
+            "price": 155
           }
         ]
       }
@@ -663,12 +652,12 @@
     "sku": ""
   },
   {
-    "id": 12386,
+    "id": "12386",
     "slug": "eslabon",
     "nombre": "ESLABON",
     "precio": "14",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Insecticida y acaricida de actividad estomacal y acción por contacto. ESLABÓN controla muchas especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados y piretroides en cultivos como cítricos, soya, tomate riñón, naranjilla, papa y ornamentales.",
     "stock": -1,
     "imagenes": [
@@ -676,21 +665,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "250ml"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12412,
+    "id": "12412",
     "slug": "estaposy5",
     "nombre": "ESTAPOSY5",
     "precio": "3.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Estaposy® 5 es un coadyuvante líquido biodegradable que mejora la calidad del agua en aplicaciones agrícolas al regular el pH y reducir la dureza. También actúa como adherente, penetrante y dispersante, optimizando la cobertura, compatibilidad y absorción de agroquímicos y fertilizantes, aumentando así la eficacia de las aplicaciones foliares.",
     "stock": -1,
     "imagenes": [
@@ -698,7 +687,6 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ml ($3.50)",
@@ -714,12 +702,12 @@
     "sku": ""
   },
   {
-    "id": 12387,
+    "id": "12387",
     "slug": "estruendo",
     "nombre": "ESTRUENDO",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Es un acaricida de alta eficacia para el control de estados inmaduros de ácaros (huevos y ninfas) principalmente del género Tetranychus spp. Para lograr un control completo de los ácaros plaga en los cultivos se recomienda la aplicación conjunta o seguida de un acaricida de características adulticidas.",
     "stock": -1,
     "imagenes": [
@@ -727,21 +715,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "100gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12414,
+    "id": "12414",
     "slug": "fijafol",
     "nombre": "FIJAFOL",
     "precio": "5.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Regulador de pH y coadyuvante multifuncional agrícola es un coadyuvante agrícola diseñado para mejorar la calidad del agua utilizada en aplicaciones de agroquímicos y fertilizantes. Regula el pH, reduce la dureza del agua y mejora la compatibilidad de las mezclas. Además, actúa como adherente, penetrante y dispersante, favoreciendo una mejor cobertura del follaje, mayor absorción y mayor eficiencia de las aplicaciones agrícolas.",
     "stock": -1,
     "imagenes": [
@@ -749,21 +737,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12415,
+    "id": "12415",
     "slug": "fijal",
     "nombre": "FIJAL",
     "precio": "5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fijador agrícola de alta eficiencia para aplicaciones foliares\n\nFijador formulado a base de Alkil Aril Poliglicol Éter, diseñado para mejorar la adherencia, humectación y dispersión de los agroquímicos sobre el follaje de las plantas.\n\nSu acción permite una mejor distribución del producto en la superficie foliar, favoreciendo una cobertura más uniforme, mayor permanencia y optimización del desempeño de las aplicaciones agrícolas.",
     "stock": -1,
     "imagenes": [
@@ -771,21 +759,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12388,
+    "id": "12388",
     "slug": "finidor",
     "nombre": "FINIDOR",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Insecticida sistémico y de contacto de amplio espectro para el control de un sin número de plagas tales como chinches, polillas, gusanos, moscas, trips, barrenadores y minadores. Formulado especialmente para tratamientos foliares y radiculares (drench). Posee larga acción residual por lo que garantiza un control duradero en el tiempo.",
     "stock": -1,
     "imagenes": [
@@ -793,21 +781,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "120ml"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12416,
+    "id": "12416",
     "slug": "fitowet",
     "nombre": "FITOWET",
     "precio": "4",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Dispersante siliconado de alta eficiencia para aplicaciones agrícolas\n\nDispersante formulado a base de siliconas que reduce significativamente la tensión superficial de las gotas pulverizadas, favoreciendo una mejor extensión y cobertura sobre la superficie de las plantas.\n\nSu acción permite una distribución más uniforme del caldo de aplicación, mejorando el contacto del producto con el follaje y potenciando la eficacia de agroquímicos y fertilizantes.",
     "stock": -1,
     "imagenes": [
@@ -815,11 +803,10 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           {
             "label": "100ml ($4.00)",
-            "price": 4.0
+            "price": 4
           },
           {
             "label": "Lt ($22.50)",
@@ -831,12 +818,12 @@
     "sku": ""
   },
   {
-    "id": 12349,
+    "id": "12349",
     "slug": "flash",
     "nombre": "FLASH",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fertilizante de acción rápida diseñado para apoyar el desarrollo del cultivo aportando nutrientes esenciales. Su formulación facilita la absorción y la respuesta temprana, contribuyendo a mejorar la uniformidad, el crecimiento y la productividad, ayudando a corregir situaciones de estrés o deficiencias nutricionales durante el ciclo.",
     "stock": -1,
     "imagenes": [
@@ -844,21 +831,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "500ML"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12350,
+    "id": "12350",
     "slug": "flizz-plus",
     "nombre": "FLIZZ PLUS",
     "precio": "7",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Bioestimulante radicular que actua promoviendo el crecimiento de las raices y funciones en base a un potente reactor enzimatico y fito hormonas de crecimiento radicular. Favorece la captacion de agua, nutrientes, anclaje e interviene en la CIC.",
     "stock": -1,
     "imagenes": [
@@ -866,11 +853,10 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($7.00)",
-            "price": 7.0
+            "price": 7
           },
           {
             "label": "LT ($12.50)",
@@ -878,7 +864,7 @@
           },
           {
             "label": "GL ($45.00)",
-            "price": 45.0
+            "price": 45
           }
         ]
       }
@@ -886,12 +872,12 @@
     "sku": ""
   },
   {
-    "id": 12351,
+    "id": "12351",
     "slug": "fortacyl-estim",
     "nombre": "FORTACYL ESTIM",
     "precio": "20",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "FortacyL Estim promueve el vigor y la actividad fisiológica de la planta, apoyando procesos de crecimiento y recuperación en momentos de demanda del cultivo. Es una alternativa para complementar programas de fertilización y manejo nutricional, especialmente cuando se busca estimular el desarrollo y mejorar la respuesta del cultivo. Provee componentes que reducen el estres ambiental provocados por agua, luz y temeperatura.",
     "stock": -1,
     "imagenes": [
@@ -899,21 +885,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12352,
+    "id": "12352",
     "slug": "fortacyl-k",
     "nombre": "FORTACYL K",
     "precio": "22.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "FortacyL K (fosfito de potasio) aporta potasio en una forma fisiológicamente activa, apoyando procesos de defensa y recuperación de la planta. Es una herramienta útil para complementar programas de manejo nutricional y mejorar la respuesta del cultivo ante situaciones adversas, según recomendación técnica.",
     "stock": -1,
     "imagenes": [
@@ -921,21 +907,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12373,
+    "id": "12373",
     "slug": "fungil",
     "nombre": "FUNGIL",
     "precio": "15",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fungicida protectante de amplio espectro para aplicación foliar, diseñado para la prevención eficaz de enfermedades causadas por hongos en diversos cultivos agrícolas. Actúa formando una barrera protectora sobre la superficie vegetal, impidiendo la germinación de esporas y el establecimiento del patógeno.\n\nSe recomienda su uso preventivo antes de la aparición de síntomas, siendo altamente efectivo en hortalizas, frutales, cultivos tropicales, ornamentales y forrajes. Su acción contribuye a mantener la sanidad del cultivo, reducir la incidencia de enfermedades y proteger el potencial productivo.",
     "stock": -1,
     "imagenes": [
@@ -943,21 +929,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12402,
+    "id": "12402",
     "slug": "germizol",
     "nombre": "GERMIZOL",
     "precio": "15",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Sal de potasio de ácido húmico de alta pureza obtenida de leonardita, diseñada para mejorar la nutrición y el vigor del zooplancton y las algas. Favorece la absorción y el transporte de nutrientes, estimulando el crecimiento y desarrollo de los organismos acuáticos. Además, contribuye a optimizar la productividad y el equilibrio biológico del sistema.",
     "stock": -1,
     "imagenes": [
@@ -965,15 +951,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "KG ($15.00)",
-            "price": 15.0
+            "price": 15
           },
           {
             "label": "20KG ($250.00)",
-            "price": 250.0
+            "price": 250
           }
         ]
       }
@@ -981,12 +966,12 @@
     "sku": ""
   },
   {
-    "id": 12403,
+    "id": "12403",
     "slug": "glufone",
     "nombre": "GLUFONE",
     "precio": "5.25",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Herbicida post-emergente es un herbicida de acción post-emergente diseñado para el control de malezas anuales y perennes, tanto de hoja ancha como gramíneas. Su aplicación ayuda a eliminar las malezas en crecimiento activo, reduciendo la competencia por agua, nutrientes y luz, lo que favorece el desarrollo del cultivo. Se recomienda su uso con buena cobertura foliar para lograr un control más rápido, uniforme y duradero.",
     "stock": -1,
     "imagenes": [
@@ -994,7 +979,6 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "LT ($5.25)",
@@ -1002,7 +986,7 @@
           },
           {
             "label": "GL ($19.00)",
-            "price": 19.0
+            "price": 19
           },
           {
             "label": "CANECA ($79.50)",
@@ -1014,12 +998,12 @@
     "sku": ""
   },
   {
-    "id": 12353,
+    "id": "12353",
     "slug": "ibisoil-ca-flow",
     "nombre": "IBISOIL CA FLOW",
     "precio": "40",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Ibisoil Ca Flow® es un abono cálcico de aplicación radicular, libre de sales, que aporta calcio de rápida disponibilidad para mejorar el tamaño, firmeza y vida postcosecha de los frutos. Además, favorece la absorción de nutrientes al mejorar la estructura del suelo, estimular el desarrollo radicular y ayudar a desplazar sales. Su acción sobre el suelo contribuye a la floculación y formación de agregados, reduciendo pérdidas por lixiviación y optimizando la disponibilidad de calcio.",
     "stock": -1,
     "imagenes": [
@@ -1027,21 +1011,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "5Kg"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12374,
+    "id": "12374",
     "slug": "impulse",
     "nombre": "IMPULSE",
     "precio": "184",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "IMPULSE® 800 EC es un fungicida sistémico de amplio espectro con acción protectora, curativa y erradicante para el control de enfermedades fúngicas en cultivos. Su ingrediente activo se moviliza dentro de la planta, previniendo infecciones, deteniendo el desarrollo de patógenos ya presentes y reduciendo la formación y dispersión de esporas. Contribuye a mantener la sanidad del cultivo, disminuir pérdidas y mejorar la productividad agrícola.",
     "stock": -1,
     "imagenes": [
@@ -1049,21 +1033,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "5LT"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12389,
+    "id": "12389",
     "slug": "kanon",
     "nombre": "KAÑON",
     "precio": "6",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Potente insecticida para el control de una amplia gama de especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados, piretroides y hormonales.",
     "stock": -1,
     "imagenes": [
@@ -1071,15 +1055,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($6.00)",
-            "price": 6.0
+            "price": 6
           },
           {
             "label": "500ML ($9.00)",
-            "price": 9.0
+            "price": 9
           },
           {
             "label": "LT ($16.50)",
@@ -1091,12 +1074,12 @@
     "sku": ""
   },
   {
-    "id": 12375,
+    "id": "12375",
     "slug": "katalic",
     "nombre": "KATALIC",
     "precio": "11",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fungicida sistémico de acción curativa con propiedades antiesporulantes, diseñado para el control eficaz de enfermedades causadas por oomicetos. Actúa inhibiendo el desarrollo del patógeno dentro del tejido vegetal y reduciendo la formación y dispersión de esporas, lo que ayuda a cortar el ciclo de la enfermedad.\n\nEs altamente efectivo en el manejo preventivo y curativo de lanchas, tizones y mildius, protegiendo el cultivo frente a infecciones activas y nuevas reinfecciones, y contribuyendo a mantener la sanidad y productividad agrícola.",
     "stock": -1,
     "imagenes": [
@@ -1104,21 +1087,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "500gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12390,
+    "id": "12390",
     "slug": "killbac",
     "nombre": "KILLBAC",
     "precio": "17",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Insecticida potásico a base de aceites vegetales es un insecticida y acaricida de origen vegetal que actúa por contacto, debilitando la capa protectora de insectos y ácaros hasta provocar su deshidratación y muerte. Es eficaz contra plagas de cuerpo blando como pulgones, mosca blanca, trips, cochinillas y ácaros. Su formulación a base de aceites vegetales mejora la cobertura y adherencia en el follaje, ayudando también a limpiar la melaza y mejorar la sanidad de la planta.",
     "stock": -1,
     "imagenes": [
@@ -1126,21 +1109,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12426,
+    "id": "12426",
     "slug": "killbac-oil",
     "nombre": "KILLBAC OIL",
     "precio": "11",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Killbac Oil es un aceite mineral emulsificado de alta pureza diseñado para uso agrícola. Funciona principalmente como coadyuvante o adherente para mejorar la efectividad de los agroquímicos, y también como insecticida/acaricida de contacto.",
     "stock": -1,
     "imagenes": [
@@ -1148,19 +1131,18 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           {
             "label": "Lt ($11.00)",
-            "price": 11.0
+            "price": 11
           },
           {
             "label": "Gl ($42.00)",
-            "price": 42.0
+            "price": 42
           },
           {
             "label": "Caneca ($170.00)",
-            "price": 170.0
+            "price": 170
           }
         ]
       }
@@ -1168,12 +1150,12 @@
     "sku": ""
   },
   {
-    "id": 12391,
+    "id": "12391",
     "slug": "kmelot",
     "nombre": "KMELOT",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "KMELOT® es un insecticida de doble acción (sistémica y de contacto) que proporciona control rápido y prolongado de plagas agrícolas. Se distribuye dentro de la planta, protegiendo brotes nuevos, y actúa también por contacto generando un efecto de derribe inmediato. Está orientado al control de insectos chupadores y minadores como mosca blanca, pulgones, trips y minadores de hoja, afectando su sistema nervioso y reduciendo su alimentación, movilidad y reproducción, con protección residual que ayuda a prevenir reinfestaciones.",
     "stock": -1,
     "imagenes": [
@@ -1181,21 +1163,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "100gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12376,
+    "id": "12376",
     "slug": "kurazeb",
     "nombre": "KURAZEB",
     "precio": "11",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Kurazeb (Mancozeb 800 WP) es un fungicida de contacto de amplio espectro, formulado como polvo mojable, diseñado para la prevención y control eficaz de múltiples enfermedades fúngicas en diversos cultivos agrícolas.\n\nSu modo de acción actúa sobre la superficie de la planta, inhibiendo la germinación de esporas y el establecimiento del hongo, lo que impide la infección inicial y la propagación de la enfermedad.\n\nEs altamente efectivo contra tizones, mildius, royas y manchas foliares, formando una barrera protectora que resguarda el tejido vegetal expuesto. Su uso contribuye a mantener la sanidad del cultivo, reducir pérdidas y mejorar la calidad y rendimiento de la producción agrícola.",
     "stock": -1,
     "imagenes": [
@@ -1203,15 +1185,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "KG ($11.00)",
-            "price": 11.0
+            "price": 11
           },
           {
             "label": "25KG ($180.00)",
-            "price": 180.0
+            "price": 180
           }
         ]
       }
@@ -1219,12 +1200,12 @@
     "sku": ""
   },
   {
-    "id": 12392,
+    "id": "12392",
     "slug": "kylate",
     "nombre": "KYLATE",
     "precio": "4",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Piretroide de elevada actividad insecticida, especialmente contra insectos lepidópteros, pero también coleópteros, dípteros hemípteros, entre otras clases. Eficaz para control de insecto en cultivos como maíz, papa, tomate, frutales (incluyendo cítricos), café, cacao, hortalizas y cultivos tropicales.",
     "stock": -1,
     "imagenes": [
@@ -1232,15 +1213,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($4.00)",
-            "price": 4.0
+            "price": 4
           },
           {
             "label": "500ML ($7.00)",
-            "price": 7.0
+            "price": 7
           },
           {
             "label": "LT ($11.50)",
@@ -1252,12 +1232,12 @@
     "sku": ""
   },
   {
-    "id": 12393,
+    "id": "12393",
     "slug": "lamcy",
     "nombre": "LAMCY",
     "precio": "5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Actúa por contacto, residual y estomacal penetra rápidamente a través de la cutícula del insecto, alterando la conducción de los impulsos nerviosos, provocando pérdida del control muscular y un rápido efecto de derribe. Actúa entonces sobre el sistema nervioso de los insectos, causando disturbios en la función nerviosa por interacción en el canal de sodio.",
     "stock": -1,
     "imagenes": [
@@ -1265,21 +1245,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "250ml"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12400,
+    "id": "12400",
     "slug": "lixilom",
     "nombre": "LIXILOM",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "LIXILOM es un biofertilizante orgánico líquido elaborado a base de lixiviado de lombriz roja californiana, enriquecido con minerales y con aporte NPK (3-6-4). Actúa como acondicionador de suelos y bioestimulante, mejorando la fertilidad, la actividad microbiológica y la absorción de nutrientes. Favorece el desarrollo radicular, el crecimiento vigoroso de las plantas y su resistencia al estrés, con aplicación tanto foliar como edáfica para aumentar la productividad y calidad de los cultivos.",
     "stock": -1,
     "imagenes": [
@@ -1287,15 +1267,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "LT ($10.00)",
-            "price": 10.0
+            "price": 10
           },
           {
             "label": "GL ($30.00)",
-            "price": 30.0
+            "price": 30
           }
         ]
       }
@@ -1303,12 +1282,12 @@
     "sku": ""
   },
   {
-    "id": 12354,
+    "id": "12354",
     "slug": "metabolik",
     "nombre": "METABOLIK",
     "precio": "15",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Metabolik actúa como regulador del crecimiento, ayudando a coordinar procesos fisiológicos clave en la planta. Es una herramienta útil para complementar el programa de nutrición y manejo, apoyando la uniformidad, el vigor y la respuesta del cultivo, según dosis y momento de aplicación. Activando el metabolismo de la planta mejorando la estimulación hormonal y la síntesis de aminoácidos en el cultivo.",
     "stock": -1,
     "imagenes": [
@@ -1316,15 +1295,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($15.00)",
-            "price": 15.0
+            "price": 15
           },
           {
             "label": "Litro ($45.00)",
-            "price": 45.0
+            "price": 45
           }
         ]
       }
@@ -1332,12 +1310,12 @@
     "sku": ""
   },
   {
-    "id": 12377,
+    "id": "12377",
     "slug": "metron",
     "nombre": "METRON",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Metron 500G es un fungicida de amplio espectro formulado como polvo mojable, con acción sistémica y de contacto para el control de enfermedades fúngicas. Actúa de forma preventiva y curativa, siendo eficaz especialmente contra mildiú velloso y Phytophthora spp. Se distribuye dentro de la planta protegiendo nuevos tejidos y también actúa en la superficie eliminando el hongo, ayudando a mantener la sanidad del cultivo y mejorar la productividad en especies como papa, solanáceas, leguminosas, frutales y ornamentales.",
     "stock": -1,
     "imagenes": [
@@ -1345,21 +1323,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "500gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12409,
+    "id": "12409",
     "slug": "n-30-ls",
     "nombre": "N-30 LS",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fertilizante nitrogenado de rápida absorción es un fertilizante diseñado para una nutrición rápida y eficiente, con alta disponibilidad de nitrógeno que favorece su fácil absorción por la planta. Estimula el crecimiento vegetativo, fortalece tallos y hojas, mejora la fotosíntesis y contribuye a aumentar la productividad y el vigor de los cultivos en diferentes etapas de desarrollo.",
     "stock": -1,
     "imagenes": [
@@ -1367,21 +1345,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12378,
+    "id": "12378",
     "slug": "novak",
     "nombre": "NOVAK",
     "precio": "9",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fungicida sistémico de amplio espectro es un fungicida de amplio espectro con acción preventiva, curativa y sistémica, diseñado para el control de múltiples enfermedades fúngicas. Se transloca dentro de la planta, protegiendo tanto tejidos existentes como nuevos brotes, e inhibe el desarrollo y la propagación de hongos, reduciendo la formación de esporas. Contribuye a una mejor sanidad del cultivo y a un manejo fitosanitario más eficiente.",
     "stock": -1,
     "imagenes": [
@@ -1391,12 +1369,12 @@
     "sku": ""
   },
   {
-    "id": 12356,
+    "id": "12356",
     "slug": "nutrikel-boro",
     "nombre": "NUTRIKEL BORO",
     "precio": "7.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Elemento clave para la germinación del polen y el crecimiento del tubo polínico, esencial para la reproducción eficiente de la planta.\n\nTambién es un componente fundamental de los tejidos meristemáticos, contribuyendo al desarrollo de brotes y nuevas hojas, y juega un papel importante en la textura y firmeza de flores y frutos, favoreciendo su calidad y consistencia.",
     "stock": -1,
     "imagenes": [
@@ -1404,7 +1382,6 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($7.50)",
@@ -1412,7 +1389,7 @@
           },
           {
             "label": "LT ($14.00)",
-            "price": 14.0
+            "price": 14
           }
         ]
       }
@@ -1420,12 +1397,12 @@
     "sku": ""
   },
   {
-    "id": 12358,
+    "id": "12358",
     "slug": "nutrikel-ca-b-zn",
     "nombre": "NUTRIKEL CA-B-ZN",
     "precio": "13",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Quelatamientos a base de poliaminas y oxidos metalicos. Estimula al desarrollo del follaje, favorece a la floracion y cuajado, promoviendo altos rendimientos en sus cultivos.",
     "stock": -1,
     "imagenes": [
@@ -1433,21 +1410,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12357,
+    "id": "12357",
     "slug": "nutrikel-calcio-boro",
     "nombre": "NUTRIKEL CALCIO-BORO",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fertilizante bioestimulante diseñado para optimizar las etapas de prefloración, floración y cuajado en los cultivos.\n\nSu acción favorece un desarrollo más equilibrado y vigoroso de la planta, promoviendo mayor rendimiento, mejor cuajado y frutos de alta calidad, asegurando una cosecha más productiva y uniforme.",
     "stock": -1,
     "imagenes": [
@@ -1455,19 +1432,18 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($8.00)",
-            "price": 8.0
+            "price": 8
           },
           {
             "label": "LT ($14.00)",
-            "price": 14.0
+            "price": 14
           },
           {
             "label": "GL ($45.00)",
-            "price": 45.0
+            "price": 45
           }
         ]
       }
@@ -1475,12 +1451,12 @@
     "sku": ""
   },
   {
-    "id": 12359,
+    "id": "12359",
     "slug": "nutrikel-engrose-plus",
     "nombre": "NUTRIKEL ENGROSE PLUS",
     "precio": "18",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Aporte esencial de potasio para todo tipo de cultivo. Incrementa el peso, mejora la textura, la calidad y coloración de los frutos y granos.",
     "stock": -1,
     "imagenes": [
@@ -1488,21 +1464,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12360,
+    "id": "12360",
     "slug": "nutrikel-espigador",
     "nombre": "NUTRIKEL ESPIGADOR",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Fertilizante con accion bioestimulante formulado a base de NPK enriquecidos con aminoacidos de rapida asimilacion aplicado en etapas de pre floracion y floracion, activa la energia y el metabolismo de las plantas.",
     "stock": -1,
     "imagenes": [
@@ -1510,21 +1486,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12362,
+    "id": "12362",
     "slug": "nutrikel-max",
     "nombre": "NUTRIKEL MAX",
     "precio": "26",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Bioestimulante completo a base de NPK, enriquecido con algas marinas, aminoácidos, ácidos húmicos, vitaminas y brasinoesteroides. Previene estrés a temperaturas bajas, sequías, plagas y enfermedades.",
     "stock": -1,
     "imagenes": [
@@ -1532,21 +1508,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12363,
+    "id": "12363",
     "slug": "nutrikel-multi",
     "nombre": "NUTRIKEL MULTI",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Multi Mineral es un bioestimulante que potencia los procesos fisiológicos de los cultivos, mejorando la absorción de nutrientes, el crecimiento vegetativo, el desarrollo radicular y la floración. Su formulación con ácidos húmicos, vitaminas y fitohormonas favorece un metabolismo equilibrado, mayor vigor, resistencia al estrés y un desarrollo uniforme, incrementando la productividad y sanidad del cultivo.",
     "stock": -1,
     "imagenes": [
@@ -1554,15 +1530,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($8.00)",
-            "price": 8.0
+            "price": 8
           },
           {
             "label": "LT ($19.00)",
-            "price": 19.0
+            "price": 19
           }
         ]
       }
@@ -1570,12 +1545,12 @@
     "sku": ""
   },
   {
-    "id": 12364,
+    "id": "12364",
     "slug": "nutrikel-npk-20-20-20",
     "nombre": "NUTRIKEL NPK (20-20-20)",
     "precio": "20",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "NUTRIKEL NPK 20-20-20 es un fertilizante hidrosoluble que aporta nitrógeno, fósforo y potasio en proporciones equilibradas para un desarrollo integral del cultivo. Favorece el crecimiento vegetativo, el desarrollo radicular, la regulación fisiológica y la resistencia al estrés, promoviendo un crecimiento uniforme, mayor vigor y mejor productividad en diversos cultivos.",
     "stock": -1,
     "imagenes": [
@@ -1583,21 +1558,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12365,
+    "id": "12365",
     "slug": "nutrikel-silicio",
     "nombre": "NUTRIKEL SILICIO",
     "precio": "13",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Bioestimulante multifuncional es un bioestimulante que regenera la fertilidad del suelo, mejora la capacidad de intercambio catiónico (CIC) y optimiza la disponibilidad de nutrientes. Actúa como elicitor de defensas naturales, aumentando la resistencia del cultivo frente a estrés biótico y abiótico, promoviendo un desarrollo equilibrado, mayor vigor y mejor desempeño productivo.",
     "stock": -1,
     "imagenes": [
@@ -1605,21 +1580,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12366,
+    "id": "12366",
     "slug": "nutrikel-zinc-plus",
     "nombre": "NUTRIKEL ZINC PLUS",
     "precio": "15",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Bioestimulante aminoácido-azufre-zinc es un bioestimulante formulado con aminoácidos, azufre y zinc que mejora el crecimiento y la respuesta fisiológica de los cultivos frente a estrés. Los aminoácidos favorecen el desarrollo vegetal, el azufre fortalece la defensa natural y el zinc actúa como micronutriente esencial, optimizando metabolismo, división celular y desarrollo, promoviendo mayor vigor, productividad y sanidad del cultivo.",
     "stock": -1,
     "imagenes": [
@@ -1627,21 +1602,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12408,
+    "id": "12408",
     "slug": "nutri-san-ls",
     "nombre": "NUTRI-SAN LS",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Nutrisan® es un bioestimulante orgánico que combina aminoácidos, carbohidratos y extractos vegetales para nutrir y fortalecer las plantas. Estimula el crecimiento y desarrollo, mejora el rendimiento y la calidad de la cosecha, fortalece las defensas naturales, favorece la recuperación de cultivos debilitados y ayuda a las plantas a enfrentar estrés ambiental, aumentando vigor y actividad fisiológica.",
     "stock": -1,
     "imagenes": [
@@ -1649,21 +1624,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12367,
+    "id": "12367",
     "slug": "nutrix-cacao",
     "nombre": "NUTRIX CACAO",
     "precio": "20",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "NUTRIX CACAO es una fórmula mejorada diseñada para potenciar el desarrollo del cultivo de cacao. Este cambio representa una evolución real en su formulación, incorporando tres componentes claves que aumentan su eficiencia en campo: ácidos húmicos, ácidos fúlvicos y silicio. Conserva la base del producto que ya conocías, pero ahora ofrece una nutrición más completa, que acompaña de mejor manera los procesos del cacao, favoreciendo un crecimiento más vigoroso y un mejor desempeño del cultivo, según recomendación técnica.",
     "stock": -1,
     "imagenes": [
@@ -1671,21 +1646,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12394,
+    "id": "12394",
     "slug": "pollux",
     "nombre": "POLLUX",
     "precio": "4",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Pollux es un insecticida carbamato de amplio espectro con Methomyl 90% SP (900 g/kg) como ingrediente activo, diseñado para el control de insectos masticadores y chupadores, especialmente lepidópteros en cultivos hortícolas y cereales (maíz). Actúa por contacto, ingestión y traslaminar, con efecto de choque instantáneo y corta residualidad",
     "stock": -1,
     "imagenes": [
@@ -1693,21 +1668,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "100gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12418,
+    "id": "12418",
     "slug": "regener-booster",
     "nombre": "REGENER BOOSTER",
     "precio": "20",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Regener Booster es un bioestimulante y regenerador de suelos 100% orgánico y biodegradable. Es ampliamente utilizado en el agro ecuatoriano (en cultivos como banano, plátano, cacao y flores) para mejorar el desarrollo vegetativo, activar la floración y fortalecer el sistema inmunológico de las plantas.",
     "stock": -1,
     "imagenes": [
@@ -1715,21 +1690,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12429,
+    "id": "12429",
     "slug": "regula-dureza",
     "nombre": "REGULA DUREZA",
     "precio": "4.5",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Coadyuvante a base de citratos diseñado especialmente para disminuir la dureza y regular el pH de las aguas de uso agrícola.",
     "stock": -1,
     "imagenes": [
@@ -1737,21 +1712,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "200gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12395,
+    "id": "12395",
     "slug": "rooslito",
     "nombre": "ROOSLITO",
     "precio": "46",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Rooslito es un insecticida sistémico y de contacto de amplio espectro, ideal para controlar plagas masticadoras, chupadoras y raspadores en diversos cultivos (tomate, papa, arroz). Combina Lambda-cyhalothrin y Thiamethoxam en suspensión concentrada (SC), ofreciendo rápido derribe y efecto residual.",
     "stock": -1,
     "imagenes": [
@@ -1759,21 +1734,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12424,
+    "id": "12424",
     "slug": "saniquat-25",
     "nombre": "SANIQUAT-25",
     "precio": "10",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "SANIQUAT-25 es un potente desinfectante y sanitizante multiusos formulado a base de sales de amonio cuaternario (generalmente de quinta generación). Está diseñado para eliminar de manera efectiva y segura hongos, bacterias y virus en superficies duras.",
     "stock": -1,
     "imagenes": [
@@ -1781,11 +1756,10 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           {
             "label": "Lt ($10.00)",
-            "price": 10.0
+            "price": 10
           },
           {
             "label": "Gl ($32.70)",
@@ -1801,12 +1775,12 @@
     "sku": ""
   },
   {
-    "id": 12425,
+    "id": "12425",
     "slug": "saniquat-40",
     "nombre": "SANIQUAT-40",
     "precio": "44.8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Saniquat-40 es un desinfectante y sanitizante de alta concentración formulado con Amonio Cuaternario de 5ta generación. Es ampliamente utilizado en agricultura, industria y bioseguridad para prevenir y controlar la propagación de bacterias, hongos y virus.",
     "stock": -1,
     "imagenes": [
@@ -1814,21 +1788,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentacion",
         "options": [
           "Gl"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12379,
+    "id": "12379",
     "slug": "satisfar",
     "nombre": "SATISFAR",
     "precio": "18",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "SATISFAR es un fungicida de amplio espectro formulado como gránulos dispersables, con acción preventiva, curativa temprana y antiesporulante. Su ingrediente activo, azoxistrobina, inhibe la respiración mitocondrial de los hongos, deteniendo su crecimiento y propagación. Se mueve dentro de la planta, protegiendo tejidos existentes y nuevos, y es eficaz contra royas, oídios, antracnosis y pudriciones, contribuyendo a mantener la sanidad, rendimiento y calidad de cultivos como papa, cebolla, maíz, soya, frutales y ornamentales.",
     "stock": -1,
     "imagenes": [
@@ -1836,21 +1810,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "100gr"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12396,
+    "id": "12396",
     "slug": "sibilant",
     "nombre": "SIBILANT",
     "precio": "39",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Sibilant es un insecticida y acaricida de doble acción que combina Bifenthrin y Lufenuron para un control rápido y prolongado de plagas. Actúa sobre insectos adultos por contacto e ingestión y sobre larvas interrumpiendo su desarrollo, rompiendo el ciclo biológico. Es eficaz contra gusano blanco, polilla, trips, pulgones, gusano cogollero y ácaros, reduciendo daños y favoreciendo un mejor crecimiento y rendimiento de los cultivos.",
     "stock": -1,
     "imagenes": [
@@ -1858,21 +1832,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12380,
+    "id": "12380",
     "slug": "silvacur",
     "nombre": "SILVACUR",
     "precio": "188",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "SILVACUR® COMBI es un fungicida sistémico de amplio espectro con acción preventiva, curativa y antiesporulante, formulado con tebuconazole y triadimenol. Inhibe la biosíntesis del ergosterol en los hongos, deteniendo su crecimiento y propagación. Se distribuye dentro de la planta, protegiendo tejidos nuevos y desarrollados, y es eficaz contra Sigatoka negra, oídio, roya y manchas foliares, ayudando a mantener la sanidad, prolongar la vida foliar y mejorar el rendimiento y calidad de los cultivos como banano, uva, arroz y soya.",
     "stock": -1,
     "imagenes": [
@@ -1880,21 +1854,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "5Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12397,
+    "id": "12397",
     "slug": "sultan",
     "nombre": "SULTAN",
     "precio": "18",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "SULTÁN® es un insecticida–nematicida de acción sistémica y de contacto que actúa sobre el sistema nervioso de insectos y nemátodos, causando parálisis y muerte. Se distribuye dentro de la planta para protección prolongada y también actúa por contacto para un control rápido. Es eficaz contra gusano blanco, cogollero, minadores, nemátodos e insectos chupadores, contribuyendo a reducir daños y mejorar el desarrollo, sanidad y productividad de cultivos como papa, tomate, maíz, ornamentales, frutales y tropicales.",
     "stock": -1,
     "imagenes": [
@@ -1902,15 +1876,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($18.00)",
-            "price": 18.0
+            "price": 18
           },
           {
             "label": "LT ($30.00)",
-            "price": 30.0
+            "price": 30
           }
         ]
       }
@@ -1918,12 +1891,12 @@
     "sku": ""
   },
   {
-    "id": 12381,
+    "id": "12381",
     "slug": "topstar",
     "nombre": "TOPSTAR",
     "precio": "30",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "TOPSTAR 250 es un fungicida sistémico de amplio espectro con acción protectora, curativa y erradicante temprana, formulado con difenoconazole. Inhibe la biosíntesis del ergosterol en los hongos, deteniendo su crecimiento y propagación. Se distribuye dentro de la planta, protegiendo hojas, brotes y tejidos en desarrollo, con efecto residual prolongado. Es eficaz en múltiples cultivos, contribuyendo a mantener la sanidad, mejorar el desarrollo del cultivo y asegurar mayor calidad y rendimiento de la cosecha dentro de programas de manejo integrado de enfermedades.",
     "stock": -1,
     "imagenes": [
@@ -1931,21 +1904,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Lt"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12368,
+    "id": "12368",
     "slug": "verdefance",
     "nombre": "VERDEFANCE",
     "precio": "35",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "**Verdefance – Limpiador de Musgo** es un producto especializado para la eliminación y control de musgo en cultivos de cacao, contribuyendo a mejorar la sanidad y el desarrollo de las plantas.\n\nActúa reduciendo la presencia de musgo sobre ramas y estructuras vegetales, lo que favorece una mejor penetración de luz, mayor aireación y condiciones más óptimas para el crecimiento del cultivo.\n\nSu uso contribuye a mantener plantas más limpias, vigorosas y equilibradas, promoviendo un desarrollo más uniforme y mejorando el manejo agronómico del cultivo. Se recomienda aplicar según indicación técnica para asegurar su máxima eficacia.",
     "stock": -1,
     "imagenes": [
@@ -1953,21 +1926,21 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           "Kg"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
   },
   {
-    "id": 12382,
+    "id": "12382",
     "slug": "vitavax-floable",
     "nombre": "VITAVAX FLOABLE",
     "precio": "12",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro con acción sistémica y de contacto, formulado para el tratamiento de semillas, cormos, esquejes y tubérculos antes de la siembra. Combina Carboxin y Tiram para proteger el embrión desde el interior y la superficie de los patógenos, controlando pudriciones, damping-off y otras enfermedades tempranas. Favorece una germinación uniforme y vigorosa, un rápido establecimiento y desarrollo radicular, contribuyendo a plantas más sanas y productivas.",
     "stock": -1,
     "imagenes": [
@@ -1975,15 +1948,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "250ML ($12.00)",
-            "price": 12.0
+            "price": 12
           },
           {
             "label": "LT ($36.00)",
-            "price": 36.0
+            "price": 36
           }
         ]
       }
@@ -1991,12 +1963,12 @@
     "sku": ""
   },
   {
-    "id": 12383,
+    "id": "12383",
     "slug": "volcan",
     "nombre": "VOLCAN",
     "precio": "14",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "Volcán-C es un fungicida y bactericida de acción sistémica y de contacto, indicado para el control de hongos como Phytophthora y Peronospora, y bacterias fitopatógenas como Erwinia, Xanthomonas y Pseudomonas. Actúa de manera preventiva y curativa, inhibiendo la germinación de esporas y limitando infecciones existentes, con distribución uniforme que protege tejidos nuevos y en crecimiento, reduciendo la incidencia y severidad de las enfermedades en diversos cultivos.",
     "stock": -1,
     "imagenes": [
@@ -2004,15 +1976,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500GR ($14.00)",
-            "price": 14.0
+            "price": 14
           },
           {
             "label": "KG ($25.00)",
-            "price": 25.0
+            "price": 25
           }
         ]
       }
@@ -2020,12 +1991,12 @@
     "sku": ""
   },
   {
-    "id": 12369,
+    "id": "12369",
     "slug": "vultur",
     "nombre": "VULTUR",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "VULTUR es un fertilizante líquido rico en calcio, zinc y boro, diseñado para mejorar crecimiento, floración y fructificación en cultivos como maíz y cacao. Su formulación con ácidos carboxílicos optimiza la absorción de nutrientes, fortaleciendo paredes celulares, promoviendo división celular, formación de flores y cuajado de frutos, favoreciendo raíces vigorosas, plantas equilibradas, mayor calidad y rendimiento, y mejor resistencia al estrés.",
     "stock": -1,
     "imagenes": [
@@ -2033,15 +2004,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($8.00)",
-            "price": 8.0
+            "price": 8
           },
           {
             "label": "LT ($15.00)",
-            "price": 15.0
+            "price": 15
           }
         ]
       }
@@ -2049,12 +2019,12 @@
     "sku": ""
   },
   {
-    "id": 12398,
+    "id": "12398",
     "slug": "zendo",
     "nombre": "ZENDO",
     "precio": "8",
     "precio_promo": "",
-    "categoria": "",
+    "categorias": [],
     "descripcion": "ZENDO® es un insecticida de amplio espectro con clorpirifos que actúa por contacto, ingestión e inhalación, ofreciendo control rápido y eficiente de insectos en follaje y suelo. Su formulación permite penetración uniforme, resistencia al lavado y efecto residual prolongado, protegiendo raíces y etapas iniciales de los cultivos. Favorece plantas más sanas, vigorosas y productivas, siendo útil en programas de manejo integrado de plagas.",
     "stock": -1,
     "imagenes": [
@@ -2062,15 +2032,14 @@
     ],
     "variantes": [
       {
-        "name": "Presentación",
         "options": [
           {
             "label": "500ML ($8.00)",
-            "price": 8.0
+            "price": 8
           },
           {
             "label": "LT ($14.00)",
-            "price": 14.0
+            "price": 14
           }
         ]
       }
