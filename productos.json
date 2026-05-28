@@ -1677,23 +1677,6 @@
     "sku": ""
   },
   {
-    "id": "35d22865-ebd7-4529-8670-6fb0daa3ae82",
-    "slug": "producto-de-prueba",
-    "nombre": "Producto de prueba",
-    "precio": "30",
-    "precio_promo": "",
-    "categorias": [
-      "biologicos"
-    ],
-    "descripcion": "Producto de prueba para probar el nuevo catalog-sync en go",
-    "stock": null,
-    "imagenes": [
-      "/producto/producto-de-prueba/images/producto-de-prueba-1.webp"
-    ],
-    "variantes": [],
-    "sku": ""
-  },
-  {
     "id": "b501b9e1-1cc9-5d47-b1a5-5fbd8f3e8040",
     "slug": "regener-booster",
     "nombre": "REGENER BOOSTER",
