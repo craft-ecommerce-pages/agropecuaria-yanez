@@ -1687,7 +1687,9 @@
     ],
     "descripcion": "Producto de prueba para probar el nuevo catalog-sync en go",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/producto-de-prueba/images/producto-de-prueba-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
