@@ -631,7 +631,7 @@
     "id": "a4d70705-f2c4-506d-97cd-183fe3c94f51",
     "slug": "diatomix",
     "nombre": "DIATOMIX",
-    "precio": "$155",
+    "precio": "155",
     "precio_promo": "",
     "categorias": [],
     "descripcion": "Diatomix® es un mejorador de suelos y fertilizante orgánico elaborado con 92% de sílice amorfo proveniente de diatomeas. Fortalece los cultivos, mejora la estructura y humedad del suelo, estimula el desarrollo radicular y aumenta la resistencia de las plantas frente a plagas, enfermedades y estrés hídrico. Puede aplicarse de forma foliar o edáfica para mejorar la absorción de nutrientes y promover cultivos más vigorosos y productivos.",
@@ -643,8 +643,8 @@
       {
         "options": [
           {
-            "label": "18Kg ($155.00)",
-            "price": 155
+            "label": "18Kg ($310.00)",
+            "price": 310
           }
         ]
       }
