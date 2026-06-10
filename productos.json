@@ -1429,20 +1429,15 @@
     "nombre": "NUTRIKEL NPK (20-20-20)",
     "precio": "20",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "NUTRIKEL NPK 20-20-20 es un fertilizante hidrosoluble que aporta nitrógeno, fósforo y potasio en proporciones equilibradas para un desarrollo integral del cultivo. Favorece el crecimiento vegetativo, el desarrollo radicular, la regulación fisiológica y la resistencia al estrés, promoviendo un crecimiento uniforme, mayor vigor y mejor productividad en diversos cultivos.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-npk-20-20-20/images/nutrikel-npk-20-20-20-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
