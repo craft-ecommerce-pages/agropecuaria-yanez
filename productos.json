@@ -1192,20 +1192,15 @@
     "nombre": "LAMCY",
     "precio": "5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Actúa por contacto, residual y estomacal penetra rápidamente a través de la cutícula del insecto, alterando la conducción de los impulsos nerviosos, provocando pérdida del control muscular y un rápido efecto de derribe. Actúa entonces sobre el sistema nervioso de los insectos, causando disturbios en la función nerviosa por interacción en el canal de sodio.",
     "stock": null,
     "imagenes": [
       "/producto/lamcy/images/lamcy-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "250ml"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1635,20 +1630,15 @@
     "nombre": "POLLUX",
     "precio": "4",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Pollux es un insecticida carbamato de amplio espectro con Methomyl 90% SP (900 g/kg) como ingrediente activo, diseñado para el control de insectos masticadores y chupadores, especialmente lepidópteros en cultivos hortícolas y cereales (maíz). Actúa por contacto, ingestión y traslaminar, con efecto de choque instantáneo y corta residualidad",
     "stock": null,
     "imagenes": [
       "/producto/pollux/images/pollux-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "100gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1692,20 +1682,15 @@
     "nombre": "ROOSLITO",
     "precio": "46",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Rooslito es un insecticida sistémico y de contacto de amplio espectro, ideal para controlar plagas masticadoras, chupadoras y raspadores en diversos cultivos (tomate, papa, arroz). Combina Lambda-cyhalothrin y Thiamethoxam en suspensión concentrada (SC), ofreciendo rápido derribe y efecto residual.",
     "stock": null,
     "imagenes": [
       "/producto/rooslito/images/rooslito-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
