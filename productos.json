@@ -1303,7 +1303,20 @@
     "descripcion": "",
     "stock": null,
     "imagenes": null,
-    "variantes": [],
+    "variantes": [
+      {
+        "options": [
+          {
+            "label": "Lt=$ ($17.00)",
+            "price": 17
+          },
+          {
+            "label": "Gl ($17.00)",
+            "price": 17
+          }
+        ]
+      }
+    ],
     "sku": ""
   },
   {
