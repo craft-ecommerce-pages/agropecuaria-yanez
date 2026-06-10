@@ -442,7 +442,9 @@
     "nombre": "BRONCO ULTRA",
     "precio": "13.75",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Coadyuvante emulsificante para aplicaciones agrícolas\n\nCoadyuvante especialmente formulado para la preparación de formulaciones aceitosas de insecticidas, fungicidas y herbicidas, compatible con productos solubles, concentrados emulsificables y polvos mojables.\n\nSu avanzada acción emulsificante permite formar mezclas estables con soluciones acuosas, mejorando la dispersión y uniformidad de aplicación sobre el follaje. Favorece la formación de una película homogénea, aumentando la cobertura y eficiencia de los tratamientos agrícolas.",
     "stock": null,
     "imagenes": [
@@ -654,7 +656,9 @@
     "nombre": "ESTAPOSY5",
     "precio": "3.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Estaposy® 5 es un coadyuvante líquido biodegradable que mejora la calidad del agua en aplicaciones agrícolas al regular el pH y reducir la dureza. También actúa como adherente, penetrante y dispersante, optimizando la cobertura, compatibilidad y absorción de agroquímicos y fertilizantes, aumentando así la eficacia de las aplicaciones foliares.",
     "stock": null,
     "imagenes": [
@@ -663,15 +667,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ml ($3.50)",
-            "price": 3.5
-          },
-          {
-            "label": "Lt ($10.75)",
-            "price": 10.75
-          }
-        ]
+          "250ml=$undefined",
+          "Lt=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
