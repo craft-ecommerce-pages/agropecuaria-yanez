@@ -1210,7 +1210,10 @@
     "nombre": "LIXILOM",
     "precio": "10",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar",
+      "biologicos"
+    ],
     "descripcion": "LIXILOM es un biofertilizante orgánico líquido elaborado a base de lixiviado de lombriz roja californiana, enriquecido con minerales y con aporte NPK (3-6-4). Actúa como acondicionador de suelos y bioestimulante, mejorando la fertilidad, la actividad microbiológica y la absorción de nutrientes. Favorece el desarrollo radicular, el crecimiento vigoroso de las plantas y su resistencia al estrés, con aplicación tanto foliar como edáfica para aumentar la productividad y calidad de los cultivos.",
     "stock": null,
     "imagenes": [
@@ -1219,15 +1222,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "LT ($10.00)",
-            "price": 10
-          },
-          {
-            "label": "GL ($30.00)",
-            "price": 30
-          }
-        ]
+          "LT=$undefined",
+          "GL=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
