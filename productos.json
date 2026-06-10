@@ -1451,20 +1451,15 @@
     "nombre": "NUTRIKEL SILICIO",
     "precio": "13",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Bioestimulante multifuncional es un bioestimulante que regenera la fertilidad del suelo, mejora la capacidad de intercambio catiónico (CIC) y optimiza la disponibilidad de nutrientes. Actúa como elicitor de defensas naturales, aumentando la resistencia del cultivo frente a estrés biótico y abiótico, promoviendo un desarrollo equilibrado, mayor vigor y mejor desempeño productivo.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-silicio/images/nutrikel-silicio-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1473,20 +1468,15 @@
     "nombre": "NUTRIKEL ZINC PLUS",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Bioestimulante aminoácido-azufre-zinc es un bioestimulante formulado con aminoácidos, azufre y zinc que mejora el crecimiento y la respuesta fisiológica de los cultivos frente a estrés. Los aminoácidos favorecen el desarrollo vegetal, el azufre fortalece la defensa natural y el zinc actúa como micronutriente esencial, optimizando metabolismo, división celular y desarrollo, promoviendo mayor vigor, productividad y sanidad del cultivo.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-zinc-plus/images/nutrikel-zinc-plus-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
