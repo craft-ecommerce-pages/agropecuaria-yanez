@@ -332,28 +332,25 @@
   },
   {
     "id": "c8bae90f-bc2b-54fb-9e20-b59fa2dd14f3",
-    "slug": "bomba-ik",
-    "nombre": "BOMBA IK",
-    "precio": "24",
+    "slug": "bomba-ik-multi-pro2",
+    "nombre": "BOMBA IK MULTI PRO2",
+    "precio": "29.5",
     "precio_promo": "",
-    "categorias": [],
-    "descripcion": "La bomba IK (o pulverizador IK) hace referencia a la línea de pulverizadores y generadores de espuma de la marca IK Sprayers. Son equipos de bombeo manual o presurizable, altamente valorados por profesionales de la automoción (detailing), limpieza, desinfección y mantenimiento industrial, gracias a su gran resistencia a químicos agresivos",
+    "categorias": [
+      "equipos"
+    ],
+    "descripcion": "",
     "stock": null,
     "imagenes": [
-      "/producto/bomba-ik/images/bomba-ik-1.webp"
+      "/producto/bomba-ik-multi-pro2/images/bomba-ik-multi-pro2-1.webp"
     ],
     "variantes": [
       {
         "options": [
-          {
-            "label": "1.5Lt ($24.00)",
-            "price": 24
-          },
-          {
-            "label": "2Lt ($29.00)",
-            "price": 29
-          }
-        ]
+          "1.5Lt=$undefined",
+          "2Lt=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -995,6 +992,21 @@
         ]
       }
     ],
+    "sku": ""
+  },
+  {
+    "id": "c1c6b4d9-c23f-48ec-8515-7de7dcdcf24d",
+    "slug": "huma-k",
+    "nombre": "HUMA-K",
+    "precio": "11.5",
+    "precio_promo": "",
+    "categorias": [
+      "enmiendas"
+    ],
+    "descripcion": "Humic K es un fertilizante líquido soluble a base de humato de potasio, con una alta concentración de acido humico y fúlvico extraído de leonardita natural, diseñado para mejorar la fertilidad y productividad del suelo, así como el rendimiento y la calidad de los cultivos.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1652,6 +1664,19 @@
         "type": "option"
       }
     ],
+    "sku": ""
+  },
+  {
+    "id": "098facba-269c-4f99-9a17-1f4c96d26229",
+    "slug": "omega-ozono",
+    "nombre": "omega Ozono",
+    "precio": "33.50",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
     "sku": ""
   },
   {
