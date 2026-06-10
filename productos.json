@@ -588,7 +588,11 @@
     "nombre": "DIATOMIX",
     "precio": "155",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar",
+      "enmiendas",
+      "fertilizantes"
+    ],
     "descripcion": "Diatomix® es un mejorador de suelos y fertilizante orgánico elaborado con 92% de sílice amorfo proveniente de diatomeas. Fortalece los cultivos, mejora la estructura y humedad del suelo, estimula el desarrollo radicular y aumenta la resistencia de las plantas frente a plagas, enfermedades y estrés hídrico. Puede aplicarse de forma foliar o edáfica para mejorar la absorción de nutrientes y promover cultivos más vigorosos y productivos.",
     "stock": null,
     "imagenes": [
@@ -1981,7 +1985,9 @@
     "nombre": "ZENDO",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "ZENDO® es un insecticida de amplio espectro con clorpirifos que actúa por contacto, ingestión e inhalación, ofreciendo control rápido y eficiente de insectos en follaje y suelo. Su formulación permite penetración uniforme, resistencia al lavado y efecto residual prolongado, protegiendo raíces y etapas iniciales de los cultivos. Favorece plantas más sanas, vigorosas y productivas, siendo útil en programas de manejo integrado de plagas.",
     "stock": null,
     "imagenes": [
@@ -1990,15 +1996,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($8.00)",
-            "price": 8
-          },
-          {
-            "label": "LT ($14.00)",
-            "price": 14
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
