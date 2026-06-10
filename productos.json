@@ -344,8 +344,7 @@
     "variantes": [
       {
         "options": [
-          "1.5Lt=$undefined",
-          "2Lt=$undefined"
+          "2lt"
         ],
         "type": "option"
       }
