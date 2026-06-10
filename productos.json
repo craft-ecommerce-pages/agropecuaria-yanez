@@ -296,20 +296,16 @@
     "nombre": "BIODARHY",
     "precio": "31",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "enmiendas",
+      "fertilizantes"
+    ],
     "descripcion": "BIODARHY es una enmienda bioestimulante de alto rendimiento para uso agrícola, diseñada para mejorar la estructura del suelo y potenciar la eficiencia de los fertilizantes.",
     "stock": null,
     "imagenes": [
       "/producto/biodarhy/images/biodarhy-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "20Kg"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -359,20 +355,15 @@
     "nombre": "BOMBA JACTO HD550",
     "precio": "84",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "equipos"
+    ],
     "descripcion": "El Jacto HD 550 es un pulverizador agrícola y de jardinería manual de alta resistencia. Diseñado para el trabajo diario, destaca por su bomba de pistón duplo y su cámara de compresión de 900 ml, lo que permite alcanzar y mantener la presión con menos bombeos.",
     "stock": null,
     "imagenes": [
       "/producto/bomba-jacto-hd550/images/bomba-jacto-hd550-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "20Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -381,20 +372,15 @@
     "nombre": "BOMBA JACTO PJH-9000",
     "precio": "98",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "equipos"
+    ],
     "descripcion": "Jacto PJH-9000 es una de las mochilas pulverizadoras manuales más populares y duraderas a nivel mundial, ideal para labores agrícolas y de jardinería. Cuenta con un tanque de 20 litros y una bomba de pistón doble de alta presión, lo que permite una aplicación precisa y eficiente de pesticidas y fertilizantes.",
     "stock": null,
     "imagenes": [
       "/producto/bomba-jacto-pjh-9000/images/bomba-jacto-pjh-9000-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "20Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
