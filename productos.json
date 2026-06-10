@@ -1310,7 +1310,12 @@
     "nombre": "MEGA OZONO",
     "precio": "17",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "bioestimulantes",
+      "biologicos",
+      "fungicidas",
+      "insecticidas"
+    ],
     "descripcion": "",
     "stock": null,
     "imagenes": null,
