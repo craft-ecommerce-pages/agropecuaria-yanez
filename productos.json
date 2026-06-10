@@ -704,20 +704,15 @@
     "nombre": "FIJAFOL",
     "precio": "5.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Regulador de pH y coadyuvante multifuncional agrícola es un coadyuvante agrícola diseñado para mejorar la calidad del agua utilizada en aplicaciones de agroquímicos y fertilizantes. Regula el pH, reduce la dureza del agua y mejora la compatibilidad de las mezclas. Además, actúa como adherente, penetrante y dispersante, favoreciendo una mejor cobertura del follaje, mayor absorción y mayor eficiencia de las aplicaciones agrícolas.",
     "stock": null,
     "imagenes": [
       "/producto/fijafol/images/fijafol-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -726,20 +721,15 @@
     "nombre": "FIJAL",
     "precio": "5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Fijador agrícola de alta eficiencia para aplicaciones foliares\n\nFijador formulado a base de Alkil Aril Poliglicol Éter, diseñado para mejorar la adherencia, humectación y dispersión de los agroquímicos sobre el follaje de las plantas.\n\nSu acción permite una mejor distribución del producto en la superficie foliar, favoreciendo una cobertura más uniforme, mayor permanencia y optimización del desempeño de las aplicaciones agrícolas.",
     "stock": null,
     "imagenes": [
       "/producto/fijal/images/fijal-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
