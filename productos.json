@@ -639,11 +639,9 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "18Kg ($310.00)",
-            "price": 310
-          }
-        ]
+          "18Kg"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
