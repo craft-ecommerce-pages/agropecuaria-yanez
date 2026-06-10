@@ -1197,20 +1197,7 @@
     "descripcion": "",
     "stock": null,
     "imagenes": null,
-    "variantes": [
-      {
-        "options": [
-          {
-            "label": "Lt ($33.50)",
-            "price": 33.5
-          },
-          {
-            "label": "Gl ($33.50)",
-            "price": 33.5
-          }
-        ]
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
