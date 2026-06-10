@@ -1091,7 +1091,9 @@
     "nombre": "KURAZEB",
     "precio": "11",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Kurazeb (Mancozeb 800 WP) es un fungicida de contacto de amplio espectro, formulado como polvo mojable, diseñado para la prevención y control eficaz de múltiples enfermedades fúngicas en diversos cultivos agrícolas.\n\nSu modo de acción actúa sobre la superficie de la planta, inhibiendo la germinación de esporas y el establecimiento del hongo, lo que impide la infección inicial y la propagación de la enfermedad.\n\nEs altamente efectivo contra tizones, mildius, royas y manchas foliares, formando una barrera protectora que resguarda el tejido vegetal expuesto. Su uso contribuye a mantener la sanidad del cultivo, reducir pérdidas y mejorar la calidad y rendimiento de la producción agrícola.",
     "stock": null,
     "imagenes": [
@@ -1100,15 +1102,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "KG ($11.00)",
-            "price": 11
-          },
-          {
-            "label": "25KG ($180.00)",
-            "price": 180
-          }
-        ]
+          "KG=$undefined",
+          "25KG=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -1234,20 +1231,15 @@
     "nombre": "METRON",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Metron 500G es un fungicida de amplio espectro formulado como polvo mojable, con acción sistémica y de contacto para el control de enfermedades fúngicas. Actúa de forma preventiva y curativa, siendo eficaz especialmente contra mildiú velloso y Phytophthora spp. Se distribuye dentro de la planta protegiendo nuevos tejidos y también actúa en la superficie eliminando el hongo, ayudando a mantener la sanidad del cultivo y mejorar la productividad en especies como papa, solanáceas, leguminosas, frutales y ornamentales.",
     "stock": null,
     "imagenes": [
       "/producto/metron/images/metron-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "500gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1273,7 +1265,9 @@
     "nombre": "NOVAK",
     "precio": "9",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Fungicida sistémico de amplio espectro es un fungicida de amplio espectro con acción preventiva, curativa y sistémica, diseñado para el control de múltiples enfermedades fúngicas. Se transloca dentro de la planta, protegiendo tanto tejidos existentes como nuevos brotes, e inhibe el desarrollo y la propagación de hongos, reduciendo la formación de esporas. Contribuye a una mejor sanidad del cultivo y a un manejo fitosanitario más eficiente.",
     "stock": null,
     "imagenes": [
