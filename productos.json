@@ -614,20 +614,15 @@
     "nombre": "ESLABON",
     "precio": "14",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Insecticida y acaricida de actividad estomacal y acción por contacto. ESLABÓN controla muchas especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados y piretroides en cultivos como cítricos, soya, tomate riñón, naranjilla, papa y ornamentales.",
     "stock": null,
     "imagenes": [
       "/producto/eslabon/images/eslabon-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "250ml"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -661,20 +656,15 @@
     "nombre": "ESTRUENDO",
     "precio": "10",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Es un acaricida de alta eficacia para el control de estados inmaduros de ácaros (huevos y ninfas) principalmente del género Tetranychus spp. Para lograr un control completo de los ácaros plaga en los cultivos se recomienda la aplicación conjunta o seguida de un acaricida de características adulticidas.",
     "stock": null,
     "imagenes": [
       "/producto/estruendo/images/estruendo-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "100gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -717,20 +707,15 @@
     "nombre": "FINIDOR",
     "precio": "10",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Insecticida sistémico y de contacto de amplio espectro para el control de un sin número de plagas tales como chinches, polillas, gusanos, moscas, trips, barrenadores y minadores. Formulado especialmente para tratamientos foliares y radiculares (drench). Posee larga acción residual por lo que garantiza un control duradero en el tiempo.",
     "stock": null,
     "imagenes": [
       "/producto/finidor/images/finidor-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "120ml"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1008,7 +993,9 @@
     "nombre": "KAÑON",
     "precio": "6",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Potente insecticida para el control de una amplia gama de especies de insectos y ácaros, incluidos los resistentes a los insecticidas carbamatos, organofosforados, piretroides y hormonales.",
     "stock": null,
     "imagenes": [
@@ -1017,19 +1004,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($6.00)",
-            "price": 6
-          },
-          {
-            "label": "500ML ($9.00)",
-            "price": 9
-          },
-          {
-            "label": "LT ($16.50)",
-            "price": 16.5
-          }
-        ]
+          "250ML=$undefined",
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
