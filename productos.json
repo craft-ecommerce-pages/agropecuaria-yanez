@@ -5,20 +5,15 @@
     "nombre": "AGROFULL K",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "AGROFULL K es un fertilizante foliar de óxido de potasio complejado con ácidos carboxílicos de bajo peso molecular, lo que facilita su rápida absorción por las hojas. Su acción mejora el flujo de agua y nutrientes dentro de la planta, favoreciendo el transporte de elementos hacia frutos y órganos de consumo. Como resultado, ayuda a aumentar el calibre, color, firmeza y calidad de los frutos, además de optimizar la transpiración y el potencial osmótico de la planta.",
     "stock": null,
     "imagenes": [
       "/producto/agrofull-k/images/agrofull-k-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -112,7 +107,9 @@
     "nombre": "AMINOPEP PLUS",
     "precio": "10",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Polvo soluble a base de una alta concentración de aminoácidos y péptidos al 80%, enriquecido con algas marinas al 20%. Los aminoácidos son obtenidos a través de una cuidadosa hidrolisis enzimática de proteína natural. Se utiliza para estimular el crecimiento y desarrollo del cultivo, en especial, cuando deba superar etapas cr%ticas o situaciones de estrés.",
     "stock": null,
     "imagenes": [
@@ -121,15 +118,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250GR ($10.00)",
-            "price": 10
-          },
-          {
-            "label": "KG ($33.00)",
-            "price": 33
-          }
-        ]
+          "250GR=$undefined",
+          "KG=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -166,7 +158,9 @@
     "nombre": "APOYADOR PLUS",
     "precio": "20",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Regulador tetra-hormonal es un regulador de crecimiento vegetal que combina auxinas, citoquininas, giberelinas y brasinoesteroides para estimular el desarrollo integral de la planta. Favorece la elongación celular, formación de tejidos, desarrollo de yemas, germinación, floración y crecimiento radicular, además de mejorar la absorción de nutrientes, el metabolismo y el vigor productivo del cultivo.",
     "stock": null,
     "imagenes": [
@@ -175,19 +169,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($20.00)",
-            "price": 20
-          },
-          {
-            "label": "500ML ($39.00)",
-            "price": 39
-          },
-          {
-            "label": "LT ($57.00)",
-            "price": 57
-          }
-        ]
+          "250ML=$undefined",
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
