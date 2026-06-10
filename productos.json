@@ -1174,7 +1174,9 @@
     "nombre": "METABOLIK",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Metabolik actúa como regulador del crecimiento, ayudando a coordinar procesos fisiológicos clave en la planta. Es una herramienta útil para complementar el programa de nutrición y manejo, apoyando la uniformidad, el vigor y la respuesta del cultivo, según dosis y momento de aplicación. Activando el metabolismo de la planta mejorando la estimulación hormonal y la síntesis de aminoácidos en el cultivo.",
     "stock": null,
     "imagenes": [
@@ -1183,15 +1185,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($15.00)",
-            "price": 15
-          },
-          {
-            "label": "Litro ($45.00)",
-            "price": 45
-          }
-        ]
+          "250ML=$undefined",
+          "Litro=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -1253,7 +1250,9 @@
     "nombre": "NUTRIKEL BORO",
     "precio": "7.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Elemento clave para la germinación del polen y el crecimiento del tubo polínico, esencial para la reproducción eficiente de la planta.\n\nTambién es un componente fundamental de los tejidos meristemáticos, contribuyendo al desarrollo de brotes y nuevas hojas, y juega un papel importante en la textura y firmeza de flores y frutos, favoreciendo su calidad y consistencia.",
     "stock": null,
     "imagenes": [
@@ -1262,15 +1261,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($7.50)",
-            "price": 7.5
-          },
-          {
-            "label": "LT ($14.00)",
-            "price": 14
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -1298,7 +1292,9 @@
     "nombre": "NUTRIKEL CALCIO-BORO",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Fertilizante bioestimulante diseñado para optimizar las etapas de prefloración, floración y cuajado en los cultivos.\n\nSu acción favorece un desarrollo más equilibrado y vigoroso de la planta, promoviendo mayor rendimiento, mejor cuajado y frutos de alta calidad, asegurando una cosecha más productiva y uniforme.",
     "stock": null,
     "imagenes": [
@@ -1307,19 +1303,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($8.00)",
-            "price": 8
-          },
-          {
-            "label": "LT ($14.00)",
-            "price": 14
-          },
-          {
-            "label": "GL ($45.00)",
-            "price": 45
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined",
+          "GL=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
