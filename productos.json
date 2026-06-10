@@ -215,20 +215,15 @@
     "nombre": "AVAL",
     "precio": "25",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Aval es un fungicida sistémico y translaminar de amplio espectro desarrollado para el control preventivo, curativo y erradicante de enfermedades causadas por hongos ascomicetos, basidiometos y deuteromicetos. Su principio activo como Propiconazole al 25% (250 g/L EC) y Difenoconazole (250 g/L EC). Ambos compuestos pertenecen a la familia química de los triazoles y actúan directamente inhibiendo la síntesis de ergosterol en la membrana celular del hongo.",
     "stock": null,
     "imagenes": [
       "/producto/aval/images/aval-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -451,7 +446,9 @@
     "nombre": "CAMPUZ",
     "precio": "5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Campuz es un fungicida de amplio espectro con acción protectora y curativa, que combina actividad de contacto y sistémica local. Sus ingredientes activos actúan inhibiendo el desarrollo del hongo y reduciendo la esporulación, lo que ayuda a cortar el ciclo de la enfermedad.\n\nSu efecto preventivo y curativo permite proteger el cultivo antes y después de la infección, brindando un control eficaz de diversos patógenos fúngicos. Contribuye a mantener la sanidad vegetal, limitar la propagación de enfermedades y mejorar la productividad agrícola.",
     "stock": null,
     "imagenes": [
@@ -460,15 +457,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250GR ($5.00)",
-            "price": 5
-          },
-          {
-            "label": "500GR ($8.00)",
-            "price": 8
-          }
-        ]
+          "250GR=$undefined",
+          "500GR=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -496,7 +488,9 @@
     "nombre": "CUPROSPOR",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Fungicida a base de sulfato de cobre pentahidratado es un fungicida y bactericida de amplio espectro que actúa por contacto, formando una barrera protectora sobre la planta para impedir el desarrollo de hongos y bacterias. Es eficaz contra enfermedades como oídio, Erwinia, Phytophthora y moniliasis, ayudando a mantener la sanidad del cultivo, reducir pérdidas y mejorar la productividad agrícola.",
     "stock": null,
     "imagenes": [
@@ -505,19 +499,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($15.00)",
-            "price": 15
-          },
-          {
-            "label": "500ML ($20.00)",
-            "price": 20
-          },
-          {
-            "label": "LT ($35.00)",
-            "price": 35
-          }
-        ]
+          "250ML=$undefined",
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -1527,20 +1513,15 @@
     "nombre": "NUTRIX CACAO",
     "precio": "20",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "NUTRIX CACAO es una fórmula mejorada diseñada para potenciar el desarrollo del cultivo de cacao. Este cambio representa una evolución real en su formulación, incorporando tres componentes claves que aumentan su eficiencia en campo: ácidos húmicos, ácidos fúlvicos y silicio. Conserva la base del producto que ya conocías, pero ahora ofrece una nutrición más completa, que acompaña de mejor manera los procesos del cacao, favoreciendo un crecimiento más vigoroso y un mejor desempeño del cultivo, según recomendación técnica.",
     "stock": null,
     "imagenes": [
       "/producto/nutrix-cacao/images/nutrix-cacao-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1760,20 +1741,16 @@
     "nombre": "VERDEFANCE",
     "precio": "35",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar",
+      "bioestimulantes"
+    ],
     "descripcion": "**Verdefance – Limpiador de Musgo** es un producto especializado para la eliminación y control de musgo en cultivos de cacao, contribuyendo a mejorar la sanidad y el desarrollo de las plantas.\n\nActúa reduciendo la presencia de musgo sobre ramas y estructuras vegetales, lo que favorece una mejor penetración de luz, mayor aireación y condiciones más óptimas para el crecimiento del cultivo.\n\nSu uso contribuye a mantener plantas más limpias, vigorosas y equilibradas, promoviendo un desarrollo más uniforme y mejorando el manejo agronómico del cultivo. Se recomienda aplicar según indicación técnica para asegurar su máxima eficacia.",
     "stock": null,
     "imagenes": [
       "/producto/verdefance/images/verdefance-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Kg"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1832,7 +1809,9 @@
     "nombre": "VULTUR",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "VULTUR es un fertilizante líquido rico en calcio, zinc y boro, diseñado para mejorar crecimiento, floración y fructificación en cultivos como maíz y cacao. Su formulación con ácidos carboxílicos optimiza la absorción de nutrientes, fortaleciendo paredes celulares, promoviendo división celular, formación de flores y cuajado de frutos, favoreciendo raíces vigorosas, plantas equilibradas, mayor calidad y rendimiento, y mejor resistencia al estrés.",
     "stock": null,
     "imagenes": [
@@ -1841,15 +1820,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($8.00)",
-            "price": 8
-          },
-          {
-            "label": "LT ($15.00)",
-            "price": 15
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
