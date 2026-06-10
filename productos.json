@@ -1785,20 +1785,15 @@
     "nombre": "SIBILANT",
     "precio": "39",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Sibilant es un insecticida y acaricida de doble acción que combina Bifenthrin y Lufenuron para un control rápido y prolongado de plagas. Actúa sobre insectos adultos por contacto e ingestión y sobre larvas interrumpiendo su desarrollo, rompiendo el ciclo biológico. Es eficaz contra gusano blanco, polilla, trips, pulgones, gusano cogollero y ácaros, reduciendo daños y favoreciendo un mejor crecimiento y rendimiento de los cultivos.",
     "stock": null,
     "imagenes": [
       "/producto/sibilant/images/sibilant-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1829,7 +1824,9 @@
     "nombre": "SULTAN",
     "precio": "18",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "SULTÁN® es un insecticida–nematicida de acción sistémica y de contacto que actúa sobre el sistema nervioso de insectos y nemátodos, causando parálisis y muerte. Se distribuye dentro de la planta para protección prolongada y también actúa por contacto para un control rápido. Es eficaz contra gusano blanco, cogollero, minadores, nemátodos e insectos chupadores, contribuyendo a reducir daños y mejorar el desarrollo, sanidad y productividad de cultivos como papa, tomate, maíz, ornamentales, frutales y tropicales.",
     "stock": null,
     "imagenes": [
@@ -1838,15 +1835,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($18.00)",
-            "price": 18
-          },
-          {
-            "label": "LT ($30.00)",
-            "price": 30
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
