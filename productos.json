@@ -420,20 +420,15 @@
     "nombre": "BRONCO PLUS",
     "precio": "14.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Emulsificante no iónico para uso agrícola\n\nFormulado a base de Poliglicol Éter de alcohol graso y aditivos especiales, diseñado para la preparación de emulsiones estables aceite/agua utilizadas en aplicaciones agrícolas.\n\nFavorece la mezcla homogénea de productos formulados, mejorando la dispersión, estabilidad y cobertura durante la aplicación. Su acción emulsificante optimiza la compatibilidad entre componentes oleosos y acuosos, contribuyendo a una aplicación más uniforme y eficiente en el cultivo.",
     "stock": null,
     "imagenes": [
       "/producto/bronco-plus/images/bronco-plus-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1351,20 +1346,15 @@
     "nombre": "N-30 LS",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Fertilizante nitrogenado de rápida absorción es un fertilizante diseñado para una nutrición rápida y eficiente, con alta disponibilidad de nitrógeno que favorece su fácil absorción por la planta. Estimula el crecimiento vegetativo, fortalece tallos y hojas, mejora la fotosíntesis y contribuye a aumentar la productividad y el vigor de los cultivos en diferentes etapas de desarrollo.",
     "stock": null,
     "imagenes": [
       "/producto/n-30-ls/images/n-30-ls-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1630,20 +1620,16 @@
     "nombre": "NUTRI-SAN LS",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "bioestimulantes",
+      "fungicidas"
+    ],
     "descripcion": "Nutrisan® es un bioestimulante orgánico que combina aminoácidos, carbohidratos y extractos vegetales para nutrir y fortalecer las plantas. Estimula el crecimiento y desarrollo, mejora el rendimiento y la calidad de la cosecha, fortalece las defensas naturales, favorece la recuperación de cultivos debilitados y ayuda a las plantas a enfrentar estrés ambiental, aumentando vigor y actividad fisiológica.",
     "stock": null,
     "imagenes": [
       "/producto/nutri-san-ls/images/nutri-san-ls-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
