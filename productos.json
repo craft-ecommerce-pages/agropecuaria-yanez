@@ -77,20 +77,15 @@
     "nombre": "AMEPAX",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "herbicidas"
+    ],
     "descripcion": "AMEPAX es un herbicida selectivo y sistémico a base de ametrina, utilizado para el control de malezas de hoja ancha y algunas gramíneas. Actúa inhibiendo la fotosíntesis de las malezas, deteniendo su crecimiento y provocando su eliminación progresiva. Ofrece control prolongado gracias a su efecto residual en el suelo, reduciendo nuevas emergencias y disminuyendo la necesidad de aplicaciones repetidas. Es ampliamente usado en cultivos como caña de azúcar, maíz y plantaciones industriales, recomendándose su aplicación en malezas jóvenes y en crecimiento activo para obtener mejores resultados.",
     "stock": null,
     "imagenes": [
       "/producto/amepax/images/amepax-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -99,20 +94,16 @@
     "nombre": "AMINO-50",
     "precio": "11.3",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar",
+      "bioestimulantes"
+    ],
     "descripcion": "Amino-50 es un bioestimulante de aplicación foliar y radicular con alta concentración de aminoácidos libres, nitrógeno, fósforo y potasio. Ayuda a fortalecer la planta frente al estrés, estimulando el crecimiento radicular y foliar, además de mantener activos los procesos metabólicos esenciales para el desarrollo del cultivo en todas sus etapas.",
     "stock": null,
     "imagenes": [
       "/producto/amino-50/images/amino-50-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "500gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
