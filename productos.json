@@ -198,20 +198,15 @@
     "nombre": "ARUTAM",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Arutam es un insecticida de acción combinada diseñado para el control eficaz de larvas de lepidópteros en diversos cultivos. Contiene Emamectin benzoate, que actúa sobre el sistema nervioso causando parálisis rápida, y Lufenuron, que inhibe la formación del exoesqueleto durante la muda. Esta combinación brinda un control inmediato y preventivo, reduciendo el daño de las plagas y prolongando la protección del cultivo.",
     "stock": null,
     "imagenes": [
       "/producto/arutam/images/arutam-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "75gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
