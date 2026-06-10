@@ -1818,7 +1818,9 @@
     "nombre": "VITAVAX FLOABLE",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "VITAVAX FLOABLE es un fungicida de amplio espectro con acción sistémica y de contacto, formulado para el tratamiento de semillas, cormos, esquejes y tubérculos antes de la siembra. Combina Carboxin y Tiram para proteger el embrión desde el interior y la superficie de los patógenos, controlando pudriciones, damping-off y otras enfermedades tempranas. Favorece una germinación uniforme y vigorosa, un rápido establecimiento y desarrollo radicular, contribuyendo a plantas más sanas y productivas.",
     "stock": null,
     "imagenes": [
@@ -1827,15 +1829,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($12.00)",
-            "price": 12
-          },
-          {
-            "label": "LT ($36.00)",
-            "price": 36
-          }
-        ]
+          "250ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -1846,7 +1843,9 @@
     "nombre": "VOLCAN",
     "precio": "14",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Volcán-C es un fungicida y bactericida de acción sistémica y de contacto, indicado para el control de hongos como Phytophthora y Peronospora, y bacterias fitopatógenas como Erwinia, Xanthomonas y Pseudomonas. Actúa de manera preventiva y curativa, inhibiendo la germinación de esporas y limitando infecciones existentes, con distribución uniforme que protege tejidos nuevos y en crecimiento, reduciendo la incidencia y severidad de las enfermedades en diversos cultivos.",
     "stock": null,
     "imagenes": [
@@ -1855,15 +1854,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500GR ($14.00)",
-            "price": 14
-          },
-          {
-            "label": "KG ($25.00)",
-            "price": 25
-          }
-        ]
+          "500GR=$undefined",
+          "KG=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
