@@ -1357,20 +1357,15 @@
     "nombre": "NUTRIKEL ESPIGADOR",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Fertilizante con accion bioestimulante formulado a base de NPK enriquecidos con aminoacidos de rapida asimilacion aplicado en etapas de pre floracion y floracion, activa la energia y el metabolismo de las plantas.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-espigador/images/nutrikel-espigador-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1379,20 +1374,15 @@
     "nombre": "NUTRIKEL MAX",
     "precio": "26",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Bioestimulante completo a base de NPK, enriquecido con algas marinas, aminoácidos, ácidos húmicos, vitaminas y brasinoesteroides. Previene estrés a temperaturas bajas, sequías, plagas y enfermedades.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-max/images/nutrikel-max-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
