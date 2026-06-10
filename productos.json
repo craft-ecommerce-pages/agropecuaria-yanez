@@ -318,7 +318,9 @@
     "nombre": "BOMBA FUMIGADORA 5LT",
     "precio": "9",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "equipos"
+    ],
     "descripcion": "Bomba pressure sprayer (pulverizador o fumigador a presión) de 5 litros es un equipo manual diseñado para aplicar líquidos de manera uniforme. Es ideal para jardinería, control de plagas y limpieza en exteriores. Funciona acumulando presión mediante una bomba manual para lograr una aspersión continua y controlada.",
     "stock": null,
     "imagenes": [
@@ -401,7 +403,9 @@
     "nombre": "BOMBA MATABI",
     "precio": "96",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "equipos"
+    ],
     "descripcion": "La bomba Matabi es un pulverizador o fumigadora manual diseñada para aplicar líquidos de manera precisa y uniforme, como pesticidas, herbicidas o fertilizantes. Su construcción resistente y fácil manejo la hace ideal para uso profesional en agricultura, jardinería y control de plagas, garantizando una distribución eficiente del producto y un trabajo más seguro y efectivo.",
     "stock": null,
     "imagenes": [
@@ -1816,20 +1820,15 @@
     "nombre": "SANIQUAT-40",
     "precio": "44.8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Saniquat-40 es un desinfectante y sanitizante de alta concentración formulado con Amonio Cuaternario de 5ta generación. Es ampliamente utilizado en agricultura, industria y bioseguridad para prevenir y controlar la propagación de bacterias, hongos y virus.",
     "stock": null,
     "imagenes": [
       "/producto/saniquat-40/images/saniquat-40-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Gl"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
