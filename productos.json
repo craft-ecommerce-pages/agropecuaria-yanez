@@ -1555,6 +1555,34 @@
     "sku": ""
   },
   {
+    "id": "c8320a03-afe9-4427-a258-89a2ceff0ca6",
+    "slug": "senator",
+    "nombre": "SENATOR",
+    "precio": "4.25",
+    "precio_promo": "",
+    "categorias": [
+      "herbicidas"
+    ],
+    "descripcion": "Senator es un herbicida sistémico selectivo para malezas de hoja ancha. Actúa como una auxina sintética inhibiendo el crecimiento. Para el control post-emergente de la mayoría de malezas hoja ancha, tanto anuales como perennes en cultivos como maíz, pastos, frutales, forestales, áreas no cultivadas y también para el control de malezas acuáticas.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "options": [
+          {
+            "label": "Lt ($4.25)",
+            "price": 4.25
+          },
+          {
+            "label": "Caneca ($4.25)",
+            "price": 4.25
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "241df9d9-1c26-57ee-8914-2b5fac084bd6",
     "slug": "sibilant",
     "nombre": "SIBILANT",
