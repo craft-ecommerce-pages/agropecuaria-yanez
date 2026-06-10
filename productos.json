@@ -55,7 +55,9 @@
     "nombre": "ALGASER PLUS",
     "precio": "9",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "bioestimulantes"
+    ],
     "descripcion": "Polvo soluble a base de un alto contenido de extracto de algas marinas Ascophillum Nodosum al 80%, enriquecido con aminoácidos al 20%, que ayuda a mejorar el suelo y vigorizar las plantas incrementando los rendimientos y la calidad de las cosechas.",
     "stock": null,
     "imagenes": [
@@ -64,15 +66,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250GR ($9.00)",
-            "price": 9
-          },
-          {
-            "label": "KG ($30.00)",
-            "price": 30
-          }
-        ]
+          "250GR=$undefined",
+          "KG=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -420,7 +417,9 @@
     "nombre": "BOMBA SPRAYER 2LT",
     "precio": "4.75",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "equipos"
+    ],
     "descripcion": "Una bomba sprayer de 2 litros (también conocida como pulverizador o fumigador manual) es un dispositivo ligero y portátil diseñado para esparcir líquidos en forma de rocío o niebla fina. Funciona mediante presión manual acumulada y es ideal para el cuidado de plantas, limpieza y desinfección.",
     "stock": null,
     "imagenes": [
@@ -472,20 +471,15 @@
     "nombre": "CALCIO-BORO-ZINC LS",
     "precio": "10",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Calcio, Boro y Zinc es un fertilizante agrícola y bioestimulante fundamental utilizado en las etapas de floración y cuajado de frutos. Estos tres nutrientes trabajan en sinergia para mejorar la calidad de las cosechas, prevenir el aborto de flores y asegurar un correcto desarrollo celular.",
     "stock": null,
     "imagenes": [
       "/producto/calcio-boro-zinc-ls/images/calcio-boro-zinc-ls-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1758,20 +1752,15 @@
     "nombre": "REGULA DUREZA",
     "precio": "4.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Coadyuvante a base de citratos diseñado especialmente para disminuir la dureza y regular el pH de las aguas de uso agrícola.",
     "stock": null,
     "imagenes": [
       "/producto/regula-dureza/images/regula-dureza-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "200gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
