@@ -484,20 +484,15 @@
     "nombre": "CENTELLA",
     "precio": "25",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Piretroide sintético no sistémico, de gran capacidad de penetración, con actividad insecticida por contacto e ingestión, con buen efecto de choque y buena persistencia que actúa sobre el sistema nervioso de los insectos alternando el flujo de iones a través de la membrana nerviosa.  propiedades repelentes. Su tecnología molecular permite un amplio control y efectividad con bajas dosis de aplicación.",
     "stock": null,
     "imagenes": [
       "/producto/centella/images/centella-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
