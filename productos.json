@@ -140,7 +140,9 @@
     "nombre": "ANGLOQUAT",
     "precio": "4.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "herbicidas"
+    ],
     "descripcion": "ANGLOQUAT es un herbicida no selectivo de acción rápida y de contacto, formulado con Paraquat 200 g/L para el control de malezas de hoja ancha y gramíneas. Actúa bloqueando la fotosíntesis, deshidratando rápidamente los tejidos vegetales y eliminando las malezas en poco tiempo. Se utiliza en frutales, palma aceitera, cultivos industriales y áreas no cultivadas, ayudando a reducir la competencia por agua, luz y nutrientes. Para mejores resultados, se recomienda aplicarlo sobre malezas jóvenes y en crecimiento activo con buena cobertura foliar.",
     "stock": null,
     "imagenes": [
@@ -149,19 +151,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "Litro ($4.50)",
-            "price": 4.5
-          },
-          {
-            "label": "Galón ($15.80)",
-            "price": 15.8
-          },
-          {
-            "label": "Caneca ($76.00)",
-            "price": 76
-          }
-        ]
+          "Litro=$undefined",
+          "Galón=$undefined",
+          "Caneca=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -576,20 +570,16 @@
     "nombre": "DAKOTA",
     "precio": "73",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "enmiendas",
+      "fertilizantes"
+    ],
     "descripcion": "DAKOTA es un bioestimulante de origen canadiense elaborado con ácidos húmicos de leonardita, utilizado para mejorar la estructura, fertilidad y retención de humedad del suelo. Favorece el desarrollo radicular, aumenta la disponibilidad de nutrientes y estimula la actividad microbiológica, contribuyendo a un mejor crecimiento y rendimiento de los cultivos. Se recomienda su aplicación en etapas iniciales para optimizar la calidad del suelo y prevenir la acidificación.",
     "stock": null,
     "imagenes": [
       "/producto/dakota/images/dakota-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "25Kg"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -890,7 +880,10 @@
     "nombre": "GERMIZOL",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "enmiendas",
+      "fertilizantes"
+    ],
     "descripcion": "Sal de potasio de ácido húmico de alta pureza obtenida de leonardita, diseñada para mejorar la nutrición y el vigor del zooplancton y las algas. Favorece la absorción y el transporte de nutrientes, estimulando el crecimiento y desarrollo de los organismos acuáticos. Además, contribuye a optimizar la productividad y el equilibrio biológico del sistema.",
     "stock": null,
     "imagenes": [
@@ -899,15 +892,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "KG ($15.00)",
-            "price": 15
-          },
-          {
-            "label": "20KG ($250.00)",
-            "price": 250
-          }
-        ]
+          "KG=$undefined",
+          "20KG=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -918,7 +906,9 @@
     "nombre": "GLUFONE",
     "precio": "5.25",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "herbicidas"
+    ],
     "descripcion": "Herbicida post-emergente es un herbicida de acción post-emergente diseñado para el control de malezas anuales y perennes, tanto de hoja ancha como gramíneas. Su aplicación ayuda a eliminar las malezas en crecimiento activo, reduciendo la competencia por agua, nutrientes y luz, lo que favorece el desarrollo del cultivo. Se recomienda su uso con buena cobertura foliar para lograr un control más rápido, uniforme y duradero.",
     "stock": null,
     "imagenes": [
@@ -927,19 +917,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "LT ($5.25)",
-            "price": 5.25
-          },
-          {
-            "label": "GL ($19.00)",
-            "price": 19
-          },
-          {
-            "label": "CANECA ($79.50)",
-            "price": 79.5
-          }
-        ]
+          "LT=$undefined",
+          "GL=$undefined",
+          "CANECA=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
