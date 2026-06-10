@@ -837,20 +837,15 @@
     "nombre": "FUNGIL",
     "precio": "15",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Fungicida protectante de amplio espectro para aplicación foliar, diseñado para la prevención eficaz de enfermedades causadas por hongos en diversos cultivos agrícolas. Actúa formando una barrera protectora sobre la superficie vegetal, impidiendo la germinación de esporas y el establecimiento del patógeno.\n\nSe recomienda su uso preventivo antes de la aparición de síntomas, siendo altamente efectivo en hortalizas, frutales, cultivos tropicales, ornamentales y forrajes. Su acción contribuye a mantener la sanidad del cultivo, reducir la incidencia de enfermedades y proteger el potencial productivo.",
     "stock": null,
     "imagenes": [
       "/producto/fungil/images/fungil-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -961,20 +956,15 @@
     "nombre": "IMPULSE",
     "precio": "184",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "IMPULSE® 800 EC es un fungicida sistémico de amplio espectro con acción protectora, curativa y erradicante para el control de enfermedades fúngicas en cultivos. Su ingrediente activo se moviliza dentro de la planta, previniendo infecciones, deteniendo el desarrollo de patógenos ya presentes y reduciendo la formación y dispersión de esporas. Contribuye a mantener la sanidad del cultivo, disminuir pérdidas y mejorar la productividad agrícola.",
     "stock": null,
     "imagenes": [
       "/producto/impulse/images/impulse-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "5LT"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1009,20 +999,15 @@
     "nombre": "KATALIC",
     "precio": "11",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "fungicidas"
+    ],
     "descripcion": "Fungicida sistémico de acción curativa con propiedades antiesporulantes, diseñado para el control eficaz de enfermedades causadas por oomicetos. Actúa inhibiendo el desarrollo del patógeno dentro del tejido vegetal y reduciendo la formación y dispersión de esporas, lo que ayuda a cortar el ciclo de la enfermedad.\n\nEs altamente efectivo en el manejo preventivo y curativo de lanchas, tizones y mildius, protegiendo el cultivo frente a infecciones activas y nuevas reinfecciones, y contribuyendo a mantener la sanidad y productividad agrícola.",
     "stock": null,
     "imagenes": [
       "/producto/katalic/images/katalic-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "500gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
