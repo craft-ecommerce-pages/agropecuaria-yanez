@@ -1281,20 +1281,15 @@
     "nombre": "NUTRIKEL CA-B-ZN",
     "precio": "13",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Quelatamientos a base de poliaminas y oxidos metalicos. Estimula al desarrollo del follaje, favorece a la floracion y cuajado, promoviendo altos rendimientos en sus cultivos.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-ca-b-zn/images/nutrikel-ca-b-zn-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1335,20 +1330,15 @@
     "nombre": "NUTRIKEL ENGROSE PLUS",
     "precio": "18",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Aporte esencial de potasio para todo tipo de cultivo. Incrementa el peso, mejora la textura, la calidad y coloración de los frutos y granos.",
     "stock": null,
     "imagenes": [
       "/producto/nutrikel-engrose-plus/images/nutrikel-engrose-plus-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
