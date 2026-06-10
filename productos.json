@@ -747,7 +747,9 @@
     "nombre": "FLIZZ PLUS",
     "precio": "7",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Bioestimulante radicular que actua promoviendo el crecimiento de las raices y funciones en base a un potente reactor enzimatico y fito hormonas de crecimiento radicular. Favorece la captacion de agua, nutrientes, anclaje e interviene en la CIC.",
     "stock": null,
     "imagenes": [
@@ -756,19 +758,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($7.00)",
-            "price": 7
-          },
-          {
-            "label": "LT ($12.50)",
-            "price": 12.5
-          },
-          {
-            "label": "GL ($45.00)",
-            "price": 45
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined",
+          "GL=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -779,20 +773,15 @@
     "nombre": "FORTACYL ESTIM",
     "precio": "20",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "FortacyL Estim promueve el vigor y la actividad fisiológica de la planta, apoyando procesos de crecimiento y recuperación en momentos de demanda del cultivo. Es una alternativa para complementar programas de fertilización y manejo nutricional, especialmente cuando se busca estimular el desarrollo y mejorar la respuesta del cultivo. Provee componentes que reducen el estres ambiental provocados por agua, luz y temeperatura.",
     "stock": null,
     "imagenes": [
       "/producto/fortacyl-estim/images/fortacyl-estim-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -801,20 +790,15 @@
     "nombre": "FORTACYL K",
     "precio": "22.5",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "FortacyL K (fosfito de potasio) aporta potasio en una forma fisiológicamente activa, apoyando procesos de defensa y recuperación de la planta. Es una herramienta útil para complementar programas de manejo nutricional y mejorar la respuesta del cultivo ante situaciones adversas, según recomendación técnica.",
     "stock": null,
     "imagenes": [
       "/producto/fortacyl-k/images/fortacyl-k-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
