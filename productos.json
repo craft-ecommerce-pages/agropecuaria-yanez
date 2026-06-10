@@ -920,20 +920,15 @@
     "nombre": "IBISOIL CA FLOW",
     "precio": "40",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Ibisoil Ca Flow® es un abono cálcico de aplicación radicular, libre de sales, que aporta calcio de rápida disponibilidad para mejorar el tamaño, firmeza y vida postcosecha de los frutos. Además, favorece la absorción de nutrientes al mejorar la estructura del suelo, estimular el desarrollo radicular y ayudar a desplazar sales. Su acción sobre el suelo contribuye a la floculación y formación de agregados, reduciendo pérdidas por lixiviación y optimizando la disponibilidad de calcio.",
     "stock": null,
     "imagenes": [
       "/producto/ibisoil-ca-flow/images/ibisoil-ca-flow-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "5Kg"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
