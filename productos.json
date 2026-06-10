@@ -232,7 +232,9 @@
     "nombre": "BIOCAL",
     "precio": "10",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Biocal es un acondicionador organico, desarrolado para las necesidades de los suelos y aguas de nuestro sector, contiene 30% de Calcio activo (CaO) y coadyudante cationico liquidos en una formulacion de efecto imediato y duradero. Su objetivo es recuperar el suelo ayudando a su oxigenacion y al enraizamiento profundo del cultivo evitando al volteo y embolconamiento, logarndo tambien que se desarrolle una vida microbiona natural y benefica para evitar que patogenos contagien su cultivo",
     "stock": null,
     "imagenes": [
@@ -241,23 +243,12 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "LT ($10.00)",
-            "price": 10
-          },
-          {
-            "label": "GL ($35.00)",
-            "price": 35
-          },
-          {
-            "label": "CANECA ($140.00)",
-            "price": 140
-          },
-          {
-            "label": "TANQUE ($1358.00)",
-            "price": 1358
-          }
-        ]
+          "LT=$undefined",
+          "GL=$undefined",
+          "CANECA=$undefined",
+          "TANQUE=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -514,7 +505,9 @@
     "nombre": "CYTOGROW PLUS",
     "precio": "12",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Estimula el crecimiento y facilita la nutrición de las plantas al promover la emisión de yema, la formación de brotes, mejorar el tamaño de espigas y aumentar la cantidad de flores.",
     "stock": null,
     "imagenes": [
@@ -523,19 +516,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($12.00)",
-            "price": 12
-          },
-          {
-            "label": "500ML ($17.00)",
-            "price": 17
-          },
-          {
-            "label": "LT ($33.00)",
-            "price": 33
-          }
-        ]
+          "250ML=$undefined",
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -725,20 +710,15 @@
     "nombre": "FLASH",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Fertilizante de acción rápida diseñado para apoyar el desarrollo del cultivo aportando nutrientes esenciales. Su formulación facilita la absorción y la respuesta temprana, contribuyendo a mejorar la uniformidad, el crecimiento y la productividad, ayudando a corregir situaciones de estrés o deficiencias nutricionales durante el ciclo.",
     "stock": null,
     "imagenes": [
       "/producto/flash/images/flash-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "500ML"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
