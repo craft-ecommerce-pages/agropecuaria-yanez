@@ -1401,7 +1401,9 @@
     "nombre": "NUTRIKEL MULTI",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "Multi Mineral es un bioestimulante que potencia los procesos fisiológicos de los cultivos, mejorando la absorción de nutrientes, el crecimiento vegetativo, el desarrollo radicular y la floración. Su formulación con ácidos húmicos, vitaminas y fitohormonas favorece un metabolismo equilibrado, mayor vigor, resistencia al estrés y un desarrollo uniforme, incrementando la productividad y sanidad del cultivo.",
     "stock": null,
     "imagenes": [
@@ -1410,15 +1412,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500ML ($8.00)",
-            "price": 8
-          },
-          {
-            "label": "LT ($19.00)",
-            "price": 19
-          }
-        ]
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
