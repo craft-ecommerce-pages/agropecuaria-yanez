@@ -1186,7 +1186,7 @@
     "id": "098facba-269c-4f99-9a17-1f4c96d26229",
     "slug": "mega-ozono",
     "nombre": "MEGA OZONO",
-    "precio": "17",
+    "precio": "33.5",
     "precio_promo": "",
     "categorias": [
       "bioestimulantes",
@@ -1201,12 +1201,12 @@
       {
         "options": [
           {
-            "label": "Lt ($17.00)",
-            "price": 17
+            "label": "Lt ($33.50)",
+            "price": 33.5
           },
           {
-            "label": "Gl ($17.00)",
-            "price": 17
+            "label": "Gl ($33.50)",
+            "price": 33.5
           }
         ]
       }
