@@ -1006,7 +1006,20 @@
     "descripcion": "Humic K es un fertilizante líquido soluble a base de humato de potasio, con una alta concentración de acido humico y fúlvico extraído de leonardita natural, diseñado para mejorar la fertilidad y productividad del suelo, así como el rendimiento y la calidad de los cultivos.",
     "stock": null,
     "imagenes": null,
-    "variantes": [],
+    "variantes": [
+      {
+        "options": [
+          {
+            "label": "Kg ($11.50)",
+            "price": 11.5
+          },
+          {
+            "label": "25Kg ($11.50)",
+            "price": 11.5
+          }
+        ]
+      }
+    ],
     "sku": ""
   },
   {
