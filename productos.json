@@ -27,7 +27,9 @@
     "nombre": "AGROMAGIC",
     "precio": "17",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar"
+    ],
     "descripcion": "AgroMagic / Polvo Mágico es un fertilizante 100% orgánico que mejora el desarrollo del cultivo y la productividad, desbloquea nutrientes, optimiza la estructura del suelo, fortalece el desarrollo radicular y estimula la formación de flores y frutos.",
     "stock": null,
     "imagenes": [
@@ -36,15 +38,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "500gr ($17.00)",
-            "price": 17
-          },
-          {
-            "label": "Kg ($26.00)",
-            "price": 26
-          }
-        ]
+          "500gr=$undefined",
+          "Kg=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -773,7 +770,9 @@
     "nombre": "FITOWET",
     "precio": "4",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "coadyuvantes"
+    ],
     "descripcion": "Dispersante siliconado de alta eficiencia para aplicaciones agrícolas\n\nDispersante formulado a base de siliconas que reduce significativamente la tensión superficial de las gotas pulverizadas, favoreciendo una mejor extensión y cobertura sobre la superficie de las plantas.\n\nSu acción permite una distribución más uniforme del caldo de aplicación, mejorando el contacto del producto con el follaje y potenciando la eficacia de agroquímicos y fertilizantes.",
     "stock": null,
     "imagenes": [
@@ -782,15 +781,10 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "100ml ($4.00)",
-            "price": 4
-          },
-          {
-            "label": "Lt ($22.50)",
-            "price": 22.5
-          }
-        ]
+          "100ml=$undefined",
+          "Lt=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
@@ -1713,20 +1707,16 @@
     "nombre": "REGENER BOOSTER",
     "precio": "20",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "abono_foliar",
+      "bioestimulantes"
+    ],
     "descripcion": "Regener Booster es un bioestimulante y regenerador de suelos 100% orgánico y biodegradable. Es ampliamente utilizado en el agro ecuatoriano (en cultivos como banano, plátano, cacao y flores) para mejorar el desarrollo vegetativo, activar la floración y fortalecer el sistema inmunológico de las plantas.",
     "stock": null,
     "imagenes": [
       "/producto/regener-booster/images/regener-booster-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
