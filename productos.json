@@ -1062,20 +1062,15 @@
     "nombre": "KILLBAC",
     "precio": "17",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Insecticida potásico a base de aceites vegetales es un insecticida y acaricida de origen vegetal que actúa por contacto, debilitando la capa protectora de insectos y ácaros hasta provocar su deshidratación y muerte. Es eficaz contra plagas de cuerpo blando como pulgones, mosca blanca, trips, cochinillas y ácaros. Su formulación a base de aceites vegetales mejora la cobertura y adherencia en el follaje, ayudando también a limpiar la melaza y mejorar la sanidad de la planta.",
     "stock": null,
     "imagenes": [
       "/producto/killbac/images/killbac-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "Lt"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1110,20 +1105,15 @@
     "nombre": "KMELOT",
     "precio": "8",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "KMELOT® es un insecticida de doble acción (sistémica y de contacto) que proporciona control rápido y prolongado de plagas agrícolas. Se distribuye dentro de la planta, protegiendo brotes nuevos, y actúa también por contacto generando un efecto de derribe inmediato. Está orientado al control de insectos chupadores y minadores como mosca blanca, pulgones, trips y minadores de hoja, afectando su sistema nervioso y reduciendo su alimentación, movilidad y reproducción, con protección residual que ayuda a prevenir reinfestaciones.",
     "stock": null,
     "imagenes": [
       "/producto/kmelot/images/kmelot-1.webp"
     ],
-    "variantes": [
-      {
-        "options": [
-          "100gr"
-        ],
-        "type": "option"
-      }
-    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -1160,7 +1150,9 @@
     "nombre": "KYLATE",
     "precio": "4",
     "precio_promo": "",
-    "categorias": [],
+    "categorias": [
+      "insecticidas"
+    ],
     "descripcion": "Piretroide de elevada actividad insecticida, especialmente contra insectos lepidópteros, pero también coleópteros, dípteros hemípteros, entre otras clases. Eficaz para control de insecto en cultivos como maíz, papa, tomate, frutales (incluyendo cítricos), café, cacao, hortalizas y cultivos tropicales.",
     "stock": null,
     "imagenes": [
@@ -1169,19 +1161,11 @@
     "variantes": [
       {
         "options": [
-          {
-            "label": "250ML ($4.00)",
-            "price": 4
-          },
-          {
-            "label": "500ML ($7.00)",
-            "price": 7
-          },
-          {
-            "label": "LT ($11.50)",
-            "price": 11.5
-          }
-        ]
+          "250ML=$undefined",
+          "500ML=$undefined",
+          "LT=$undefined"
+        ],
+        "type": "option"
       }
     ],
     "sku": ""
