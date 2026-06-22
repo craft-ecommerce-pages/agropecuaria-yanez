@@ -1156,6 +1156,19 @@
     "sku": ""
   },
   {
+    "id": "4b41ac1c-62b5-4ac6-acc0-f61527e3b341",
+    "slug": "n30",
+    "nombre": "N30",
+    "precio": "7",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "22f233c1-309f-545a-8021-ca1cadca070b",
     "slug": "n-30-ls",
     "nombre": "N-30 LS",
