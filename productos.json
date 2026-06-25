@@ -1109,24 +1109,6 @@
     "sku": ""
   },
   {
-    "id": "098facba-269c-4f99-9a17-1f4c96d26229",
-    "slug": "mega-ozono",
-    "nombre": "MEGA OZONO",
-    "precio": "33.5",
-    "precio_promo": "",
-    "categorias": [
-      "bioestimulantes",
-      "biologicos",
-      "fungicidas",
-      "insecticidas"
-    ],
-    "descripcion": "",
-    "stock": null,
-    "imagenes": null,
-    "variantes": [],
-    "sku": ""
-  },
-  {
     "id": "23c766b1-f1fd-51d9-9fdb-de446fe54159",
     "slug": "metabolik",
     "nombre": "METABOLIK",
