@@ -460,6 +460,19 @@
     "sku": ""
   },
   {
+    "id": "21c0b2a9-a975-4cef-9c94-df56fb827e73",
+    "slug": "combo-cosecha-segura-megaozono-nutrixcacao",
+    "nombre": "Combo Cosecha Segura – Megaozono + Nutrixcacao",
+    "precio": "55",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Combo Cosecha Segura – Megaozono + Nutrixcacao",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "9841bdc1-61b8-5bca-b7cd-947165032224",
     "slug": "cuprospor",
     "nombre": "CUPROSPOR",
