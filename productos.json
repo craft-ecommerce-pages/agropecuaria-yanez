@@ -1109,6 +1109,19 @@
     "sku": ""
   },
   {
+    "id": "098facba-269c-4f99-9a17-1f4c96d26229",
+    "slug": "mega-ozono",
+    "nombre": "Mega Ozono",
+    "precio": "",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "23c766b1-f1fd-51d9-9fdb-de446fe54159",
     "slug": "metabolik",
     "nombre": "METABOLIK",
