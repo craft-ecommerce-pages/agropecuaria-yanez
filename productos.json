@@ -467,7 +467,7 @@
     "precio_promo": "",
     "categorias": [],
     "descripcion": "Combo Cosecha Segura – Megaozono + Nutrixcacao",
-    "stock": null,
+    "stock": 0,
     "imagenes": null,
     "variantes": [],
     "sku": ""
@@ -1171,7 +1171,7 @@
     "precio_promo": "",
     "categorias": [],
     "descripcion": "",
-    "stock": null,
+    "stock": 0,
     "imagenes": null,
     "variantes": [],
     "sku": ""
