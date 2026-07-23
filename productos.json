@@ -26,7 +26,7 @@
       "abono_foliar"
     ],
     "descripcion": "AgroMagic / Polvo Mágico es un fertilizante 100% orgánico que mejora el desarrollo del cultivo y la productividad, desbloquea nutrientes, optimiza la estructura del suelo, fortalece el desarrollo radicular y estimula la formación de flores y frutos.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/agromagic/images/agromagic-1.jpg"
     ],
@@ -51,7 +51,7 @@
       "bioestimulantes"
     ],
     "descripcion": "Polvo soluble a base de un alto contenido de extracto de algas marinas Ascophillum Nodosum al 80%, enriquecido con aminoácidos al 20%, que ayuda a mejorar el suelo y vigorizar las plantas incrementando los rendimientos y la calidad de las cosechas.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/algaser-plus/images/algaser-plus-1.jpg"
     ],
@@ -250,7 +250,7 @@
       "fertilizantes"
     ],
     "descripcion": "BIODARHY es una enmienda bioestimulante de alto rendimiento para uso agrícola, diseñada para mejorar la estructura del suelo y potenciar la eficiencia de los fertilizantes.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/biodarhy/images/biodarhy-1.jpg"
     ],
@@ -267,7 +267,7 @@
       "equipos"
     ],
     "descripcion": "Bomba pressure sprayer (pulverizador o fumigador a presión) de 5 litros es un equipo manual diseñado para aplicar líquidos de manera uniforme. Es ideal para jardinería, control de plagas y limpieza en exteriores. Funciona acumulando presión mediante una bomba manual para lograr una aspersión continua y controlada.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/bomba-fumigadora-5lt/images/bomba-fumigadora-5lt-1.jpg"
     ],
@@ -284,7 +284,7 @@
       "equipos"
     ],
     "descripcion": "",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/bomba-ik-multi-pro2/images/bomba-ik-multi-pro2-1.jpg"
     ],
@@ -308,7 +308,7 @@
       "equipos"
     ],
     "descripcion": "El Jacto HD 550 es un pulverizador agrícola y de jardinería manual de alta resistencia. Diseñado para el trabajo diario, destaca por su bomba de pistón duplo y su cámara de compresión de 900 ml, lo que permite alcanzar y mantener la presión con menos bombeos.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/bomba-jacto-hd550/images/bomba-jacto-hd550-1.jpg"
     ],
@@ -325,7 +325,7 @@
       "equipos"
     ],
     "descripcion": "Jacto PJH-9000 es una de las mochilas pulverizadoras manuales más populares y duraderas a nivel mundial, ideal para labores agrícolas y de jardinería. Cuenta con un tanque de 20 litros y una bomba de pistón doble de alta presión, lo que permite una aplicación precisa y eficiente de pesticidas y fertilizantes.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/bomba-jacto-pjh-9000/images/bomba-jacto-pjh-9000-1.jpg"
     ],
@@ -342,7 +342,7 @@
       "equipos"
     ],
     "descripcion": "La bomba Matabi es un pulverizador o fumigadora manual diseñada para aplicar líquidos de manera precisa y uniforme, como pesticidas, herbicidas o fertilizantes. Su construcción resistente y fácil manejo la hace ideal para uso profesional en agricultura, jardinería y control de plagas, garantizando una distribución eficiente del producto y un trabajo más seguro y efectivo.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/bomba-matabi/images/bomba-matabi-1.jpg"
     ],
@@ -359,7 +359,7 @@
       "equipos"
     ],
     "descripcion": "Una bomba sprayer de 2 litros (también conocida como pulverizador o fumigador manual) es un dispositivo ligero y portátil diseñado para esparcir líquidos en forma de rocío o niebla fina. Funciona mediante presión manual acumulada y es ideal para el cuidado de plantas, limpieza y desinfección.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/bomba-sprayer-2lt/images/bomba-sprayer-2lt-1.jpg"
     ],
@@ -410,7 +410,7 @@
       "abono_foliar"
     ],
     "descripcion": "Calcio, Boro y Zinc es un fertilizante agrícola y bioestimulante fundamental utilizado en las etapas de floración y cuajado de frutos. Estos tres nutrientes trabajan en sinergia para mejorar la calidad de las cosechas, prevenir el aborto de flores y asegurar un correcto desarrollo celular.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/calcio-boro-zinc-ls/images/calcio-boro-zinc-ls-1.jpg"
     ],
@@ -859,7 +859,7 @@
       "enmiendas"
     ],
     "descripcion": "Humic K es un fertilizante líquido soluble a base de humato de potasio, con una alta concentración de acido humico y fúlvico extraído de leonardita natural, diseñado para mejorar la fertilidad y productividad del suelo, así como el rendimiento y la calidad de los cultivos.",
-    "stock": null,
+    "stock": 0,
     "imagenes": null,
     "variantes": [
       {
@@ -981,7 +981,7 @@
       "coadyuvantes"
     ],
     "descripcion": "Killbac Oil es un aceite mineral emulsificado de alta pureza diseñado para uso agrícola. Funciona principalmente como coadyuvante o adherente para mejorar la efectividad de los agroquímicos, y también como insecticida/acaricida de contacto.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/killbac-oil/images/killbac-oil-1.jpg"
     ],
@@ -1116,7 +1116,7 @@
     "precio_promo": "",
     "categorias": [],
     "descripcion": "",
-    "stock": null,
+    "stock": 0,
     "imagenes": null,
     "variantes": [],
     "sku": ""
@@ -1468,7 +1468,7 @@
       "bioestimulantes"
     ],
     "descripcion": "Regener Booster es un bioestimulante y regenerador de suelos 100% orgánico y biodegradable. Es ampliamente utilizado en el agro ecuatoriano (en cultivos como banano, plátano, cacao y flores) para mejorar el desarrollo vegetativo, activar la floración y fortalecer el sistema inmunológico de las plantas.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/regener-booster/images/regener-booster-1.jpg"
     ],
@@ -1485,7 +1485,7 @@
       "coadyuvantes"
     ],
     "descripcion": "Coadyuvante a base de citratos diseñado especialmente para disminuir la dureza y regular el pH de las aguas de uso agrícola.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/regula-dureza/images/regula-dureza-1.jpg"
     ],
@@ -1519,7 +1519,7 @@
       "coadyuvantes"
     ],
     "descripcion": "SANIQUAT-25 es un potente desinfectante y sanitizante multiusos formulado a base de sales de amonio cuaternario (generalmente de quinta generación). Está diseñado para eliminar de manera efectiva y segura hongos, bacterias y virus en superficies duras.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/saniquat-25/images/saniquat-25-1.jpg"
     ],
@@ -1545,7 +1545,7 @@
       "coadyuvantes"
     ],
     "descripcion": "Saniquat-40 es un desinfectante y sanitizante de alta concentración formulado con Amonio Cuaternario de 5ta generación. Es ampliamente utilizado en agricultura, industria y bioseguridad para prevenir y controlar la propagación de bacterias, hongos y virus.",
-    "stock": null,
+    "stock": 0,
     "imagenes": [
       "/producto/saniquat-40/images/saniquat-40-1.jpg"
     ],
@@ -1579,7 +1579,7 @@
       "herbicidas"
     ],
     "descripcion": "Senator es un herbicida sistémico selectivo para malezas de hoja ancha. Actúa como una auxina sintética inhibiendo el crecimiento. Para el control post-emergente de la mayoría de malezas hoja ancha, tanto anuales como perennes en cultivos como maíz, pastos, frutales, forestales, áreas no cultivadas y también para el control de malezas acuáticas.",
-    "stock": null,
+    "stock": 0,
     "imagenes": null,
     "variantes": [
       {
