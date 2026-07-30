@@ -1,0 +1,279 @@
+{
+  "EC.PC": {
+    "name": "Pichincha",
+    "cities": [
+      "Quito",
+      "Sangolquí",
+      "Cayambe",
+      "Tabacundo",
+      "Machachi",
+      "Tumbaco",
+      "Cumbayá",
+      "Conocoto",
+      "Pomasqui",
+      "Calderón",
+      "San Antonio de Pichincha",
+      "El Quinche",
+      "Yaruquí",
+      "Puembo",
+      "Pifo",
+      "Tababela",
+      "Guayllabamba",
+      "Alangasí",
+      "Amaguaña",
+      "Aloag",
+      "Tambillo",
+      "Uyumbicho",
+      "Puerto Quito",
+      "Pedro Vicente Maldonado",
+      "San Miguel de los Bancos"
+    ]
+  },
+  "EC.GY": {
+    "name": "Guayas",
+    "cities": [
+      "Guayaquil",
+      "Durán",
+      "Samborondón",
+      "Daule",
+      "Milagro",
+      "Yaguachi",
+      "Naranjal",
+      "Balao",
+      "Playas",
+      "El Triunfo",
+      "Naranjito",
+      "Pedro Carbo",
+      "Balzar",
+      "Santa Lucía",
+      "Palestina",
+      "Nobol",
+      "Salitre"
+    ]
+  },
+  "EC.AZ": {
+    "name": "Azuay",
+    "cities": [
+      "Cuenca",
+      "Gualaceo",
+      "Paute",
+      "Girón",
+      "Santa Isabel",
+      "Sigsig",
+      "Chordeleg"
+    ]
+  },
+  "EC.MN": {
+    "name": "Manabí",
+    "cities": [
+      "Manta",
+      "Portoviejo",
+      "Chone",
+      "Bahía de Caráquez",
+      "Jipijapa",
+      "Montecristi",
+      "El Carmen",
+      "Pedernales",
+      "Calceta",
+      "Tosagua",
+      "Junín"
+    ]
+  },
+  "EC.EO": {
+    "name": "El Oro",
+    "cities": [
+      "Machala",
+      "Pasaje",
+      "Santa Rosa",
+      "Huaquillas",
+      "Arenillas",
+      "El Guabo",
+      "Piñas",
+      "Zaruma",
+      "Portovelo"
+    ]
+  },
+  "EC.LJ": {
+    "name": "Loja",
+    "cities": [
+      "Loja",
+      "Catamayo",
+      "Cariamanga",
+      "Macará",
+      "Catacocha",
+      "Vilcabamba",
+      "Saraguro",
+      "Malacatos"
+    ]
+  },
+  "EC.IM": {
+    "name": "Imbabura",
+    "cities": [
+      "Ibarra",
+      "Otavalo",
+      "Atuntaqui",
+      "Cotacachi",
+      "Pimampiro",
+      "San Antonio de Ibarra",
+      "Urcuquí"
+    ]
+  },
+  "EC.CT": {
+    "name": "Cotopaxi",
+    "cities": [
+      "Latacunga",
+      "Salcedo",
+      "Pujilí",
+      "Saquisilí",
+      "La Maná",
+      "Lasso"
+    ]
+  },
+  "EC.TU": {
+    "name": "Tungurahua",
+    "cities": [
+      "Ambato",
+      "Baños de Agua Santa",
+      "Pelileo",
+      "Píllaro",
+      "Patate",
+      "Quero",
+      "Cevallos"
+    ]
+  },
+  "EC.CB": {
+    "name": "Chimborazo",
+    "cities": [
+      "Riobamba",
+      "Guano",
+      "Alausí",
+      "Guamote",
+      "Colta",
+      "Chambo"
+    ]
+  },
+  "EC.ES": {
+    "name": "Esmeraldas",
+    "cities": [
+      "Esmeraldas",
+      "Atacames",
+      "Quinindé",
+      "Tonsupa",
+      "Muisne",
+      "Súa"
+    ]
+  },
+  "EC.SE": {
+    "name": "Santa Elena",
+    "cities": [
+      "La Libertad",
+      "Salinas",
+      "Santa Elena",
+      "Ballenita",
+      "Montañita",
+      "Olón",
+      "Manglaralto"
+    ]
+  },
+  "EC.SD": {
+    "name": "Santo Domingo de los Tsáchilas",
+    "cities": [
+      "Santo Domingo",
+      "La Concordia",
+      "Valle Hermoso"
+    ]
+  },
+  "EC.LR": {
+    "name": "Los Ríos",
+    "cities": [
+      "Babahoyo",
+      "Quevedo",
+      "Ventanas",
+      "Vinces",
+      "Buena Fé",
+      "Valencia",
+      "Pueblo Viejo",
+      "Montalvo"
+    ]
+  },
+  "EC.CR": {
+    "name": "Carchi",
+    "cities": [
+      "Tulcán",
+      "San Gabriel",
+      "El Ángel",
+      "Bolívar",
+      "Huaca"
+    ]
+  },
+  "EC.BO": {
+    "name": "Bolívar",
+    "cities": [
+      "Guaranda",
+      "San Miguel",
+      "Chimbo",
+      "Salinas"
+    ]
+  },
+  "EC.CN": {
+    "name": "Cañar",
+    "cities": [
+      "Azogues",
+      "Cañar",
+      "Biblián",
+      "La Troncal"
+    ]
+  },
+  "EC.SU": {
+    "name": "Sucumbíos",
+    "cities": [
+      "Nueva Loja",
+      "Lago Agrio",
+      "Shushufindi"
+    ]
+  },
+  "EC.NA": {
+    "name": "Napo",
+    "cities": [
+      "Tena",
+      "Archidona",
+      "El Chaco"
+    ]
+  },
+  "EC.OR": {
+    "name": "Orellana",
+    "cities": [
+      "Francisco de Orellana",
+      "Joya de los Sachas"
+    ]
+  },
+  "EC.PA": {
+    "name": "Pastaza",
+    "cities": [
+      "Puyo",
+      "Shell"
+    ]
+  },
+  "EC.MS": {
+    "name": "Morona-Santiago",
+    "cities": [
+      "Macas",
+      "Sucúa",
+      "Gualaquiza"
+    ]
+  },
+  "EC.ZC": {
+    "name": "Zamora-Chinchipe",
+    "cities": [
+      "Zamora",
+      "Yantzaza"
+    ]
+  },
+  "EC.GA": {
+    "name": "Galápagos",
+    "cities": [
+      "Puerto Ayora",
+      "Puerto Baquerizo Moreno"
+    ]
+  }
+}

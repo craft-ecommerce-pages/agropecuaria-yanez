@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 1,
+    "sku": "COMBO-COSECHA-SEGURA",
+    "name": "Combo Cosecha Segura",
+    "base_price": 29.47,
+    "currency": "USD",
+    "currency_symbol": "$",
+    "image": "images/offer-1.webp"
+  },
+
+  "quantity_offers": {
+    "enabled": false,
+    "items": [
+      {
+        "quantity": 1,
+        "price": 27.99,
+        "label": "Lleva 1 unidad",
+        "badge": "Oferta",
+        "image": "images/offer-1.webp"
+      },
+      {
+        "quantity": 2,
+        "price": 45.0,
+        "original_price": 59.98,
+        "label": "Combo 2 unidades",
+        "badge": "😱 Ahorra $15",
+        "image": "images/offer-2.webp"
+      }
+    ]
+  },
+
+  "shipping": { "cost": 0, "label": "Envío GRATIS" },
+
+  "whatsapp": "593984709302",
+  "n8n_webhook": "https://n8n.craftmarketing.agency/webhook/checkout-yanez",
+
+  "order_bump": {
+    "enabled": false,
+    "product_id": 8444,
+    "sku": "BUMP-GEL",
+    "name": "Spray protector para auto",
+    "offer_price": 8.50,
+    "image": "images/bump.webp",
+    "default_checked": false
+  },
+
+  "upsell": {
+    "enabled": false,
+    "product_id": 7890,
+    "sku": "UPSELL-KIT",
+    "name": "Kit de cuchillas + aceite",
+    "offer_price": 9.99,
+    "compare_at": 24.99,
+    "discount_label": "60% OFF",
+    "image": "images/upsell.webp",
+    "timer_seconds": 600,
+    "n8n_webhook": "https://n8n.craftmarketing.agency/webhook/upsell"
+  },
+
+  "exit_downsell": {
+    "enabled": true,
+    "discount_percent": 5,
+    "message": "Espera 👀 Te doy 5% OFF si finalizas tu compra ahora.",
+    "timer_seconds": 300
+  }
+}
+

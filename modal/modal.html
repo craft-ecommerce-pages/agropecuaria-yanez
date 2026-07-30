@@ -1,0 +1,171 @@
+<!-- Este archivo contiene solo la estructura HTML del modal -->
+<!-- Se inyecta dinámicamente en el index.html desde modal.js -->
+
+<div class="ecuaclic-modal" id="ecuaclicModal" aria-hidden="true">
+  <div class="ecuaclic-modal__backdrop"></div>
+
+  <div class="ecuaclic-modal__card" role="dialog" aria-modal="true" aria-labelledby="ecuaclicModalTitle">
+    <button class="ecuaclic-modal__close" type="button" aria-label="Cerrar">×</button>
+
+    <div class="ecuaclic-modal__header">
+      <h2 class="ecuaclic-modal__title" id="ecuaclicModalTitle">Finaliza tu pedido</h2>
+      <p class="ecuaclic-modal__subtitle">✅ Envío <strong>GRATIS</strong> + pago contra entrega</p>
+
+      <!-- PROOF + TIMER (se llena por JS) -->
+      <div class="modal-proof" id="modalProof">
+        <div class="modal-proof__title">⚡ Oferta termina en</div>
+
+        <div class="modal-proof__timer" aria-label="Temporizador de reserva">
+          <div class="mp-col">
+            <div class="mp-boxes">
+              <span class="mp-box js-mp-h1">0</span>
+              <span class="mp-box js-mp-h2">0</span>
+            </div>
+            <div class="mp-label">Horas</div>
+          </div>
+
+          <div class="mp-sep">:</div>
+
+          <div class="mp-col">
+            <div class="mp-boxes">
+              <span class="mp-box js-mp-m1">0</span>
+              <span class="mp-box js-mp-m2">0</span>
+            </div>
+            <div class="mp-label">Min</div>
+          </div>
+
+          <div class="mp-sep">:</div>
+
+          <div class="mp-col">
+            <div class="mp-boxes">
+              <span class="mp-box js-mp-s1">0</span>
+              <span class="mp-box js-mp-s2">0</span>
+            </div>
+            <div class="mp-label">Seg</div>
+          </div>
+        </div>
+
+        <div class="modal-proof__lines">
+          <br>
+          <div class="mpl-line">👀 <strong class="js-live-modal">4</strong> personas finalizando ahora</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ecuaclic-modal__body">
+      <div class="ecuaclic-modal__grid">
+        <!-- Resumen / Ofertas -->
+        <section class="ecuaclic-modal__summary">
+          <div class="order-summary" id="orderSummary">
+            <!-- JS pinta aquí las ofertas + subtotal/envío/total -->
+          </div>
+        </section>
+
+        <!-- Formulario -->
+        <section class="ecuaclic-modal__form">
+          <form id="ecuaclicCheckoutForm" autocomplete="on">
+            <div class="field">
+              <input name="name" type="text" placeholder="Nombre completo" required />
+            </div>
+
+            <div class="field">
+              <input name="lastname" type="text" placeholder="Apellido" required />
+            </div>
+
+            <div class="field">
+              <input name="phone" type="tel" placeholder="Celular con Whatsapp" required />
+            </div>
+
+            <div class="field">
+              <input name="email" type="email" placeholder="Correo electrónico" required />
+            </div>
+
+            <div class="field">
+              <select id="provinceSelect" name="province" required>
+                <option value="">Selecciona tu provincia</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <select id="citySelect" name="city" disabled required>
+                <option value="">Primero selecciona provincia</option>
+              </select>
+            </div>
+
+            <!-- Método de entrega -->
+            <div class="field field--delivery">
+              <label class="delivery-label">¿Dónde deseas retirar tu pedido?</label>
+              <div class="delivery-options">
+                <label class="delivery-opt">
+                  <input type="radio" name="delivery_method" value="domicilio" checked />
+                  <span>🏠 En mi domicilio</span>
+                </label>
+                <label class="delivery-opt">
+                  <input type="radio" name="delivery_method" value="oficina_servientrega" />
+                  <span>🏢 Oficina de Servientrega</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Campos para entrega a domicilio -->
+            <div id="homeFields">
+              <div class="field">
+                <input name="address" type="text" placeholder="Dirección con calles y número de casa" required />
+              </div>
+
+              <div class="field">
+                <input name="reference" type="text" placeholder="Barrio, Sector o Parroquia (Opcional)" />
+              </div>
+
+              <div class="field">
+                <textarea name="note" rows="2" placeholder="Referencia, Ej. Casa de dos pisos amarilla frente a panadería"></textarea>
+              </div>
+            </div>
+
+            <!-- Campo para retiro en oficina de Servientrega -->
+            <div id="servientregaFields" style="display:none">
+              <div class="field">
+                <input name="servientrega_ref" type="text" placeholder="Referencia de la oficina de Servientrega más cercana a tu domicilio" />
+              </div>
+            </div>
+
+            <div id="ecuaclicStatus" class="ecuaclic-status" aria-live="polite"></div>
+
+            <!-- ✅ ORDER BUMP (se pinta por JS si está enabled en config.json) -->
+            <div id="orderBumpMount"></div>
+
+            <button class="btn-submit" type="submit">
+              Finalizar pedido
+            </button>
+
+            <div class="small-trust">
+              🔒 Tus datos están protegidos. Un asesor confirmará tu pedido por WhatsApp.
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <!-- ✅ UPSELL VIEW (debe ir DENTRO del card para overlay interno) -->
+    <div class="upsell-view" id="upsellView" style="display:none"></div>
+    <div class="thankyou-view" id="thankyouView" style="display:none"></div>
+  </div>
+
+  <!-- ✅ EXIT OFFER (popup fullscreen, va DENTRO del modal pero fuera del card) -->
+  <div class="exit-offer" id="exitOffer" style="display:none">
+    <div class="exit-offer__card">
+      <button class="exit-offer__close" type="button" aria-label="Cerrar" data-modal-close>×</button>
+      <div class="exit-offer__title">⚡ Oferta por salir</div>
+      <div class="exit-offer__msg" id="exitOfferMsg"></div>
+      <div class="exit-offer__timer" id="exitOfferTimer"></div>
+      <div class="exit-offer__actions">
+        <button type="button" class="exit-offer__btn exit-offer__btn--yes" id="exitOfferYes">
+          Aplicar descuento y continuar
+        </button>
+        <button type="button" class="exit-offer__btn exit-offer__btn--no" id="exitOfferNo">
+          No gracias
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
