@@ -9,6 +9,15 @@
   <link rel="stylesheet" href="/funnel/assets/style.css">
   <!-- Estilos del modal -->
   <link rel="stylesheet" href="/modal/modal.css">
+  <!-- Fondo negro + texto claro solo para esta página -->
+  <style>
+    :root{--bg:#000;--txt:#f5f5f5}
+    html,body{background:#000!important;color:#f5f5f5!important}
+    .wrap,.section-cta{background:#000!important}
+    .proof-head,.cd-label{color:#f5f5f5!important}
+    /* textos claros para legibilidad, sin tocar el modal (tarjetas blancas) */
+    body :is(h1,h2,h3,h4,p,li,span,label,small,td,th,strong):not(.ecuaclic-modal *){color:#f5f5f5}
+  </style>
 
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
