@@ -662,8 +662,9 @@
 .upsell-view{ z-index: 9998 !important; }
 
 /* Toggle de método de entrega */
-.field--delivery .delivery-label{ display:block; font-weight:600; margin-bottom:8px; }
+.field--delivery .delivery-label{ display:block; font-weight:700; margin-bottom:8px; color:#0F2418; font-size:15px; }
 .delivery-options{ display:grid; gap:8px; }
-.delivery-opt{ display:flex; align-items:center; gap:10px; padding:12px; border:1px solid #d9d9d9; border-radius:10px; cursor:pointer; }
-.delivery-opt:has(input:checked){ border-color:#111; background:#f6f6f6; }
-.delivery-opt input{ width:auto; margin:0; }
+.delivery-opt{ display:flex; align-items:center; gap:10px; padding:12px; border:1px solid #d9d9d9; border-radius:10px; cursor:pointer; background:#fff; }
+.delivery-opt span{ color:#111F16; font-weight:600; font-size:15px; }
+.delivery-opt:has(input:checked){ border-color:#4A9C6D; background:#E8F5EE; }
+.delivery-opt input{ width:auto; margin:0; accent-color:#4A9C6D; flex:0 0 auto; }
