@@ -26,7 +26,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Funnel 100% imágenes — sin header ni footer -->
+  <!-- Barra de urgencia (header) -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <div class="topbar__meta">
+        <span class="topbar__promo">🔥 Oferta Exclusiva</span>
+        <span class="topbar__timerchip">
+          <svg class="topbar__timer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <span id="timer">00:00:00</span>
+        </span>
+        <span class="topbar__stock">⚠️ Solo 7 unidades</span>
+      </div>
+      <button class="topbar__cta js-open-modal" type="button">¡Comprar YA!</button>
+    </div>
+  </header>
+
+  <!-- Funnel 100% imágenes -->
   <main class="wrap">
     <img src="images/1.webp" alt="">
     <img src="images/2.webp" alt="">
