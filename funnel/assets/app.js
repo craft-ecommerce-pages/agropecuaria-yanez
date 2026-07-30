@@ -80,6 +80,12 @@
       screen_resolution: `${window.screen.width}x${window.screen.height}`
     };
 
+    // Meta: si el pixel aún no escribió la cookie _fbc, reconstruirla desde fbclid
+    // (formato oficial fb.1.<timestamp>.<fbclid>) para no perder match en CAPI.
+    if (!tracking.fbc && tracking.fbclid) {
+      tracking.fbc = `fb.1.${Date.now()}.${tracking.fbclid}`;
+    }
+
     // Debug: mostrar lo que se capturó
     console.log('📊 Datos crudos capturados:', {
       ttclid: tracking.ttclid || '❌ no encontrado',
