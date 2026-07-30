@@ -3,36 +3,36 @@
     "id": 1,
     "sku": "COMBO-COSECHA-SEGURA",
     "name": "Combo Cosecha Segura",
-    "base_price": 29.47,
+    "base_price": 55,
     "currency": "USD",
     "currency_symbol": "$",
     "image": "images/offer-1.webp"
   },
 
   "quantity_offers": {
-    "enabled": false,
+    "enabled": true,
     "items": [
       {
         "quantity": 1,
-        "price": 27.99,
-        "label": "Lleva 1 unidad",
+        "price": 55,
+        "label": "Lleva 1 combo",
         "badge": "Oferta",
         "image": "images/offer-1.webp"
       },
       {
         "quantity": 2,
-        "price": 45.0,
-        "original_price": 59.98,
-        "label": "Combo 2 unidades",
-        "badge": "😱 Ahorra $15",
-        "image": "images/offer-2.webp"
+        "price": 99,
+        "original_price": 110,
+        "label": "Combo 2 combos",
+        "badge": "😱 Ahorra $11",
+        "image": "images/offer-1.webp"
       }
     ]
   },
 
   "shipping": { "cost": 0, "label": "Envío GRATIS" },
 
-  "whatsapp": "593984709302",
+  "whatsapp": "593988115201",
   "n8n_webhook": "https://n8n.craftmarketing.agency/webhook/checkout-yanez",
 
   "order_bump": {
@@ -61,7 +61,7 @@
   "exit_downsell": {
     "enabled": true,
     "discount_percent": 5,
-    "message": "Espera 👀 Te doy 5% OFF si finalizas tu compra ahora.",
+    "message": "Espera lleva un 5% OFF si finalizas tu compra ahora.",
     "timer_seconds": 300
   }
 }
