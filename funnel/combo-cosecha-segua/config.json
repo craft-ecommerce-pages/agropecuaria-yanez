@@ -27,6 +27,14 @@
         "badge": "😱 Ahorra $11",
         "image": "images/offer-1.webp"
       }
+      {
+        "quantity": 4,
+        "price": 190,
+        "original_price": 220,
+        "label": "Lleva el Galón (1 galón cada uno)",
+        "badge": "😱 Ahorra $30",
+        "image": "images/offer-1.webp"
+      }
     ]
   },
 
