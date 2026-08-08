@@ -1461,6 +1461,19 @@
     "sku": ""
   },
   {
+    "id": "054e6573-9fbd-40b1-8629-02e332aabe88",
+    "slug": "nutrix-cacao-galon",
+    "nombre": "Nutrix Cacao - Galón",
+    "precio": "99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "241b3eeb-14c7-51cd-8779-beadd5d61b03",
     "slug": "pollux",
     "nombre": "POLLUX",
