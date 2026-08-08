@@ -1129,6 +1129,19 @@
     "sku": ""
   },
   {
+    "id": "c8987531-00b4-4196-bfec-a5a862101384",
+    "slug": "mega-ozono-galon",
+    "nombre": "Mega Ozono - Galón",
+    "precio": "99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "23c766b1-f1fd-51d9-9fdb-de446fe54159",
     "slug": "metabolik",
     "nombre": "METABOLIK",
