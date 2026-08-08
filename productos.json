@@ -1129,6 +1129,19 @@
     "sku": ""
   },
   {
+    "id": "d457e5af-3a5d-4b55-8de2-58ed449f66fd",
+    "slug": "mega-ozono-caneca",
+    "nombre": "Mega Ozono - Caneca",
+    "precio": "299",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "c8987531-00b4-4196-bfec-a5a862101384",
     "slug": "mega-ozono-galon",
     "nombre": "Mega Ozono - Galón",
