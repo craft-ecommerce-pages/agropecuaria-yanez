@@ -175,17 +175,57 @@ function closeCart(){
   if($cartOverlay) $cartOverlay.classList.remove('open');
   if($cartDrawer) $cartDrawer.classList.remove('open');
   document.body.style.overflow='';
+  goToStep1();
+}
+
+function goToStep1(){
+  const $items = document.getElementById('cartItems');
+  const $footer = $cartDrawer?.querySelector('.cart-footer');
+  const $step2 = document.getElementById('cartStep2');
+  const $title = document.getElementById('cartTitle');
+  const $back = document.getElementById('cartBack');
+  if($items) $items.style.display='';
+  if($footer) $footer.style.display='';
+  if($step2) $step2.style.display='none';
+  if($title) $title.textContent='Mi carrito';
+  if($back) $back.style.display='none';
+}
+
+function goToStep2(){
+  if(!cartItems.length) return;
+  const $items = document.getElementById('cartItems');
+  const $footer = $cartDrawer?.querySelector('.cart-footer');
+  const $step2 = document.getElementById('cartStep2');
+  const $title = document.getElementById('cartTitle');
+  const $back = document.getElementById('cartBack');
+  if($items) $items.style.display='none';
+  if($footer) $footer.style.display='none';
+  if($step2) $step2.style.display='flex';
+  if($title) $title.textContent='Datos de entrega';
+  if($back) $back.style.display='';
 }
 
 function checkout(){
   const num = (config.whatsapp_number||'').replace(/\D/g,'');
   if(!num){ alert('Número de WhatsApp no configurado'); return; }
+
+  const name = document.getElementById('fieldName')?.value.trim()||'';
+  const phone = document.getElementById('fieldPhone')?.value.trim()||'';
+  const mode = document.querySelector('.dtog-btn.active')?.dataset.mode||'delivery';
+  const address = mode==='delivery'?(document.getElementById('fieldAddress')?.value.trim()||''):'';
+  if(!name||!phone){ showToast('Completa tu nombre y teléfono'); return; }
+  if(mode==='delivery'&&!address){ showToast('Ingresa tu dirección de entrega'); return; }
+
   let msg = `${config.whatsapp_message||'Hola! Quiero hacer un pedido:'}\n\n*PEDIDO AGRO YÁNEZ*\n━━━━━━━━━━━━━━━\n`;
   cartItems.forEach(i=>{
     const vL = i.variantes?Object.values(i.variantes).map(v=>variantOptDisplay(v)).join(' · '):'';
     msg += `▸ ${i.nombre}${vL?' ('+vL+')':''}\n  ${i.qty} × ${formatPrice(i.precio)} = ${formatPrice(i.qty*i.precio)}\n`;
   });
-  msg += `━━━━━━━━━━━━━━━\n*TOTAL: ${formatPrice(cartTotalPrice())}*\n\n${location.href}`;
+  msg += `━━━━━━━━━━━━━━━\n*TOTAL: ${formatPrice(cartTotalPrice())}*\n\n`;
+  msg += `*ENTREGA:* ${mode==='delivery'?'Domicilio':'Retiro en local'}\n`;
+  msg += `*Cliente:* ${name}\n*Teléfono:* ${phone}\n`;
+  if(address) msg += `*Dirección:* ${address}\n`;
+  msg += `\n${location.href}`;
   window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`,'_blank');
   if(window.dataLayer){
     window.dataLayer.push({event:'whatsapp_checkout',ecommerce:{value:cartTotalPrice(),currency:'USD',items:cartItems.map(i=>({item_id:i.id,item_name:i.nombre,quantity:i.qty,price:i.precio}))}});
@@ -294,7 +334,16 @@ if($cartFab) $cartFab.addEventListener('click',openCart);
 document.getElementById('navCartBtn')?.addEventListener('click',openCart);
 if($cartOverlay) $cartOverlay.addEventListener('click',closeCart);
 if($cartClose) $cartClose.addEventListener('click',closeCart);
-if($btnCheckout) $btnCheckout.addEventListener('click',checkout);
+if($btnCheckout) $btnCheckout.addEventListener('click',goToStep2);
+document.getElementById('cartBack')?.addEventListener('click',goToStep1);
+document.getElementById('btnConfirm')?.addEventListener('click',checkout);
+document.getElementById('deliveryToggle')?.addEventListener('click',e=>{
+  const btn=e.target.closest('.dtog-btn'); if(!btn) return;
+  document.querySelectorAll('.dtog-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const wrap=document.getElementById('fieldAddressWrap');
+  if(wrap) wrap.style.display=btn.dataset.mode==='delivery'?'':'none';
+});
 if($modalOverlay) $modalOverlay.addEventListener('click',e=>{ if(e.target===$modalOverlay) closeModal(); });
 if($modalClose) $modalClose.addEventListener('click',closeModal);
 if($sliderPrev) $sliderPrev.addEventListener('click',e=>{ e.stopPropagation(); slideTo(sliderIdx-1); });
