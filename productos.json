@@ -886,8 +886,8 @@
         "name": "Presentacion",
         "options": [
           {
-            "label": "Kg ($0.00)",
-            "price": 0
+            "label": "Kg ($11.50)",
+            "price": 11.5
           },
           {
             "label": "25Kg ($173.50)",
