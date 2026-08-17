@@ -301,6 +301,8 @@ function renderModalDetail(){
   $modalDetail.querySelectorAll('.variant-option').forEach(btn=>{
     btn.addEventListener('click',()=>{
       try{ modalVariants[btn.dataset.group]=JSON.parse(btn.dataset.opt); }catch(e){ modalVariants[btn.dataset.group]=btn.dataset.opt; }
+      const _o=modalVariants[btn.dataset.group];
+      if(_o&&_o.image){const _i=sliderImages.indexOf(_o.image);if(_i>=0)slideTo(_i);}
       renderModalDetail();
     });
   });
